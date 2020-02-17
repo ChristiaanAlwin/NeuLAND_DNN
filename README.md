@@ -15,3 +15,10 @@ the Train, Validate & Experiment scripts in the DNN folder. There,
 a README file is also available for how to use these scripts and
 for how Keras and TensorFlow should be installed and linked to the 
 DNN control scripts.
+
+Citing this code:
+DOI: 10.5281/zenodo.3670406
+URL: https://zenodo.org/badge/latestdoi/241100386
+
+Associated Papers:
+<Will be updated a.s.a.p.>
