@@ -18,7 +18,8 @@ DNN control scripts.
 
 Citing this code:
 DOI: 10.5281/zenodo.3670406
+
 URL: https://zenodo.org/badge/latestdoi/241100386
 
 Associated Papers:
-<Will be updated a.s.a.p.>
+Will be updated a.s.a.p.
