@@ -5,7 +5,7 @@ This is a version of R3BRoot (https://github.com/R3BRootGroup/R3BRoot.git) that 
 a DNN (Deep Neural Network) module for the NeuLAND Data Analysis. 
 
 First, one must install FairSoft and FairRoot in the usual way.
-The .tar-version supplied in thsi repository are guaranteed to be
+The .tar-version supplied in this repository are guaranteed to be
 compatible with this version of R3BRoot. Then, this version of R3BRoot
 should be installed on top of it.
 
