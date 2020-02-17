@@ -13,5 +13,5 @@ Next, one should install Keras and TensorFlow software in order to
 be able to use this package. The software package is controlled by
 the Train, Validate & Experiment scripts in the DNN folder. There,
 a README file is also available for how to use these scripts and
-for how Keas and TensorFlow should be installed and linked to the 
+for how Keras and TensorFlow should be installed and linked to the 
 DNN control scripts.
