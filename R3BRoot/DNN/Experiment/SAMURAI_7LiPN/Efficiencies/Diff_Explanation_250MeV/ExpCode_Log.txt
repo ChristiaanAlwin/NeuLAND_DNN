@@ -1,0 +1,104 @@
+#1: Improving the translation.
+    This can be done by
+    a) Manually redoing the calibration & synchronization of NeuLANd ourselves.
+       ==> With the present leafs, this is not necessary (Julian did it).
+    b) Improving the geometry parameters. This is very important, as the
+       translator determines most of the data from the crystal index.
+       ==> Done.
+
+#2: Solving the DNN bias.
+    The network is biased to low multiplicities, since it is impossible
+    to correct for bias in detected multiplicity if only 1% of 5n events
+    is detected as such, opposing to 30%-60% of 1n events. A good solution
+    uis still not found, but we could write the 5 event to the .txt-files
+    multiple times. Then we do not need to simulate ridiculous many
+    5n events.
+    ==> Done. A very weak bias towards higher multiplicities may come
+        in handy to cure the drop/peak at 4n/5n, but is not strictly
+        needed. 
+    ==> This screws up the step2 efficiency. Don't do it!
+    
+#3: improving the susequent analysis after the neutron tracks are found.
+    for 7Li(p,n)7Be thsi means 
+    a) Obtain the precise beam knowledge from the data too., so that E*
+       can be extracted more precisely. NOTE: no sieve-slit analysis
+       is needed, since the neutrons are unaffected by magnetic fields!
+       ==> Done. it is a proton beam on a fixed Li-target.
+    b) the DNN-analysis is model-dependent (physics list). Hence,
+       one needs a good estimate of the errors in the neutron separation
+       matrix, etc. so that the final error bars can (and should) include
+       this. not only physics list, but also statistical dependence, etc
+       (train the network twice with different data but same phys. list)
+       needs to be taken into account.
+       ==> In progress.
+       
+Things to take into account:
+1) The DNN is hyper-sensitive to the time normalization. It is important
+   that times both below and above the window are put to zero, as the DNN
+   does not respond to that. next, all primary hits should be in the window,
+   but the fastest neutron should not fall on the bottom of the window
+   so that the DNN can distinguish it from zero. The new datadriven
+   time normalization takes this into account. It uses mean +/- 2*std
+   of the full primary TOF histogram.
+2) One can only see an improvement for the DNN w.r.t. the TDR if
+   the number of clusters is larger than one. Else, one can do little
+   else then take that one cluster as primary and the analysis is
+   equal. So for the 7Li(p,n)7Be data, 91% (TDR) is a one-cluster
+   event. Hence, the expected gain of the DNN only shows up in
+   9% of the data. Hence, 57% (DNN;1n-->1n) w.r.t. 39% (TDR;1n-->1n)
+   suggests a 46% gain, but 46%*9% results only in a 4.1% gain.
+   Simulation does not have such a large 1-cluster portion and
+   hence, gain effects are much larger there. (29%/25% --> +16%)
+3) DNN gain depends on the neutron energy En (and hence, on E*).
+   Maybe we can adjust this by fine-tuning our simulations. As a
+   result, TDR is better at 0 MeV peak of 7Li(p,n)7Be data, while
+   DNN is better at higher excitation energies.
+   ==> Maybe program an event generator that takes theta-E* dependence
+   into account?
+4) NEVER EVER bias the DNN multiplicity network. This will completely
+   destroy the outcome of step2. The training of step2 depends on the
+   detected multiplicity, but we use the DNN outcome for the validation
+   (because the detected multiplicity is not known experimentally). This
+   mismatch causes the step2 efficiency to vastly drop if the DNN 
+   network is biased only by a little. As a result, no biasing
+   should be done at all. All detected multiplicities should be
+   offered at exactly equal amount to the DNN.
+5) The DNN (step1) + DNN (step2) method can be improved by always
+   using the min. TOF cluster in case the DNN (step1) returns
+   multiplicity 1. 
+6) The step1 efficiency can be evaluated by the histogram integrals.
+   The step2 efficiency can be observed by looking at the skewness
+   of the histogram. If step2 selects wrong clusters, then at
+   7Li(p,n)7Be, those clusters will not be primary, hence they result
+   in a low neutron energy and a high E*. Hence, bias towards high E*
+   reflects bad step2 efficiency. By checking the DNN with & without
+   multiplicity=1 upgrade, one can study the effect of DNN (step2)
+   by itself.
+   
+NEW IDEA:
+Skip the nClusters==1 events in DNN training. They are known anyway. However,
+this means that we offer too little n=1 events to the DNN, so the remaining
+events would have to be biased (written more often) to compensate this. One
+can test this, but we need to be very very wary on the Step2 efficiency.
+We have to make sure that this does not get damaged. But the code is OK as it
+is now, so we are fine.
+==> Tried & failed! Step2 drops (although not very much), but we loose
+    in the multiplicity network almost all >1 efficiencies completely.
+    Moreover, in the exp. data, the effect is negligible (not in sim. data).
+    Hence, do not do this.
+    
+CROSS SECTION EXTRACTION:
+Also compute E* spectrum for perfect reconstruction (at least for simulation).
+Obtain the normalization of the perfect reconstruction E*=0 peak from the 
+perfect neutron multiplicity matrix and determine the TDR & DNN normalizations
+relative to this (also in the simulation). Then, apply those normalizations
+to the exp. data as well. 
+These normalizations are the 'overall detection efficiencies'. They contain
+a statistics error, a physics list error and an event generator error. All
+of these have to be estimated and the VETO effect has to be taken along as well!
+This is done in the Ex-class (TOF), but not in the perfect neutron separation
+matrix. Hence, this has to be incorporated in the matrix numbers first!
+We have to estimate all of these effects and then determine the cross
+section accordingly.
+    
+    

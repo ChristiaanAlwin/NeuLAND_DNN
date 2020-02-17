@@ -1,0 +1,116 @@
+#############################################################################
+####### 2000 epochs, Train with INCLXX, 200000 events training file. ########
+#############################################################################
+
+INCLXX verification, 10000 events:
+Number of 0 neutron events: 73 [Network] | 123 [Dataset]                  59%
+Number of 1 neutron events: 1967 [Network] | 2096 [Dataset]               94%
+Number of 2 neutron events: 1571 [Network] | 2144 [Dataset]               73%
+Number of 3 neutron events: 1086 [Network] | 2141 [Dataset]               51%
+Number of 4 neutron events: 901 [Network] | 1971 [Dataset]                46%
+Number of 5 neutron events: 1138 [Network] | 1525 [Dataset]               75%
+Number of 6 neutron events: 0 [Network] | 0 [Dataset]
+Number of 7 neutron events: 0 [Network] | 0 [Dataset]
+Number of 8 neutron events: 0 [Network] | 0 [Dataset]
+Number of 9 neutron events: 0 [Network] | 0 [Dataset]
+
+
+  BERT verification, 10000 events:
+Number of 0 neutron events: 80 [Network] | 115 [Dataset]                  70%
+Number of 1 neutron events: 2078 [Network] | 2172 [Dataset]               96%
+Number of 2 neutron events: 1506 [Network] | 2073 [Dataset]               73%
+Number of 3 neutron events: 1108 [Network] | 2094 [Dataset]               53%
+Number of 4 neutron events: 922 [Network] | 2045 [Dataset]                45%
+Number of 5 neutron events: 1135 [Network] | 1501 [Dataset]               76%
+Number of 6 neutron events: 0 [Network] | 0 [Dataset]
+Number of 7 neutron events: 0 [Network] | 0 [Dataset]
+Number of 8 neutron events: 0 [Network] | 0 [Dataset]
+Number of 9 neutron events: 0 [Network] | 0 [Dataset]
+
+
+#############################################################################
+####### 2000 epochs, Train with INCLXX, 200000 events training file. ########
+#############################################################################
+
+INCLXX verification, 10000 events:
+Number of 0 neutron events: 0 [Network] | 123 [Dataset]                   ---
+Number of 1 neutron events: 1908 [Network] | 2096 [Dataset]               91%
+Number of 2 neutron events: 1697 [Network] | 2144 [Dataset]               79%
+Number of 3 neutron events: 1132 [Network] | 2141 [Dataset]               53%
+Number of 4 neutron events: 695 [Network] | 1971 [Dataset]                35%
+Number of 5 neutron events: 1177 [Network] | 1525 [Dataset]               77%
+Number of 6 neutron events: 0 [Network] | 0 [Dataset]
+Number of 7 neutron events: 0 [Network] | 0 [Dataset]
+Number of 8 neutron events: 0 [Network] | 0 [Dataset]
+Number of 9 neutron events: 0 [Network] | 0 [Dataset]
+
+  BERT verification, 10000 events:
+Number of 0 neutron events: 0 [Network] | 115 [Dataset]                   ---
+Number of 1 neutron events: 2013 [Network] | 2172 [Dataset]               93%
+Number of 2 neutron events: 1623 [Network] | 2073 [Dataset]               78%
+Number of 3 neutron events: 1130 [Network] | 2094 [Dataset]               54%
+Number of 4 neutron events: 741 [Network] | 2045 [Dataset]                36%
+Number of 5 neutron events: 1169 [Network] | 1501 [Dataset]               78%
+Number of 6 neutron events: 0 [Network] | 0 [Dataset]
+Number of 7 neutron events: 0 [Network] | 0 [Dataset]
+Number of 8 neutron events: 0 [Network] | 0 [Dataset]
+Number of 9 neutron events: 0 [Network] | 0 [Dataset]
+  
+  
+#############################################################################
+####### 2000 epochs, Train with BERT,   200000 events training file. ########
+#############################################################################
+
+INCLXX verification, 10000 events:
+Number of 0 neutron events: 0 [Network] | 123 [Dataset]                   ---
+Number of 1 neutron events: 1948 [Network] | 2096 [Dataset]               93%
+Number of 2 neutron events: 1755 [Network] | 2144 [Dataset]               82%
+Number of 3 neutron events: 963 [Network] | 2141 [Dataset]                45%
+Number of 4 neutron events: 1125 [Network] | 1971 [Dataset]               57%
+Number of 5 neutron events: 220 [Network] | 1525 [Dataset]                14%
+Number of 6 neutron events: 0 [Network] | 0 [Dataset]
+Number of 7 neutron events: 0 [Network] | 0 [Dataset]
+Number of 8 neutron events: 0 [Network] | 0 [Dataset]
+Number of 9 neutron events: 0 [Network] | 0 [Dataset]
+
+  BERT verification, 10000 events:
+Number of 0 neutron events: 0 [Network] | 115 [Dataset]                   ---
+Number of 1 neutron events: 2050 [Network] | 2172 [Dataset]               94%
+Number of 2 neutron events: 1688 [Network] | 2073 [Dataset]               81%
+Number of 3 neutron events: 912 [Network] | 2094 [Dataset]                44%
+Number of 4 neutron events: 1146 [Network] | 2045 [Dataset]               56%
+Number of 5 neutron events: 224 [Network] | 1501 [Dataset]                15%
+Number of 6 neutron events: 0 [Network] | 0 [Dataset]
+Number of 7 neutron events: 0 [Network] | 0 [Dataset]
+Number of 8 neutron events: 0 [Network] | 0 [Dataset]
+Number of 9 neutron events: 0 [Network] | 0 [Dataset]
+
+
+#############################################################################
+####### 2000 epochs, Train with BERT,   200000 events training file. ########
+#############################################################################
+
+INCLXX verification, 10000 events:
+Number of 0 neutron events: 73 [Network] | 123 [Dataset]                  59%
+Number of 1 neutron events: 1892 [Network] | 2096 [Dataset]               90%
+Number of 2 neutron events: 1491 [Network] | 2144 [Dataset]               70%
+Number of 3 neutron events: 1283 [Network] | 2141 [Dataset]               60%
+Number of 4 neutron events: 945 [Network] | 1971 [Dataset]                48%
+Number of 5 neutron events: 1094 [Network] | 1525 [Dataset]               72%
+Number of 6 neutron events: 0 [Network] | 0 [Dataset]
+Number of 7 neutron events: 0 [Network] | 0 [Dataset]
+Number of 8 neutron events: 0 [Network] | 0 [Dataset]
+Number of 9 neutron events: 0 [Network] | 0 [Dataset]
+
+  BERT verification, 10000 events:
+Number of 0 neutron events: 80 [Network] | 115 [Dataset]                  70%
+Number of 1 neutron events: 1995 [Network] | 2172 [Dataset]               92%
+Number of 2 neutron events: 1393 [Network] | 2073 [Dataset]               67%
+Number of 3 neutron events: 1307 [Network] | 2094 [Dataset]               62%
+Number of 4 neutron events: 964 [Network] | 2045 [Dataset]                47%
+Number of 5 neutron events: 1075 [Network] | 1501 [Dataset]               72%
+Number of 6 neutron events: 0 [Network] | 0 [Dataset]
+Number of 7 neutron events: 0 [Network] | 0 [Dataset]
+Number of 8 neutron events: 0 [Network] | 0 [Dataset]
+Number of 9 neutron events: 0 [Network] | 0 [Dataset]
+

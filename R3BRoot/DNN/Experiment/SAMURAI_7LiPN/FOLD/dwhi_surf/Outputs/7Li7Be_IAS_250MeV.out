@@ -1,0 +1,2817 @@
+1 DWUCK4-DISTORTED WAVES U.COLORADO-VERSION 01/FEB /1982
+  1 2 3 4 5 6 7 8 9 A B C D E F G    RUN IDENTIFICATION 
+  1 2 1 0 0 0 0 0 4 1 0 0 0 0 0 0                                                        
+
+ MICROSCOPIC FORM FACTOR READ FROM FILE  LI7IAS25
+
+0ANGLE DATA          THETN= 150.0000   THET1=   0.0000   DTHET=   0.2000
+0CARD SET 3 DATA     LMAX = 160   NFF  =   1   2*SA =   1   2*SB =   1   2*JA =   0   2*JB =   0
+0CARD SET 4 DATA     DR   =   0.0300  K =   600   RMAX =  18.0000
+ KRCO           0
+ PARTICLE DATA    
+0PARTICLE 1************************************************************************************************************************
+ INPUT DATA          ELAB = 252.7000   RC0  =   1.3300
+                     MASSP=   1.0000   MASST=   7.0000
+                     ZP   =   1.0000   ZT   =   3.0000
+ 
+ DERIVED DATA        ECM  = 217.9248   RC   =   2.5442
+                     K    =   3.1498   ETA  =   0.0337
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME W-S     V RL = -15.7700   R0RL =   1.1430   A RL =   0.6800   R RL =   2.1865   VSOR =   0.0000
+                     V IM = -13.1800   R0IM =   1.1430   A IM =   0.6800   R IM =   2.1865   VSOI =   0.0000   POWR =   0.0000
+                     V IM =   0.0000   R0IM =  -0.0280   A IM =
+ Imaginary SURFACE Potential =   0.15455785289528526     
+ Real      SURFACE Potential =   0.15455785289528526     
+ Imaginary SURFACE Potential =   0.16094416572540382     
+ Real      SURFACE Potential =   0.16094416572540382     
+ Imaginary SURFACE Potential =   0.16756810909751671     
+ Real      SURFACE Potential =   0.16756810909751671     
+ Imaginary SURFACE Potential =   0.17443622076562618     
+ Real      SURFACE Potential =   0.17443622076562618     
+ Imaginary SURFACE Potential =   0.18155500882598019     
+ Real      SURFACE Potential =   0.18155500882598019     
+ Imaginary SURFACE Potential =   0.18893092809990683     
+ Real      SURFACE Potential =   0.18893092809990683     
+ Imaginary SURFACE Potential =   0.19657035430790118     
+ Real      SURFACE Potential =   0.19657035430790118     
+ Imaginary SURFACE Potential =   0.20447955592984773     
+ Real      SURFACE Potential =   0.20447955592984773     
+ Imaginary SURFACE Potential =   0.21266466365047867     
+ Real      SURFACE Potential =   0.21266466365047867     
+ Imaginary SURFACE Potential =   0.22113163729503529     
+ Real      SURFACE Potential =   0.22113163729503529     
+ Imaginary SURFACE Potential =   0.22988623016781412     
+ Real      SURFACE Potential =   0.22988623016781412     
+ Imaginary SURFACE Potential =   0.23893395071605400     
+ Real      SURFACE Potential =   0.23893395071605400     
+ Imaginary SURFACE Potential =   0.24828002145367084     
+ Real      SURFACE Potential =   0.24828002145367084     
+ Imaginary SURFACE Potential =   0.25792933509389249     
+ Real      SURFACE Potential =   0.25792933509389249     
+ Imaginary SURFACE Potential =   0.26788640785711398     
+ Real      SURFACE Potential =   0.26788640785711398     
+ Imaginary SURFACE Potential =   0.27815532994049402     
+ Real      SURFACE Potential =   0.27815532994049402     
+ Imaginary SURFACE Potential =   0.28873971315916563     
+ Real      SURFACE Potential =   0.28873971315916563     
+ Imaginary SURFACE Potential =   0.29964263579562628     
+ Real      SURFACE Potential =   0.29964263579562628     
+ Imaginary SURFACE Potential =   0.31086658472408712     
+ Real      SURFACE Potential =   0.31086658472408712     
+ Imaginary SURFACE Potential =   0.32241339491044507     
+ Real      SURFACE Potential =   0.32241339491044507     
+ Imaginary SURFACE Potential =   0.33428418642620183     
+ Real      SURFACE Potential =   0.33428418642620183     
+ Imaginary SURFACE Potential =   0.34647929915616571     
+ Real      SURFACE Potential =   0.34647929915616571     
+ Imaginary SURFACE Potential =   0.35899822542513765     
+ Real      SURFACE Potential =   0.35899822542513765     
+ Imaginary SURFACE Potential =   0.37183954081795201     
+ Real      SURFACE Potential =   0.37183954081795201     
+ Imaginary SURFACE Potential =   0.38500083352007514     
+ Real      SURFACE Potential =   0.38500083352007514     
+ Imaginary SURFACE Potential =   0.39847863256224059     
+ Real      SURFACE Potential =   0.39847863256224059     
+ Imaginary SURFACE Potential =   0.41226833541198632     
+ Real      SURFACE Potential =   0.41226833541198632     
+ Imaginary SURFACE Potential =   0.42636413541701712     
+ Real      SURFACE Potential =   0.42636413541701712     
+ Imaginary SURFACE Potential =   0.44075894966947249     
+ Real      SURFACE Potential =   0.44075894966947249     
+ Imaginary SURFACE Potential =   0.45544434792573862     
+ Real      SURFACE Potential =   0.45544434792573862     
+ Imaginary SURFACE Potential =   0.47041048328253321     
+ Real      SURFACE Potential =   0.47041048328253321     
+ Imaginary SURFACE Potential =   0.48564602537564316     
+ Real      SURFACE Potential =   0.48564602537564316     
+ Imaginary SURFACE Potential =   0.50113809693170697     
+ Real      SURFACE Potential =   0.50113809693170697     
+ Imaginary SURFACE Potential =   0.51687221456453192     
+ Real      SURFACE Potential =   0.51687221456453192     
+ Imaginary SURFACE Potential =   0.53283223476412334     
+ Real      SURFACE Potential =   0.53283223476412334     
+ Imaginary SURFACE Potential =   0.54900030607728234     
+ Real      SURFACE Potential =   0.54900030607728234     
+ Imaginary SURFACE Potential =   0.56535682852157054     
+ Real      SURFACE Potential =   0.56535682852157054     
+ Imaginary SURFACE Potential =   0.58188042130777906     
+ Real      SURFACE Potential =   0.58188042130777906     
+ Imaginary SURFACE Potential =   0.59854789996788371     
+ Real      SURFACE Potential =   0.59854789996788371     
+ Imaginary SURFACE Potential =   0.61533426399383162     
+ Real      SURFACE Potential =   0.61533426399383162     
+ Imaginary SURFACE Potential =   0.63221269608545194     
+ Real      SURFACE Potential =   0.63221269608545194     
+ Imaginary SURFACE Potential =   0.64915457408138988     
+ Real      SURFACE Potential =   0.64915457408138988     
+ Imaginary SURFACE Potential =   0.66612949660346110     
+ Real      SURFACE Potential =   0.66612949660346110     
+ Imaginary SURFACE Potential =   0.68310532338058150     
+ Real      SURFACE Potential =   0.68310532338058150     
+ Imaginary SURFACE Potential =   0.70004823113209935     
+ Real      SURFACE Potential =   0.70004823113209935     
+ Imaginary SURFACE Potential =   0.71692278578088053     
+ Real      SURFACE Potential =   0.71692278578088053     
+ Imaginary SURFACE Potential =   0.73369203163326047     
+ Real      SURFACE Potential =   0.73369203163326047     
+ Imaginary SURFACE Potential =   0.75031759800576248     
+ Real      SURFACE Potential =   0.75031759800576248     
+ Imaginary SURFACE Potential =   0.76675982359770622     
+ Real      SURFACE Potential =   0.76675982359770622     
+ Imaginary SURFACE Potential =   0.78297789870543288     
+ Real      SURFACE Potential =   0.78297789870543288     
+ Imaginary SURFACE Potential =   0.79893002514948763     
+ Real      SURFACE Potential =   0.79893002514948763     
+ Imaginary SURFACE Potential =   0.81457359354306202     
+ Real      SURFACE Potential =   0.81457359354306202     
+ Imaginary SURFACE Potential =   0.82986537727132847     
+ Real      SURFACE Potential =   0.82986537727132847     
+ Imaginary SURFACE Potential =   0.84476174228073864     
+ Real      SURFACE Potential =   0.84476174228073864     
+ Imaginary SURFACE Potential =   0.85921887149934706     
+ Real      SURFACE Potential =   0.85921887149934706     
+ Imaginary SURFACE Potential =   0.87319300242879916     
+ Real      SURFACE Potential =   0.87319300242879916     
+ Imaginary SURFACE Potential =   0.88664067617141329     
+ Real      SURFACE Potential =   0.88664067617141329     
+ Imaginary SURFACE Potential =   0.89951899588782025     
+ Real      SURFACE Potential =   0.89951899588782025     
+ Imaginary SURFACE Potential =   0.91178589242825736     
+ Real      SURFACE Potential =   0.91178589242825736     
+ Imaginary SURFACE Potential =   0.92340039465033130     
+ Real      SURFACE Potential =   0.92340039465033130     
+ Imaginary SURFACE Potential =   0.93432290173434085     
+ Real      SURFACE Potential =   0.93432290173434085     
+ Imaginary SURFACE Potential =   0.94451545464024156     
+ Real      SURFACE Potential =   0.94451545464024156     
+ Imaginary SURFACE Potential =   0.95394200372389537     
+ Real      SURFACE Potential =   0.95394200372389537     
+ Imaginary SURFACE Potential =   0.96256866944940744     
+ Real      SURFACE Potential =   0.96256866944940744     
+ Imaginary SURFACE Potential =   0.97036399310343147     
+ Real      SURFACE Potential =   0.97036399310343147     
+ Imaginary SURFACE Potential =   0.97729917443951475     
+ Real      SURFACE Potential =   0.97729917443951475     
+ Imaginary SURFACE Potential =   0.98334829325787276     
+ Real      SURFACE Potential =   0.98334829325787276     
+ Imaginary SURFACE Potential =   0.98848851205913169     
+ Real      SURFACE Potential =   0.98848851205913169     
+ Imaginary SURFACE Potential =   0.99270025709880216     
+ Real      SURFACE Potential =   0.99270025709880216     
+ Imaginary SURFACE Potential =   0.99596737541034686     
+ Real      SURFACE Potential =   0.99596737541034686     
+ Imaginary SURFACE Potential =   0.99827726565507757     
+ Real      SURFACE Potential =   0.99827726565507757     
+ Imaginary SURFACE Potential =   0.99962098099162300     
+ Real      SURFACE Potential =   0.99962098099162300     
+ Imaginary SURFACE Potential =   0.99999330253014629     
+ Real      SURFACE Potential =   0.99999330253014629     
+ Imaginary SURFACE Potential =   0.99939278233931506     
+ Real      SURFACE Potential =   0.99939278233931506     
+ Imaginary SURFACE Potential =   0.99782175539895068     
+ Real      SURFACE Potential =   0.99782175539895068     
+ Imaginary SURFACE Potential =   0.99528632032926301     
+ Real      SURFACE Potential =   0.99528632032926301     
+ Imaginary SURFACE Potential =   0.99179628916921214     
+ Real      SURFACE Potential =   0.99179628916921214     
+ Imaginary SURFACE Potential =   0.98736510691229229     
+ Real      SURFACE Potential =   0.98736510691229229     
+ Imaginary SURFACE Potential =   0.98200974192855051     
+ Real      SURFACE Potential =   0.98200974192855051     
+ Imaginary SURFACE Potential =   0.97575054879808565     
+ Real      SURFACE Potential =   0.97575054879808565     
+ Imaginary SURFACE Potential =   0.96861110544541795     
+ Real      SURFACE Potential =   0.96861110544541795     
+ Imaginary SURFACE Potential =   0.96061802678880992     
+ Real      SURFACE Potential =   0.96061802678880992     
+ Imaginary SURFACE Potential =   0.95180075739782410     
+ Real      SURFACE Potential =   0.95180075739782410     
+ Imaginary SURFACE Potential =   0.94219134588137354     
+ Real      SURFACE Potential =   0.94219134588137354     
+ Imaginary SURFACE Potential =   0.93182420390396903     
+ Real      SURFACE Potential =   0.93182420390396903     
+ Imaginary SURFACE Potential =   0.92073585284791981     
+ Real      SURFACE Potential =   0.92073585284791981     
+ Imaginary SURFACE Potential =   0.90896466120352326     
+ Real      SURFACE Potential =   0.90896466120352326     
+ Imaginary SURFACE Potential =   0.89655057577877562     
+ Real      SURFACE Potential =   0.89655057577877562     
+ Imaginary SURFACE Potential =   0.88353484977717089     
+ Real      SURFACE Potential =   0.88353484977717089     
+ Imaginary SURFACE Potential =   0.86995977070020125     
+ Real      SURFACE Potential =   0.86995977070020125     
+ Imaginary SURFACE Potential =   0.85586839089471722     
+ Real      SURFACE Potential =   0.85586839089471722     
+ Imaginary SURFACE Potential =   0.84130426338963105     
+ Real      SURFACE Potential =   0.84130426338963105     
+ Imaginary SURFACE Potential =   0.82631118545743187     
+ Real      SURFACE Potential =   0.82631118545743187     
+ Imaginary SURFACE Potential =   0.81093295209995120     
+ Real      SURFACE Potential =   0.81093295209995120     
+ Imaginary SURFACE Potential =   0.79521312140119271     
+ Real      SURFACE Potential =   0.79521312140119271     
+ Imaginary SURFACE Potential =   0.77919479341936493     
+ Real      SURFACE Potential =   0.77919479341936493     
+ Imaginary SURFACE Potential =   0.76292040401173900     
+ Real      SURFACE Potential =   0.76292040401173900     
+ Imaginary SURFACE Potential =   0.74643153470563461     
+ Real      SURFACE Potential =   0.74643153470563461     
+ Imaginary SURFACE Potential =   0.72976873945212817     
+ Real      SURFACE Potential =   0.72976873945212817     
+ Imaginary SURFACE Potential =   0.71297138883094324     
+ Real      SURFACE Potential =   0.71297138883094324     
+ Imaginary SURFACE Potential =   0.69607753201966471     
+ Real      SURFACE Potential =   0.69607753201966471     
+ Imaginary SURFACE Potential =   0.67912377660151146     
+ Real      SURFACE Potential =   0.67912377660151146     
+ Imaginary SURFACE Potential =   0.66214518606626294     
+ Real      SURFACE Potential =   0.66214518606626294     
+ Imaginary SURFACE Potential =   0.64517519466072237     
+ Real      SURFACE Potential =   0.64517519466072237     
+ Imaginary SURFACE Potential =   0.62824553906978364     
+ Real      SURFACE Potential =   0.62824553906978364     
+ Imaginary SURFACE Potential =   0.61138620625757611     
+ Real      SURFACE Potential =   0.61138620625757611     
+ Imaginary SURFACE Potential =   0.59462539667052816     
+ Real      SURFACE Potential =   0.59462539667052816     
+ Imaginary SURFACE Potential =   0.57798950190022291     
+ Real      SURFACE Potential =   0.57798950190022291     
+ Imaginary SURFACE Potential =   0.56150309582287827     
+ Real      SURFACE Potential =   0.56150309582287827     
+ Imaginary SURFACE Potential =   0.54518893817304304     
+ Real      SURFACE Potential =   0.54518893817304304     
+ Imaginary SURFACE Potential =   0.52906798947022926     
+ Real      SURFACE Potential =   0.52906798947022926     
+ Imaginary SURFACE Potential =   0.51315943619705207     
+ Real      SURFACE Potential =   0.51315943619705207     
+ Imaginary SURFACE Potential =   0.49748072512417302     
+ Real      SURFACE Potential =   0.49748072512417302     
+ Imaginary SURFACE Potential =   0.48204760568906357     
+ Real      SURFACE Potential =   0.48204760568906357     
+ Imaginary SURFACE Potential =   0.46687417936030184     
+ Real      SURFACE Potential =   0.46687417936030184     
+ Imaginary SURFACE Potential =   0.45197295495489959     
+ Real      SURFACE Potential =   0.45197295495489959     
+ Imaginary SURFACE Potential =   0.43735490892105566     
+ Real      SURFACE Potential =   0.43735490892105566     
+ Imaginary SURFACE Potential =   0.42302954965098749     
+ Real      SURFACE Potential =   0.42302954965098749     
+ Imaginary SURFACE Potential =   0.40900498494634674     
+ Real      SURFACE Potential =   0.40900498494634674     
+ Imaginary SURFACE Potential =   0.39528799182063401     
+ Real      SURFACE Potential =   0.39528799182063401     
+ Imaginary SURFACE Potential =   0.38188408788753891     
+ Real      SURFACE Potential =   0.38188408788753891     
+ Imaginary SURFACE Potential =   0.36879760364998099     
+ Real      SURFACE Potential =   0.36879760364998099     
+ Imaginary SURFACE Potential =   0.35603175507067930     
+ Real      SURFACE Potential =   0.35603175507067930     
+ Imaginary SURFACE Potential =   0.34358871587037748     
+ Real      SURFACE Potential =   0.34358871587037748     
+ Imaginary SURFACE Potential =   0.33146968906357493     
+ Real      SURFACE Potential =   0.33146968906357493     
+ Imaginary SURFACE Potential =   0.31967497730309091     
+ Real      SURFACE Potential =   0.31967497730309091     
+ Imaginary SURFACE Potential =   0.30820405166348008     
+ Real      SURFACE Potential =   0.30820405166348008     
+ Imaginary SURFACE Potential =   0.29705561854881302     
+ Real      SURFACE Potential =   0.29705561854881302     
+ Imaginary SURFACE Potential =   0.28622768446232388     
+ Real      SURFACE Potential =   0.28622768446232388     
+ Imaginary SURFACE Potential =   0.27571761842371145     
+ Real      SURFACE Potential =   0.27571761842371145     
+ Imaginary SURFACE Potential =   0.26552221186434805     
+ Real      SURFACE Potential =   0.26552221186434805     
+ Imaginary SURFACE Potential =   0.25563773587124738     
+ Real      SURFACE Potential =   0.25563773587124738     
+ Imaginary SURFACE Potential =   0.24605999568742182     
+ Real      SURFACE Potential =   0.24605999568742182     
+ Imaginary SURFACE Potential =   0.23678438240925562     
+ Real      SURFACE Potential =   0.23678438240925562     
+ Imaginary SURFACE Potential =   0.22780592185090731     
+ Real      SURFACE Potential =   0.22780592185090731     
+ Imaginary SURFACE Potential =   0.21911932057163863     
+ Real      SURFACE Potential =   0.21911932057163863     
+ Imaginary SURFACE Potential =   0.21071900908456387     
+ Real      SURFACE Potential =   0.21071900908456387     
+ Imaginary SURFACE Potential =   0.20259918228480872     
+ Real      SURFACE Potential =   0.20259918228480872     
+ Imaginary SURFACE Potential =   0.19475383715167255     
+ Real      SURFACE Potential =   0.19475383715167255     
+ Imaginary SURFACE Potential =   0.18717680779333315     
+ Real      SURFACE Potential =   0.18717680779333315     
+ Imaginary SURFACE Potential =   0.17986179791412604     
+ Real      SURFACE Potential =   0.17986179791412604     
+ Imaginary SURFACE Potential =   0.17280241079370509     
+ Real      SURFACE Potential =   0.17280241079370509     
+ Imaginary SURFACE Potential =   0.16599217687465084     
+ Real      SURFACE Potential =   0.16599217687465084     
+ Imaginary SURFACE Potential =   0.15942457906055801     
+ Real      SURFACE Potential =   0.15942457906055801     
+ Imaginary SURFACE Potential =   0.15309307583048920     
+ Real      SURFACE Potential =   0.15309307583048920     
+ Imaginary SURFACE Potential =   0.14699112227813274     
+ Real      SURFACE Potential =   0.14699112227813274     
+ Imaginary SURFACE Potential =   0.14111218918520588     
+ Real      SURFACE Potential =   0.14111218918520588     
+ Imaginary SURFACE Potential =   0.13544978023878754     
+ Real      SURFACE Potential =   0.13544978023878754     
+ Imaginary SURFACE Potential =   0.12999744750147552     
+ Real      SURFACE Potential =   0.12999744750147552     
+ Imaginary SURFACE Potential =   0.12474880524170302     
+ Real      SURFACE Potential =   0.12474880524170302     
+ Imaginary SURFACE Potential =   0.11969754222932677     
+ Real      SURFACE Potential =   0.11969754222932677     
+ Imaginary SURFACE Potential =   0.11483743259884395     
+ Real      SURFACE Potential =   0.11483743259884395     
+ Imaginary SURFACE Potential =   0.11016234537939938     
+ Real      SURFACE Potential =   0.11016234537939938     
+ Imaginary SURFACE Potential =   0.10566625278720723     
+ Real      SURFACE Potential =   0.10566625278720723     
+ Imaginary SURFACE Potential =   0.10134323737221107     
+ Real      SURFACE Potential =   0.10134323737221107     
+ Imaginary SURFACE Potential =    9.7187498106816678E-002
+ Real      SURFACE Potential =    9.7187498106816678E-002
+ Imaginary SURFACE Potential =    9.3193355500414077E-002
+ Real      SURFACE Potential =    9.3193355500414077E-002
+ Imaginary SURFACE Potential =    8.9355255819215773E-002
+ Real      SURFACE Potential =    8.9355255819215773E-002
+ Imaginary SURFACE Potential =    8.5667774486721943E-002
+ Real      SURFACE Potential =    8.5667774486721943E-002
+ Imaginary SURFACE Potential =    8.2125618735923459E-002
+ Real      SURFACE Potential =    8.2125618735923459E-002
+ Imaginary SURFACE Potential =    7.8723629580198726E-002
+ Real      SURFACE Potential =    7.8723629580198726E-002
+ Imaginary SURFACE Potential =    7.5456783165784830E-002
+ Real      SURFACE Potential =    7.5456783165784830E-002
+ Imaginary SURFACE Potential =    7.2320191564724495E-002
+ Real      SURFACE Potential =    7.2320191564724495E-002
+ Imaginary SURFACE Potential =    6.9309103063331282E-002
+ Real      SURFACE Potential =    6.9309103063331282E-002
+ Imaginary SURFACE Potential =    6.6418901997486499E-002
+ Real      SURFACE Potential =    6.6418901997486499E-002
+ Imaginary SURFACE Potential =    6.3645108182497842E-002
+ Real      SURFACE Potential =    6.3645108182497842E-002
+ Imaginary SURFACE Potential =    6.0983375981815871E-002
+ Real      SURFACE Potential =    6.0983375981815871E-002
+ Imaginary SURFACE Potential =    5.8429493055628896E-002
+ Real      SURFACE Potential =    5.8429493055628896E-002
+ Imaginary SURFACE Potential =    5.5979378827240835E-002
+ Real      SURFACE Potential =    5.5979378827240835E-002
+ Imaginary SURFACE Potential =    5.3629082702181273E-002
+ Real      SURFACE Potential =    5.3629082702181273E-002
+ Imaginary SURFACE Potential =    5.1374782072203751E-002
+ Real      SURFACE Potential =    5.1374782072203751E-002
+ Imaginary SURFACE Potential =    4.9212780133694130E-002
+ Real      SURFACE Potential =    4.9212780133694130E-002
+ Imaginary SURFACE Potential =    4.7139503547531367E-002
+ Real      SURFACE Potential =    4.7139503547531367E-002
+ Imaginary SURFACE Potential =    4.5151499965119572E-002
+ Real      SURFACE Potential =    4.5151499965119572E-002
+ Imaginary SURFACE Potential =    4.3245435443130753E-002
+ Real      SURFACE Potential =    4.3245435443130753E-002
+ Imaginary SURFACE Potential =    4.1418091767465130E-002
+ Real      SURFACE Potential =    4.1418091767465130E-002
+ Imaginary SURFACE Potential =    3.9666363705037441E-002
+ Real      SURFACE Potential =    3.9666363705037441E-002
+ Imaginary SURFACE Potential =    3.7987256200234173E-002
+ Real      SURFACE Potential =    3.7987256200234173E-002
+ Imaginary SURFACE Potential =    3.6377881531246194E-002
+ Real      SURFACE Potential =    3.6377881531246194E-002
+ Imaginary SURFACE Potential =    3.4835456439961873E-002
+ Real      SURFACE Potential =    3.4835456439961873E-002
+ Imaginary SURFACE Potential =    3.3357299247699888E-002
+ Real      SURFACE Potential =    3.3357299247699888E-002
+ Imaginary SURFACE Potential =    3.1940826967761300E-002
+ Real      SURFACE Potential =    3.1940826967761300E-002
+ Imaginary SURFACE Potential =    3.0583552424583087E-002
+ Real      SURFACE Potential =    3.0583552424583087E-002
+ Imaginary SURFACE Potential =    2.9283081388172826E-002
+ Real      SURFACE Potential =    2.9283081388172826E-002
+ Imaginary SURFACE Potential =    2.8037109731490817E-002
+ Real      SURFACE Potential =    2.8037109731490817E-002
+ Imaginary SURFACE Potential =    2.6843420617517183E-002
+ Real      SURFACE Potential =    2.6843420617517183E-002
+ Imaginary SURFACE Potential =    2.5699881721890173E-002
+ Real      SURFACE Potential =    2.5699881721890173E-002
+ Imaginary SURFACE Potential =    2.4604442496224649E-002
+ Real      SURFACE Potential =    2.4604442496224649E-002
+ Imaginary SURFACE Potential =    2.3555131476509800E-002
+ Real      SURFACE Potential =    2.3555131476509800E-002
+ Imaginary SURFACE Potential =    2.2550053640339716E-002
+ Real      SURFACE Potential =    2.2550053640339716E-002
+ Imaginary SURFACE Potential =    2.1587387816142480E-002
+ Real      SURFACE Potential =    2.1587387816142480E-002
+ Imaginary SURFACE Potential =    2.0665384147041700E-002
+ Real      SURFACE Potential =    2.0665384147041700E-002
+ Imaginary SURFACE Potential =    1.9782361611501913E-002
+ Real      SURFACE Potential =    1.9782361611501913E-002
+ Imaginary SURFACE Potential =    1.8936705602474176E-002
+ Real      SURFACE Potential =    1.8936705602474176E-002
+ Imaginary SURFACE Potential =    1.8126865566366057E-002
+ Real      SURFACE Potential =    1.8126865566366057E-002
+ Imaginary SURFACE Potential =    1.7351352702807823E-002
+ Real      SURFACE Potential =    1.7351352702807823E-002
+ Imaginary SURFACE Potential =    1.6608737725870855E-002
+ Real      SURFACE Potential =    1.6608737725870855E-002
+ Imaginary SURFACE Potential =    1.5897648687112069E-002
+ Real      SURFACE Potential =    1.5897648687112069E-002
+ Imaginary SURFACE Potential =    1.5216768860566781E-002
+ Real      SURFACE Potential =    1.5216768860566781E-002
+ Imaginary SURFACE Potential =    1.4564834689589606E-002
+ Real      SURFACE Potential =    1.4564834689589606E-002
+ Imaginary SURFACE Potential =    1.3940633795245298E-002
+ Real      SURFACE Potential =    1.3940633795245298E-002
+ Imaginary SURFACE Potential =    1.3343003045778481E-002
+ Real      SURFACE Potential =    1.3343003045778481E-002
+ Imaginary SURFACE Potential =    1.2770826686538676E-002
+ Real      SURFACE Potential =    1.2770826686538676E-002
+ Imaginary SURFACE Potential =    1.2223034529605043E-002
+ Real      SURFACE Potential =    1.2223034529605043E-002
+ Imaginary SURFACE Potential =    1.1698600202240565E-002
+ Real      SURFACE Potential =    1.1698600202240565E-002
+ Imaginary SURFACE Potential =    1.1196539453207192E-002
+ Real      SURFACE Potential =    1.1196539453207192E-002
+ Imaginary SURFACE Potential =    1.0715908515890002E-002
+ Real      SURFACE Potential =    1.0715908515890002E-002
+ Imaginary SURFACE Potential =    1.0255802527107965E-002
+ Real      SURFACE Potential =    1.0255802527107965E-002
+ Imaginary SURFACE Potential =    9.8153540004309401E-003
+ Real      SURFACE Potential =    9.8153540004309401E-003
+ Imaginary SURFACE Potential =    9.3937313527749297E-003
+ Real      SURFACE Potential =    9.3937313527749297E-003
+ Imaginary SURFACE Potential =    8.9901374830101289E-003
+ Real      SURFACE Potential =    8.9901374830101289E-003
+ Imaginary SURFACE Potential =    8.6038084012872978E-003
+ Real      SURFACE Potential =    8.6038084012872978E-003
+ Imaginary SURFACE Potential =    8.2340119077670849E-003
+ Real      SURFACE Potential =    8.2340119077670849E-003
+ Imaginary SURFACE Potential =    7.8800463194226775E-003
+ Real      SURFACE Potential =    7.8800463194226775E-003
+ Imaginary SURFACE Potential =    7.5412392435785470E-003
+ Real      SURFACE Potential =    7.5412392435785470E-003
+ Imaginary SURFACE Potential =    7.2169463968455609E-003
+ Real      SURFACE Potential =    7.2169463968455609E-003
+ Imaginary SURFACE Potential =    6.9065504681154891E-003
+ Real      SURFACE Potential =    6.9065504681154891E-003
+ Imaginary SURFACE Potential =    6.6094600242847402E-003
+ Real      SURFACE Potential =    6.6094600242847402E-003
+ Imaginary SURFACE Potential =    6.3251084573878562E-003
+ Real      SURFACE Potential =    6.3251084573878562E-003
+ Imaginary SURFACE Potential =    6.0529529718353218E-003
+ Real      SURFACE Potential =    6.0529529718353218E-003
+ Imaginary SURFACE Potential =    5.7924736104670548E-003
+ Real      SURFACE Potential =    5.7924736104670548E-003
+ Imaginary SURFACE Potential =    5.5431723181522024E-003
+ Real      SURFACE Potential =    5.5431723181522024E-003
+ Imaginary SURFACE Potential =    5.3045720416873936E-003
+ Real      SURFACE Potential =    5.3045720416873936E-003
+ Imaginary SURFACE Potential =    5.0762158647686684E-003
+ Real      SURFACE Potential =    5.0762158647686684E-003
+ Imaginary SURFACE Potential =    4.8576661768370832E-003
+ Real      SURFACE Potential =    4.8576661768370832E-003
+ Imaginary SURFACE Potential =    4.6485038746238447E-003
+ Real      SURFACE Potential =    4.6485038746238447E-003
+ Imaginary SURFACE Potential =    4.4483275952477636E-003
+ Real      SURFACE Potential =    4.4483275952477636E-003
+ Imaginary SURFACE Potential =    4.2567529797454913E-003
+ Real      SURFACE Potential =    4.2567529797454913E-003
+ Imaginary SURFACE Potential =    4.0734119659432801E-003
+ Real      SURFACE Potential =    4.0734119659432801E-003
+ Imaginary SURFACE Potential =    3.8979521096077067E-003
+ Real      SURFACE Potential =    3.8979521096077067E-003
+ Imaginary SURFACE Potential =    3.7300359328417553E-003
+ Real      SURFACE Potential =    3.7300359328417553E-003
+ Imaginary SURFACE Potential =    3.5693402987217880E-003
+ Real      SURFACE Potential =    3.5693402987217880E-003
+ Imaginary SURFACE Potential =    3.4155558112000137E-003
+ Real      SURFACE Potential =    3.4155558112000137E-003
+ Imaginary SURFACE Potential =    3.2683862393261425E-003
+ Real      SURFACE Potential =    3.2683862393261425E-003
+ Imaginary SURFACE Potential =    3.1275479648707606E-003
+ Real      SURFACE Potential =    3.1275479648707606E-003
+ Imaginary SURFACE Potential =    2.9927694524615480E-003
+ Real      SURFACE Potential =    2.9927694524615480E-003
+ Imaginary SURFACE Potential =    2.8637907413717641E-003
+ Real      SURFACE Potential =    2.8637907413717641E-003
+ Imaginary SURFACE Potential =    2.7403629581283172E-003
+ Real      SURFACE Potential =    2.7403629581283172E-003
+ Imaginary SURFACE Potential =    2.6222478491341379E-003
+ Real      SURFACE Potential =    2.6222478491341379E-003
+ Imaginary SURFACE Potential =    2.5092173325266466E-003
+ Real      SURFACE Potential =    2.5092173325266466E-003
+ Imaginary SURFACE Potential =    2.4010530685204369E-003
+ Real      SURFACE Potential =    2.4010530685204369E-003
+ Imaginary SURFACE Potential =    2.2975460475082978E-003
+ Real      SURFACE Potential =    2.2975460475082978E-003
+ Imaginary SURFACE Potential =    2.1984961952199711E-003
+ Real      SURFACE Potential =    2.1984961952199711E-003
+ Imaginary SURFACE Potential =    2.1037119942627974E-003
+ Real      SURFACE Potential =    2.1037119942627974E-003
+ Imaginary SURFACE Potential =    2.0130101213925193E-003
+ Real      SURFACE Potential =    2.0130101213925193E-003
+ Imaginary SURFACE Potential =    1.9262150998860036E-003
+ Real      SURFACE Potential =    1.9262150998860036E-003
+ Imaginary SURFACE Potential =    1.8431589664105520E-003
+ Real      SURFACE Potential =    1.8431589664105520E-003
+ Imaginary SURFACE Potential =    1.7636809518066677E-003
+ Real      SURFACE Potential =    1.7636809518066677E-003
+ Imaginary SURFACE Potential =    1.6876271752227668E-003
+ Real      SURFACE Potential =    1.6876271752227668E-003
+ Imaginary SURFACE Potential =    1.6148503510613093E-003
+ Real      SURFACE Potential =    1.6148503510613093E-003
+ Imaginary SURFACE Potential =    1.5452095082161231E-003
+ Real      SURFACE Potential =    1.5452095082161231E-003
+ Imaginary SURFACE Potential =    1.4785697211004421E-003
+ Real      SURFACE Potential =    1.4785697211004421E-003
+ Imaginary SURFACE Potential =    1.4148018519842323E-003
+ Real      SURFACE Potential =    1.4148018519842323E-003
+ Imaginary SURFACE Potential =    1.3537823041778801E-003
+ Real      SURFACE Potential =    1.3537823041778801E-003
+ Imaginary SURFACE Potential =    1.2953927856171679E-003
+ Real      SURFACE Potential =    1.2953927856171679E-003
+ Imaginary SURFACE Potential =    1.2395200824217468E-003
+ Real      SURFACE Potential =    1.2395200824217468E-003
+ Imaginary SURFACE Potential =    1.1860558420159983E-003
+ Real      SURFACE Potential =    1.1860558420159983E-003
+ Imaginary SURFACE Potential =    1.1348963654173032E-003
+ Real      SURFACE Potential =    1.1348963654173032E-003
+ Imaginary SURFACE Potential =    1.0859424083122893E-003
+ Real      SURFACE Potential =    1.0859424083122893E-003
+ Imaginary SURFACE Potential =    1.0390989905566439E-003
+ Real      SURFACE Potential =    1.0390989905566439E-003
+ Imaginary SURFACE Potential =    9.9427521374855768E-004
+ Real      SURFACE Potential =    9.9427521374855768E-004
+ Imaginary SURFACE Potential =    9.5138408653982066E-004
+ Real      SURFACE Potential =    9.5138408653982066E-004
+ Imaginary SURFACE Potential =    9.1034235736203912E-004
+ Real      SURFACE Potential =    9.1034235736203912E-004
+ Imaginary SURFACE Potential =    8.7107035425842408E-004
+ Real      SURFACE Potential =    8.7107035425842408E-004
+ Imaginary SURFACE Potential =    8.3349183152404277E-004
+ Real      SURFACE Potential =    8.3349183152404277E-004
+ Imaginary SURFACE Potential =    7.9753382286948502E-004
+ Real      SURFACE Potential =    7.9753382286948502E-004
+ Imaginary SURFACE Potential =    7.6312650083442562E-004
+ Real      SURFACE Potential =    7.6312650083442562E-004
+ Imaginary SURFACE Potential =    7.3020304218871131E-004
+ Real      SURFACE Potential =    7.3020304218871131E-004
+ Imaginary SURFACE Potential =    6.9869949906929945E-004
+ Real      SURFACE Potential =    6.9869949906929945E-004
+ Imaginary SURFACE Potential =    6.6855467561166906E-004
+ Real      SURFACE Potential =    6.6855467561166906E-004
+ Imaginary SURFACE Potential =    6.3971000984422584E-004
+ Real      SURFACE Potential =    6.3971000984422584E-004
+ Imaginary SURFACE Potential =    6.1210946062373274E-004
+ Real      SURFACE Potential =    6.1210946062373274E-004
+ Imaginary SURFACE Potential =    5.8569939939894541E-004
+ Real      SURFACE Potential =    5.8569939939894541E-004
+ Imaginary SURFACE Potential =    5.6042850659841499E-004
+ Real      SURFACE Potential =    5.6042850659841499E-004
+ Imaginary SURFACE Potential =    5.3624767244686436E-004
+ Real      SURFACE Potential =    5.3624767244686436E-004
+ Imaginary SURFACE Potential =    5.1310990202264439E-004
+ Real      SURFACE Potential =    5.1310990202264439E-004
+ Imaginary SURFACE Potential =    4.9097022437656905E-004
+ Real      SURFACE Potential =    4.9097022437656905E-004
+ Imaginary SURFACE Potential =    4.6978560553989748E-004
+ Real      SURFACE Potential =    4.6978560553989748E-004
+ Imaginary SURFACE Potential =    4.4951486525640979E-004
+ Real      SURFACE Potential =    4.4951486525640979E-004
+ Imaginary SURFACE Potential =    4.3011859728041128E-004
+ Real      SURFACE Potential =    4.3011859728041128E-004
+ Imaginary SURFACE Potential =    4.1155909308910780E-004
+ Real      SURFACE Potential =    4.1155909308910780E-004
+ Imaginary SURFACE Potential =    3.9380026886414062E-004
+ Real      SURFACE Potential =    3.9380026886414062E-004
+ Imaginary SURFACE Potential =    3.7680759560315599E-004
+ Real      SURFACE Potential =    3.7680759560315599E-004
+ Imaginary SURFACE Potential =    3.6054803222811843E-004
+ Real      SURFACE Potential =    3.6054803222811843E-004
+ Imaginary SURFACE Potential =    3.4498996156268492E-004
+ Real      SURFACE Potential =    3.4498996156268492E-004
+ Imaginary SURFACE Potential =    3.3010312905632232E-004
+ Real      SURFACE Potential =    3.3010312905632232E-004
+ Imaginary SURFACE Potential =    3.1585858413800573E-004
+ Real      SURFACE Potential =    3.1585858413800573E-004
+ Imaginary SURFACE Potential =    3.0222862408727359E-004
+ Real      SURFACE Potential =    3.0222862408727359E-004
+ Imaginary SURFACE Potential =    2.8918674031515459E-004
+ Real      SURFACE Potential =    2.8918674031515459E-004
+ Imaginary SURFACE Potential =    2.7670756695201887E-004
+ Real      SURFACE Potential =    2.7670756695201887E-004
+ Imaginary SURFACE Potential =    2.6476683164376280E-004
+ Real      SURFACE Potential =    2.6476683164376280E-004
+ Imaginary SURFACE Potential =    2.5334130846190871E-004
+ Real      SURFACE Potential =    2.5334130846190871E-004
+ Imaginary SURFACE Potential =    2.4240877283719883E-004
+ Real      SURFACE Potential =    2.4240877283719883E-004
+ Imaginary SURFACE Potential =    2.3194795843010130E-004
+ Real      SURFACE Potential =    2.3194795843010130E-004
+ Imaginary SURFACE Potential =    2.2193851585531355E-004
+ Real      SURFACE Potential =    2.2193851585531355E-004
+ Imaginary SURFACE Potential =    2.1236097318087495E-004
+ Real      SURFACE Potential =    2.1236097318087495E-004
+ Imaginary SURFACE Potential =    2.0319669812587004E-004
+ Real      SURFACE Potential =    2.0319669812587004E-004
+ Imaginary SURFACE Potential =    1.9442786188393952E-004
+ Real      SURFACE Potential =    1.9442786188393952E-004
+ Imaginary SURFACE Potential =    1.8603740450290964E-004
+ Real      SURFACE Potential =    1.8603740450290964E-004
+ Imaginary SURFACE Potential =    1.7800900175382115E-004
+ Real      SURFACE Potential =    1.7800900175382115E-004
+ Imaginary SURFACE Potential =    1.7032703342547930E-004
+ Real      SURFACE Potential =    1.7032703342547930E-004
+ Imaginary SURFACE Potential =    1.6297655298336941E-004
+ Real      SURFACE Potential =    1.6297655298336941E-004
+ Imaginary SURFACE Potential =    1.5594325853439251E-004
+ Real      SURFACE Potential =    1.5594325853439251E-004
+ Imaginary SURFACE Potential =    1.4921346504137131E-004
+ Real      SURFACE Potential =    1.4921346504137131E-004
+ Imaginary SURFACE Potential =    1.4277407773367190E-004
+ Real      SURFACE Potential =    1.4277407773367190E-004
+ Imaginary SURFACE Potential =    1.3661256666257714E-004
+ Real      SURFACE Potential =    1.3661256666257714E-004
+ Imaginary SURFACE Potential =    1.3071694235224288E-004
+ Real      SURFACE Potential =    1.3071694235224288E-004
+ Imaginary SURFACE Potential =    1.2507573249917085E-004
+ Real      SURFACE Potential =    1.2507573249917085E-004
+ Imaginary SURFACE Potential =    1.1967795967514340E-004
+ Real      SURFACE Potential =    1.1967795967514340E-004
+ Imaginary SURFACE Potential =    1.1451311999049552E-004
+ Real      SURFACE Potential =    1.1451311999049552E-004
+ Imaginary SURFACE Potential =    1.0957116267644267E-004
+ Real      SURFACE Potential =    1.0957116267644267E-004
+ Imaginary SURFACE Potential =    1.0484247054695261E-004
+ Real      SURFACE Potential =    1.0484247054695261E-004
+ Imaginary SURFACE Potential =    1.0031784130234069E-004
+ Real      SURFACE Potential =    1.0031784130234069E-004
+ Imaginary SURFACE Potential =    9.5988469638389040E-005
+ Real      SURFACE Potential =    9.5988469638389040E-005
+ Imaginary SURFACE Potential =    9.1845930126341615E-005
+ Real      SURFACE Potential =    9.1845930126341615E-005
+ Imaginary SURFACE Potential =    8.7882160830611819E-005
+ Real      SURFACE Potential =    8.7882160830611819E-005
+ Imaginary SURFACE Potential =    8.4089447632462836E-005
+ Real      SURFACE Potential =    8.4089447632462836E-005
+ Imaginary SURFACE Potential =    8.0460409229281740E-005
+ Real      SURFACE Potential =    8.0460409229281740E-005
+ Imaginary SURFACE Potential =    7.6987982780371298E-005
+ Real      SURFACE Potential =    7.6987982780371298E-005
+ Imaginary SURFACE Potential =    7.3665410171433040E-005
+ Real      SURFACE Potential =    7.3665410171433040E-005
+ Imaginary SURFACE Potential =    7.0486224871107577E-005
+ Real      SURFACE Potential =    7.0486224871107577E-005
+ Imaginary SURFACE Potential =    6.7444239354084147E-005
+ Real      SURFACE Potential =    6.7444239354084147E-005
+ Imaginary SURFACE Potential =    6.4533533066383976E-005
+ Real      SURFACE Potential =    6.4533533066383976E-005
+ Imaginary SURFACE Potential =    6.1748440909471170E-005
+ Real      SURFACE Potential =    6.1748440909471170E-005
+ Imaginary SURFACE Potential =    5.9083542220848038E-005
+ Real      SURFACE Potential =    5.9083542220848038E-005
+ Imaginary SURFACE Potential =    5.6533650229751338E-005
+ Real      SURFACE Potential =    5.6533650229751338E-005
+ Imaginary SURFACE Potential =    5.4093801967485447E-005
+ Real      SURFACE Potential =    5.4093801967485447E-005
+ Imaginary SURFACE Potential =    5.1759248612808214E-005
+ Real      SURFACE Potential =    5.1759248612808214E-005
+ Imaginary SURFACE Potential =    4.9525446253627127E-005
+ Real      SURFACE Potential =    4.9525446253627127E-005
+ Imaginary SURFACE Potential =    4.7388047047070098E-005
+ Real      SURFACE Potential =    4.7388047047070098E-005
+ Imaginary SURFACE Potential =    4.5342890760765320E-005
+ Real      SURFACE Potential =    4.5342890760765320E-005
+ Imaginary SURFACE Potential =    4.3385996678904649E-005
+ Real      SURFACE Potential =    4.3385996678904649E-005
+ Imaginary SURFACE Potential =    4.1513555857370448E-005
+ Real      SURFACE Potential =    4.1513555857370448E-005
+ Imaginary SURFACE Potential =    3.9721923712882850E-005
+ Real      SURFACE Potential =    3.9721923712882850E-005
+ Imaginary SURFACE Potential =    3.8007612931771687E-005
+ Real      SURFACE Potential =    3.8007612931771687E-005
+ Imaginary SURFACE Potential =    3.6367286684596743E-005
+ Real      SURFACE Potential =    3.6367286684596743E-005
+ Imaginary SURFACE Potential =    3.4797752133433394E-005
+ Real      SURFACE Potential =    3.4797752133433394E-005
+ Imaginary SURFACE Potential =    3.3295954219207758E-005
+ Real      SURFACE Potential =    3.3295954219207758E-005
+ Imaginary SURFACE Potential =    3.1858969717009110E-005
+ Real      SURFACE Potential =    3.1858969717009110E-005
+ Imaginary SURFACE Potential =    3.0484001547826752E-005
+ Real      SURFACE Potential =    3.0484001547826752E-005
+ Imaginary SURFACE Potential =    2.9168373335656378E-005
+ Real      SURFACE Potential =    2.9168373335656378E-005
+ Imaginary SURFACE Potential =    2.7909524199396936E-005
+ Real      SURFACE Potential =    2.7909524199396936E-005
+ Imaginary SURFACE Potential =    2.6705003769414538E-005
+ Real      SURFACE Potential =    2.6705003769414538E-005
+ Imaginary SURFACE Potential =    2.5552467419086304E-005
+ Real      SURFACE Potential =    2.5552467419086304E-005
+ Imaginary SURFACE Potential =    2.4449671702054142E-005
+ Real      SURFACE Potential =    2.4449671702054142E-005
+ Imaginary SURFACE Potential =    2.3394469986317910E-005
+ Real      SURFACE Potential =    2.3394469986317910E-005
+ Imaginary SURFACE Potential =    2.2384808276679638E-005
+ Real      SURFACE Potential =    2.2384808276679638E-005
+ Imaginary SURFACE Potential =    2.1418721217416179E-005
+ Real      SURFACE Potential =    2.1418721217416179E-005
+ Imaginary SURFACE Potential =    2.0494328267407740E-005
+ Real      SURFACE Potential =    2.0494328267407740E-005
+ Imaginary SURFACE Potential =    1.9609830040284638E-005
+ Real      SURFACE Potential =    1.9609830040284638E-005
+ Imaginary SURFACE Potential =    1.8763504802475245E-005
+ Real      SURFACE Potential =    1.8763504802475245E-005
+ Imaginary SURFACE Potential =    1.7953705122344854E-005
+ Real      SURFACE Potential =    1.7953705122344854E-005
+ Imaginary SURFACE Potential =    1.7178854663908551E-005
+ Real      SURFACE Potential =    1.7178854663908551E-005
+ Imaginary SURFACE Potential =    1.6437445118882341E-005
+ Real      SURFACE Potential =    1.6437445118882341E-005
+ Imaginary SURFACE Potential =    1.5728033271105512E-005
+ Real      SURFACE Potential =    1.5728033271105512E-005
+ Imaginary SURFACE Potential =    1.5049238187624278E-005
+ Real      SURFACE Potential =    1.5049238187624278E-005
+ Imaginary SURFACE Potential =    1.4399738530973168E-005
+ Real      SURFACE Potential =    1.4399738530973168E-005
+ Imaginary SURFACE Potential =    1.3778269987426099E-005
+ Real      SURFACE Potential =    1.3778269987426099E-005
+ Imaginary SURFACE Potential =    1.3183622806214305E-005
+ Real      SURFACE Potential =    1.3183622806214305E-005
+ Imaginary SURFACE Potential =    1.2614639444924333E-005
+ Real      SURFACE Potential =    1.2614639444924333E-005
+ Imaginary SURFACE Potential =    1.2070212316495424E-005
+ Real      SURFACE Potential =    1.2070212316495424E-005
+ Imaginary SURFACE Potential =    1.1549281633433323E-005
+ Real      SURFACE Potential =    1.1549281633433323E-005
+ Imaginary SURFACE Potential =    1.1050833345046362E-005
+ Real      SURFACE Potential =    1.1050833345046362E-005
+ Imaginary SURFACE Potential =    1.0573897163690869E-005
+ Real      SURFACE Potential =    1.0573897163690869E-005
+ Imaginary SURFACE Potential =    1.0117544676185583E-005
+ Real      SURFACE Potential =    1.0117544676185583E-005
+ Imaginary SURFACE Potential =    9.6808875367207281E-006
+ Real      SURFACE Potential =    9.6808875367207281E-006
+ Imaginary SURFACE Potential =    9.2630757377457387E-006
+ Real      SURFACE Potential =    9.2630757377457387E-006
+ Imaginary SURFACE Potential =    8.8632959554711877E-006
+ Real      SURFACE Potential =    8.8632959554711877E-006
+ Imaginary SURFACE Potential =    8.4807699667657964E-006
+ Real      SURFACE Potential =    8.4807699667657964E-006
+ Imaginary SURFACE Potential =    8.1147531343680386E-006
+ Real      SURFACE Potential =    8.1147531343680386E-006
+ Imaginary SURFACE Potential =    7.7645329574648195E-006
+ Real      SURFACE Potential =    7.7645329574648195E-006
+ Imaginary SURFACE Potential =    7.4294276848168993E-006
+ Real      SURFACE Potential =    7.4294276848168993E-006
+ Imaginary SURFACE Potential =    7.1087849877322679E-006
+ Real      SURFACE Potential =    7.1087849877322679E-006
+ Imaginary SURFACE Potential =    6.8019806903051922E-006
+ Real      SURFACE Potential =    6.8019806903051922E-006
+ Imaginary SURFACE Potential =    6.5084175544500339E-006
+ Real      SURFACE Potential =    6.5084175544500339E-006
+ Imaginary SURFACE Potential =    6.2275241173654534E-006
+ Real      SURFACE Potential =    6.2275241173654534E-006
+ Imaginary SURFACE Potential =    5.9587535791667273E-006
+ Real      SURFACE Potential =    5.9587535791667273E-006
+ Imaginary SURFACE Potential =    5.7015827385214153E-006
+ Real      SURFACE Potential =    5.7015827385214153E-006
+ Imaginary SURFACE Potential =    5.4555109742170470E-006
+ Real      SURFACE Potential =    5.4555109742170470E-006
+ Imaginary SURFACE Potential =    5.2200592706788173E-006
+ Real      SURFACE Potential =    5.2200592706788173E-006
+ Imaginary SURFACE Potential =    4.9947692855408495E-006
+ Real      SURFACE Potential =    4.9947692855408495E-006
+ Imaginary SURFACE Potential =    4.7792024574563575E-006
+ Real      SURFACE Potential =    4.7792024574563575E-006
+ Imaginary SURFACE Potential =    4.5729391524103227E-006
+ Real      SURFACE Potential =    4.5729391524103227E-006
+ Imaginary SURFACE Potential =    4.3755778468732643E-006
+ Real      SURFACE Potential =    4.3755778468732643E-006
+ Imaginary SURFACE Potential =    4.1867343462063270E-006
+ Real      SURFACE Potential =    4.1867343462063270E-006
+ Imaginary SURFACE Potential =    4.0060410367964977E-006
+ Real      SURFACE Potential =    4.0060410367964977E-006
+ Imaginary SURFACE Potential =    3.8331461704664290E-006
+ Real      SURFACE Potential =    3.8331461704664290E-006
+ Imaginary SURFACE Potential =    3.6677131797661185E-006
+ Real      SURFACE Potential =    3.6677131797661185E-006
+ Imaginary SURFACE Potential =    3.5094200228137850E-006
+ Real      SURFACE Potential =    3.5094200228137850E-006
+ Imaginary SURFACE Potential =    3.3579585564108375E-006
+ Real      SURFACE Potential =    3.3579585564108375E-006
+ Imaginary SURFACE Potential =    3.2130339362107535E-006
+ Real      SURFACE Potential =    3.2130339362107535E-006
+ Imaginary SURFACE Potential =    3.0743640427744282E-006
+ Real      SURFACE Potential =    3.0743640427744282E-006
+ Imaginary SURFACE Potential =    2.9416789323948782E-006
+ Real      SURFACE Potential =    2.9416789323948782E-006
+ Imaginary SURFACE Potential =    2.8147203116224011E-006
+ Real      SURFACE Potential =    2.8147203116224011E-006
+ Imaginary SURFACE Potential =    2.6932410344674058E-006
+ Real      SURFACE Potential =    2.6932410344674058E-006
+ Imaginary SURFACE Potential =    2.5770046213022736E-006
+ Real      SURFACE Potential =    2.5770046213022736E-006
+ Imaginary SURFACE Potential =    2.4657847985258413E-006
+ Real      SURFACE Potential =    2.4657847985258413E-006
+ Imaginary SURFACE Potential =    2.3593650580944835E-006
+ Real      SURFACE Potential =    2.3593650580944835E-006
+ Imaginary SURFACE Potential =    2.2575382360624629E-006
+ Real      SURFACE Potential =    2.2575382360624629E-006
+ Imaginary SURFACE Potential =    2.1601061093111896E-006
+ Real      SURFACE Potential =    2.1601061093111896E-006
+ Imaginary SURFACE Potential =    2.0668790096824473E-006
+ Real      SURFACE Potential =    2.0668790096824473E-006
+ Imaginary SURFACE Potential =    1.9776754547645068E-006
+ Real      SURFACE Potential =    1.9776754547645068E-006
+ Imaginary SURFACE Potential =    1.8923217946124651E-006
+ Real      SURFACE Potential =    1.8923217946124651E-006
+ Imaginary SURFACE Potential =    1.8106518737151437E-006
+ Real      SURFACE Potential =    1.8106518737151437E-006
+ Imaginary SURFACE Potential =    1.7325067075505886E-006
+ Real      SURFACE Potential =    1.7325067075505886E-006
+ Imaginary SURFACE Potential =    1.6577341731005608E-006
+ Real      SURFACE Potential =    1.6577341731005608E-006
+ Imaginary SURFACE Potential =    1.5861887127216298E-006
+ Real      SURFACE Potential =    1.5861887127216298E-006
+ Imaginary SURFACE Potential =    1.5177310507964205E-006
+ Real      SURFACE Potential =    1.5177310507964205E-006
+ Imaginary SURFACE Potential =    1.4522279226134925E-006
+ Real      SURFACE Potential =    1.4522279226134925E-006
+ Imaginary SURFACE Potential =    1.3895518149480979E-006
+ Real      SURFACE Potential =    1.3895518149480979E-006
+ Imaginary SURFACE Potential =    1.3295807178388406E-006
+ Real      SURFACE Potential =    1.3295807178388406E-006
+ Imaginary SURFACE Potential =    1.2721978870770816E-006
+ Real      SURFACE Potential =    1.2721978870770816E-006
+ Imaginary SURFACE Potential =    1.2172916169467377E-006
+ Real      SURFACE Potential =    1.2172916169467377E-006
+ Imaginary SURFACE Potential =    1.1647550227721186E-006
+ Real      SURFACE Potential =    1.1647550227721186E-006
+ Imaginary SURFACE Potential =    1.1144858328505140E-006
+ Real      SURFACE Potential =    1.1144858328505140E-006
+ Imaginary SURFACE Potential =    1.0663861893645067E-006
+ Real      SURFACE Potential =    1.0663861893645067E-006
+ Imaginary SURFACE Potential =    1.0203624578864779E-006
+ Real      SURFACE Potential =    1.0203624578864779E-006
+ Imaginary SURFACE Potential =    9.7632504510449759E-007
+ Real      SURFACE Potential =    9.7632504510449759E-007
+ Imaginary SURFACE Potential =    9.3418822441477641E-007
+ Real      SURFACE Potential =    9.3418822441477641E-007
+ Imaginary SURFACE Potential =    8.9386996904118766E-007
+ Real      SURFACE Potential =    8.9386996904118766E-007
+ Imaginary SURFACE Potential =    8.5529179235701186E-007
+ Real      SURFACE Potential =    8.5529179235701186E-007
+ Imaginary SURFACE Potential =    8.1837859509807025E-007
+ Real      SURFACE Potential =    8.1837859509807025E-007
+ Imaginary SURFACE Potential =    7.8305851916983926E-007
+ Real      SURFACE Potential =    7.8305851916983926E-007
+ Imaginary SURFACE Potential =    7.4926280776396077E-007
+ Real      SURFACE Potential =    7.4926280776396077E-007
+ Imaginary SURFACE Potential =    7.1692567151185398E-007
+ Real      SURFACE Potential =    7.1692567151185398E-007
+ Imaginary SURFACE Potential =    6.8598416041488405E-007
+ Real      SURFACE Potential =    6.8598416041488405E-007
+ Imaginary SURFACE Potential =    6.5637804130177756E-007
+ Real      SURFACE Potential =    6.5637804130177756E-007
+ Imaginary SURFACE Potential =    6.2804968057475301E-007
+ Real      SURFACE Potential =    6.2804968057475301E-007
+ Imaginary SURFACE Potential =    6.0094393201610819E-007
+ Real      SURFACE Potential =    6.0094393201610819E-007
+ Imaginary SURFACE Potential =    5.7500802943687133E-007
+ Real      SURFACE Potential =    5.7500802943687133E-007
+ Imaginary SURFACE Potential =    5.5019148395854395E-007
+ Real      SURFACE Potential =    5.5019148395854395E-007
+ Imaginary SURFACE Potential =    5.2644598572797791E-007
+ Real      SURFACE Potential =    5.2644598572797791E-007
+ Imaginary SURFACE Potential =    5.0372530987406616E-007
+ Real      SURFACE Potential =    5.0372530987406616E-007
+ Imaginary SURFACE Potential =    4.8198522652317666E-007
+ Real      SURFACE Potential =    4.8198522652317666E-007
+ Imaginary SURFACE Potential =    4.6118341469816479E-007
+ Real      SURFACE Potential =    4.6118341469816479E-007
+ Imaginary SURFACE Potential =    4.4127937993335536E-007
+ Real      SURFACE Potential =    4.4127937993335536E-007
+ Imaginary SURFACE Potential =    4.2223437544512162E-007
+ Real      SURFACE Potential =    4.2223437544512162E-007
+ Imaginary SURFACE Potential =    4.0401132670460861E-007
+ Real      SURFACE Potential =    4.0401132670460861E-007
+ Imaginary SURFACE Potential =    3.8657475926577131E-007
+ Real      SURFACE Potential =    3.8657475926577131E-007
+ Imaginary SURFACE Potential =    3.6989072970823398E-007
+ Real      SURFACE Potential =    3.6989072970823398E-007
+ Imaginary SURFACE Potential =    3.5392675956054146E-007
+ Real      SURFACE Potential =    3.5392675956054146E-007
+ Imaginary SURFACE Potential =    3.3865177207517460E-007
+ Real      SURFACE Potential =    3.3865177207517460E-007
+ Imaginary SURFACE Potential =    3.2403603173225293E-007
+ Real      SURFACE Potential =    3.2403603173225293E-007
+ Imaginary SURFACE Potential =    3.1005108635415959E-007
+ Real      SURFACE Potential =    3.1005108635415959E-007
+ Imaginary SURFACE Potential =    2.9666971171840483E-007
+ Real      SURFACE Potential =    2.9666971171840483E-007
+ Imaginary SURFACE Potential =    2.8386585856091117E-007
+ Real      SURFACE Potential =    2.8386585856091117E-007
+ Imaginary SURFACE Potential =    2.7161460186655165E-007
+ Real      SURFACE Potential =    2.7161460186655165E-007
+ Imaginary SURFACE Potential =    2.5989209234822784E-007
+ Real      SURFACE Potential =    2.5989209234822784E-007
+ Imaginary SURFACE Potential =    2.4867551002003571E-007
+ Real      SURFACE Potential =    2.4867551002003571E-007
+ Imaginary SURFACE Potential =    2.3794301977413927E-007
+ Real      SURFACE Potential =    2.3794301977413927E-007
+ Imaginary SURFACE Potential =    2.2767372887487960E-007
+ Real      SURFACE Potential =    2.2767372887487960E-007
+ Imaginary SURFACE Potential =    2.1784764628736950E-007
+ Real      SURFACE Potential =    2.1784764628736950E-007
+ Imaginary SURFACE Potential =    2.0844564376140532E-007
+ Real      SURFACE Potential =    2.0844564376140532E-007
+ Imaginary SURFACE Potential =    1.9944941859493663E-007
+ Real      SURFACE Potential =    1.9944941859493663E-007
+ Imaginary SURFACE Potential =    1.9084145800460776E-007
+ Real      SURFACE Potential =    1.9084145800460776E-007
+ Imaginary SURFACE Potential =    1.8260500503401224E-007
+ Real      SURFACE Potential =    1.8260500503401224E-007
+ Imaginary SURFACE Potential =    1.7472402593329580E-007
+ Real      SURFACE Potential =    1.7472402593329580E-007
+ Imaginary SURFACE Potential =    1.6718317894660610E-007
+ Real      SURFACE Potential =    1.6718317894660610E-007
+ Imaginary SURFACE Potential =    1.5996778444662902E-007
+ Real      SURFACE Potential =    1.5996778444662902E-007
+ Imaginary SURFACE Potential =    1.5306379635807399E-007
+ Real      SURFACE Potential =    1.5306379635807399E-007
+ Imaginary SURFACE Potential =    1.4645777481447888E-007
+ Real      SURFACE Potential =    1.4645777481447888E-007
+ Imaginary SURFACE Potential =    1.4013685999510611E-007
+ Real      SURFACE Potential =    1.4013685999510611E-007
+ Imaginary SURFACE Potential =    1.3408874709099999E-007
+ Real      SURFACE Potential =    1.3408874709099999E-007
+ Imaginary SURFACE Potential =    1.2830166235147150E-007
+ Real      SURFACE Potential =    1.2830166235147150E-007
+ Imaginary SURFACE Potential =    1.2276434016438187E-007
+ Real      SURFACE Potential =    1.2276434016438187E-007
+ Imaginary SURFACE Potential =    1.1746600112560697E-007
+ Real      SURFACE Potential =    1.1746600112560697E-007
+ Imaginary SURFACE Potential =    1.1239633105499165E-007
+ Real      SURFACE Potential =    1.1239633105499165E-007
+ Imaginary SURFACE Potential =    1.0754546091794497E-007
+ Real      SURFACE Potential =    1.0754546091794497E-007
+ Imaginary SURFACE Potential =    1.0290394761358941E-007
+ Real      SURFACE Potential =    1.0290394761358941E-007
+ Imaginary SURFACE Potential =    9.8462755592066260E-008
+ Real      SURFACE Potential =    9.8462755592066260E-008
+ Imaginary SURFACE Potential =    9.4213239265211023E-008
+ Real      SURFACE Potential =    9.4213239265211023E-008
+ Imaginary SURFACE Potential =    9.0147126176358414E-008
+ Real      SURFACE Potential =    9.0147126176358414E-008
+ Imaginary SURFACE Potential =    8.6256500896514788E-008
+ Real      SURFACE Potential =    8.6256500896514788E-008
+ Imaginary SURFACE Potential =    8.2533789615547742E-008
+ Real      SURFACE Potential =    8.2533789615547742E-008
+ Imaginary SURFACE Potential =    7.8971745398398270E-008
+ Real      SURFACE Potential =    7.8971745398398270E-008
+ Imaginary SURFACE Potential =    7.5563434077613390E-008
+ Real      SURFACE Potential =    7.5563434077613390E-008
+ Imaginary SURFACE Potential =    7.2302220754736967E-008
+ Real      SURFACE Potential =    7.2302220754736967E-008
+ Imaginary SURFACE Potential =    6.9181756884280776E-008
+ Real      SURFACE Potential =    6.9181756884280776E-008
+ Imaginary SURFACE Potential =    6.6195967915133144E-008
+ Real      SURFACE Potential =    6.6195967915133144E-008
+ Imaginary SURFACE Potential =    6.3339041465346890E-008
+ Real      SURFACE Potential =    6.3339041465346890E-008
+ Imaginary SURFACE Potential =    6.0605416007285985E-008
+ Real      SURFACE Potential =    6.0605416007285985E-008
+ Imaginary SURFACE Potential =    5.7989770041105706E-008
+ Real      SURFACE Potential =    5.7989770041105706E-008
+ Imaginary SURFACE Potential =    5.5487011735489699E-008
+ Real      SURFACE Potential =    5.5487011735489699E-008
+ Imaginary SURFACE Potential =    5.3092269015478005E-008
+ Real      SURFACE Potential =    5.3092269015478005E-008
+ Imaginary SURFACE Potential =    5.0800880078090609E-008
+ Real      SURFACE Potential =    5.0800880078090609E-008
+ Imaginary SURFACE Potential =    4.8608384317283094E-008
+ Real      SURFACE Potential =    4.8608384317283094E-008
+ Imaginary SURFACE Potential =    4.6510513640568235E-008
+ Real      SURFACE Potential =    4.6510513640568235E-008
+ Imaginary SURFACE Potential =    4.4503184160400079E-008
+ Real      SURFACE Potential =    4.4503184160400079E-008
+ Imaginary SURFACE Potential =    4.2582488244146110E-008
+ Real      SURFACE Potential =    4.2582488244146110E-008
+ Imaginary SURFACE Potential =    4.0744686907171325E-008
+ Real      SURFACE Potential =    4.0744686907171325E-008
+ Imaginary SURFACE Potential =    3.8986202534226030E-008
+ Real      SURFACE Potential =    3.8986202534226030E-008
+ Imaginary SURFACE Potential =    3.7303611914968483E-008
+ Real      SURFACE Potential =    3.7303611914968483E-008
+ Imaginary SURFACE Potential =    3.5693639580064258E-008
+ Real      SURFACE Potential =    3.5693639580064258E-008
+ Imaginary SURFACE Potential =    3.4153151424890474E-008
+ Real      SURFACE Potential =    3.4153151424890474E-008
+ Imaginary SURFACE Potential =    3.2679148608431792E-008
+ Real      SURFACE Potential =    3.2679148608431792E-008
+ Imaginary SURFACE Potential =    3.1268761715491556E-008
+ Real      SURFACE Potential =    3.1268761715491556E-008
+ Imaginary SURFACE Potential =    2.9919245170853673E-008
+ Real      SURFACE Potential =    2.9919245170853673E-008
+ Imaginary SURFACE Potential =    2.8627971894521519E-008
+ Real      SURFACE Potential =    2.8627971894521519E-008
+ Imaginary SURFACE Potential =    2.7392428187629060E-008
+ Real      SURFACE Potential =    2.7392428187629060E-008
+ Imaginary SURFACE Potential =    2.6210208839069092E-008
+ Real      SURFACE Potential =    2.6210208839069092E-008
+ Imaginary SURFACE Potential =    2.5079012443312371E-008
+ Real      SURFACE Potential =    2.5079012443312371E-008
+ Imaginary SURFACE Potential =    2.3996636920303232E-008
+ Real      SURFACE Potential =    2.3996636920303232E-008
+ Imaginary SURFACE Potential =    2.2960975228710216E-008
+ Real      SURFACE Potential =    2.2960975228710216E-008
+ Imaginary SURFACE Potential =    2.1970011264186748E-008
+ Real      SURFACE Potential =    2.1970011264186748E-008
+ Imaginary SURFACE Potential =    2.1021815934657244E-008
+ Real      SURFACE Potential =    2.1021815934657244E-008
+ Imaginary SURFACE Potential =    2.0114543404988338E-008
+ Real      SURFACE Potential =    2.0114543404988338E-008
+ Imaginary SURFACE Potential =    1.9246427503734844E-008
+ Real      SURFACE Potential =    1.9246427503734844E-008
+ Imaginary SURFACE Potential =    1.8415778284965574E-008
+ Real      SURFACE Potential =    1.8415778284965574E-008
+ Imaginary SURFACE Potential =    1.7620978738475956E-008
+ Real      SURFACE Potential =    1.7620978738475956E-008
+ Imaginary SURFACE Potential =    1.6860481641983269E-008
+ Real      SURFACE Potential =    1.6860481641983269E-008
+ Imaginary SURFACE Potential =    1.6132806549176773E-008
+ Real      SURFACE Potential =    1.6132806549176773E-008
+ Imaginary SURFACE Potential =    1.5436536907759375E-008
+ Real      SURFACE Potential =    1.5436536907759375E-008
+ Imaginary SURFACE Potential =    1.4770317301870607E-008
+ Real      SURFACE Potential =    1.4770317301870607E-008
+ Imaginary SURFACE Potential =    1.4132850813522794E-008
+ Real      SURFACE Potential =    1.4132850813522794E-008
+ Imaginary SURFACE Potential =    1.3522896497913984E-008
+ Real      SURFACE Potential =    1.3522896497913984E-008
+ Imaginary SURFACE Potential =    1.2939266967702809E-008
+ Real      SURFACE Potential =    1.2939266967702809E-008
+ Imaginary SURFACE Potential =    1.2380826081542744E-008
+ Real      SURFACE Potential =    1.2380826081542744E-008
+ Imaginary SURFACE Potential =    1.1846486732375962E-008
+ Real      SURFACE Potential =    1.1846486732375962E-008
+ Imaginary SURFACE Potential =    1.1335208731181375E-008
+ Real      SURFACE Potential =    1.1335208731181375E-008
+ Imaginary SURFACE Potential =    1.0845996782057196E-008
+ Real      SURFACE Potential =    1.0845996782057196E-008
+ Imaginary SURFACE Potential =    1.0377898544696052E-008
+ Real      SURFACE Potential =    1.0377898544696052E-008
+ Imaginary SURFACE Potential =    9.9300027804810533E-009
+ Real      SURFACE Potential =    9.9300027804810533E-009
+ Imaginary SURFACE Potential =    9.5014375785937444E-009
+ Real      SURFACE Potential =    9.5014375785937444E-009
+ Imaginary SURFACE Potential =    9.0913686586807834E-009
+ Real      SURFACE Potential =    9.0913686586807834E-009
+ Imaginary SURFACE Potential =    8.6989977467751578E-009
+ Real      SURFACE Potential =    8.6989977467751578E-009
+ Imaginary SURFACE Potential =    8.3235610213104205E-009
+ Real      SURFACE Potential =    8.3235610213104205E-009
+ Imaginary SURFACE Potential =    7.9643276262027521E-009
+ Real      SURFACE Potential =    7.9643276262027521E-009
+ Imaginary SURFACE Potential =    7.6205982481063679E-009
+ Real      SURFACE Potential =    7.6205982481063679E-009
+ Imaginary SURFACE Potential =    7.2917037550726031E-009
+ Real      SURFACE Potential =    7.2917037550726031E-009
+ Imaginary SURFACE Potential =    6.9770038939625822E-009
+ Real      SURFACE Potential =    6.9770038939625822E-009
+ Imaginary SURFACE Potential =    6.6758860440777390E-009
+ Real      SURFACE Potential =    6.6758860440777390E-009
+ Imaginary SURFACE Potential =    6.3877640245819482E-009
+ Real      SURFACE Potential =    6.3877640245819482E-009
+ Imaginary SURFACE Potential =    6.1120769533936219E-009
+ Real      SURFACE Potential =    6.1120769533936219E-009
+ Imaginary SURFACE Potential =    5.8482881553264804E-009
+ Real      SURFACE Potential =    5.8482881553264804E-009
+ Imaginary SURFACE Potential =    5.5958841173534316E-009
+ Real      SURFACE Potential =    5.5958841173534316E-009
+ Imaginary SURFACE Potential =    5.3543734889598167E-009
+ Real      SURFACE Potential =    5.3543734889598167E-009
+ Imaginary SURFACE Potential =    5.1232861256400455E-009
+ Real      SURFACE Potential =    5.1232861256400455E-009
+ Imaginary SURFACE Potential =    4.9021721736755504E-009
+ Real      SURFACE Potential =    4.9021721736755504E-009
+ Imaginary SURFACE Potential =    4.6906011944125049E-009
+ Real      SURFACE Potential =    4.6906011944125049E-009
+ Imaginary SURFACE Potential =    4.4881613263344640E-009
+ Real      SURFACE Potential =    4.4881613263344640E-009
+ Imaginary SURFACE Potential =    4.2944584832988156E-009
+ Real      SURFACE Potential =    4.2944584832988156E-009
+ Imaginary SURFACE Potential =    4.1091155873762191E-009
+ Real      SURFACE Potential =    4.1091155873762191E-009
+ Imaginary SURFACE Potential =    3.9317718347996440E-009
+ Real      SURFACE Potential =    3.9317718347996440E-009
+ Imaginary SURFACE Potential =    3.7620819935940227E-009
+ Real      SURFACE Potential =    3.7620819935940227E-009
+ Imaginary SURFACE Potential =    3.5997157315192411E-009
+ Real      SURFACE Potential =    3.5997157315192411E-009
+ Imaginary SURFACE Potential =    3.4443569730181796E-009
+ Real      SURFACE Potential =    3.4443569730181796E-009
+ Imaginary SURFACE Potential =    3.2957032839179817E-009
+ Real      SURFACE Potential =    3.2957032839179817E-009
+ Imaginary SURFACE Potential =    3.1534652826867715E-009
+ Real      SURFACE Potential =    3.1534652826867715E-009
+ Imaginary SURFACE Potential =    3.0173660770997110E-009
+ Real      SURFACE Potential =    3.0173660770997110E-009
+ Imaginary SURFACE Potential =    2.8871407252177750E-009
+ Real      SURFACE Potential =    2.8871407252177750E-009
+ Imaginary SURFACE Potential =    2.7625357196299304E-009
+ Real      SURFACE Potential =    2.7625357196299304E-009
+ Imaginary SURFACE Potential =    2.6433084939547221E-009
+ Real      SURFACE Potential =    2.6433084939547221E-009
+ Imaginary SURFACE Potential =    2.5292269506405499E-009
+ Real      SURFACE Potential =    2.5292269506405499E-009
+ Imaginary SURFACE Potential =    2.4200690091454457E-009
+ Real      SURFACE Potential =    2.4200690091454457E-009
+ Imaginary SURFACE Potential =    2.3156221736167846E-009
+ Real      SURFACE Potential =    2.3156221736167846E-009
+ Imaginary SURFACE Potential =    2.2156831192293400E-009
+ Real      SURFACE Potential =    2.2156831192293400E-009
+ Imaginary SURFACE Potential =    2.1200572963764110E-009
+ Real      SURFACE Potential =    2.1200572963764110E-009
+ Imaginary SURFACE Potential =    2.0285585519435248E-009
+ Real      SURFACE Potential =    2.0285585519435248E-009
+ Imaginary SURFACE Potential =    1.9410087669274333E-009
+ Real      SURFACE Potential =    1.9410087669274333E-009
+ Imaginary SURFACE Potential =    1.8572375096949752E-009
+ Real      SURFACE Potential =    1.8572375096949752E-009
+ Imaginary SURFACE Potential =    1.7770817042068085E-009
+ Real      SURFACE Potential =    1.7770817042068085E-009
+ Imaginary SURFACE Potential =    1.7003853125601426E-009
+ Real      SURFACE Potential =    1.7003853125601426E-009
+ Imaginary SURFACE Potential =    1.6269990312324953E-009
+ Real      SURFACE Potential =    1.6269990312324953E-009
+ Imaginary SURFACE Potential =    1.5567800004351409E-009
+ Real      SURFACE Potential =    1.5567800004351409E-009
+ Imaginary SURFACE Potential =    1.4895915260104672E-009
+ Real      SURFACE Potential =    1.4895915260104672E-009
+ Imaginary SURFACE Potential =    1.4253028133318570E-009
+ Real      SURFACE Potential =    1.4253028133318570E-009
+ Imaginary SURFACE Potential =    1.3637887126880797E-009
+ Real      SURFACE Potential =    1.3637887126880797E-009
+ Imaginary SURFACE Potential =    1.3049294756565469E-009
+ Real      SURFACE Potential =    1.3049294756565469E-009
+ Imaginary SURFACE Potential =    1.2486105219911544E-009
+ Real      SURFACE Potential =    1.2486105219911544E-009
+ Imaginary SURFACE Potential =    1.1947222165709273E-009
+ Real      SURFACE Potential =    1.1947222165709273E-009
+ Imaginary SURFACE Potential =    1.1431596559752540E-009
+ Real      SURFACE Potential =    1.1431596559752540E-009
+ Imaginary SURFACE Potential =    1.0938224642702329E-009
+ Real      SURFACE Potential =    1.0938224642702329E-009
+ Imaginary SURFACE Potential =    1.0466145976086051E-009
+ Real      SURFACE Potential =    1.0466145976086051E-009
+ Imaginary SURFACE Potential =    1.0014441572628762E-009
+ Real      SURFACE Potential =    1.0014441572628762E-009
+ Imaginary SURFACE Potential =    9.5822321072767891E-010
+ Real      SURFACE Potential =    9.5822321072767891E-010
+ Imaginary SURFACE Potential =    9.1686762054310146E-010
+ Real      SURFACE Potential =    9.1686762054310146E-010
+ Imaginary SURFACE Potential =    8.7729688050577319E-010
+ Real      SURFACE Potential =    8.7729688050577319E-010
+ Imaginary SURFACE Potential =    8.3943395894884517E-010
+ Real      SURFACE Potential =    8.3943395894884517E-010
+ Imaginary SURFACE Potential =    8.0320514878579809E-010
+ Real      SURFACE Potential =    8.0320514878579809E-010
+ Imaginary SURFACE Potential =    7.6853992402614516E-010
+ Real      SURFACE Potential =    7.6853992402614516E-010
+ Imaginary SURFACE Potential =    7.3537080248372369E-010
+ Real      SURFACE Potential =    7.3537080248372369E-010
+ Imaginary SURFACE Potential =    7.0363321441030566E-010
+ Real      SURFACE Potential =    7.0363321441030566E-010
+ Imaginary SURFACE Potential =    6.7326537679880026E-010
+ Real      SURFACE Potential =    6.7326537679880026E-010
+ Imaginary SURFACE Potential =    6.4420817311135489E-010
+ Real      SURFACE Potential =    6.4420817311135489E-010
+ Imaginary SURFACE Potential =    6.1640503819822865E-010
+ Real      SURFACE Potential =    6.1640503819822865E-010
+ Imaginary SURFACE Potential =    5.8980184818340430E-010
+ Real      SURFACE Potential =    5.8980184818340430E-010
+ Imaginary SURFACE Potential =    5.6434681510258880E-010
+ Real      SURFACE Potential =    5.6434681510258880E-010
+ Imaginary SURFACE Potential =    5.3999038608848849E-010
+ Real      SURFACE Potential =    5.3999038608848849E-010
+ Imaginary SURFACE Potential =    5.1668514690711152E-010
+ Real      SURFACE Potential =    5.1668514690711152E-010
+ Imaginary SURFACE Potential =    4.9438572965730857E-010
+ Real      SURFACE Potential =    4.9438572965730857E-010
+ Imaginary SURFACE Potential =    4.7304872445387431E-010
+ Real      SURFACE Potential =    4.7304872445387431E-010
+ Imaginary SURFACE Potential =    4.5263259492228436E-010
+ Real      SURFACE Potential =    4.5263259492228436E-010
+ Imaginary SURFACE Potential =    4.3309759734056180E-010
+ Real      SURFACE Potential =    4.3309759734056180E-010
+ Imaginary SURFACE Potential =    4.1440570327087081E-010
+ Real      SURFACE Potential =    4.1440570327087081E-010
+ Imaginary SURFACE Potential =    3.9652052553022117E-010
+ Real      SURFACE Potential =    3.9652052553022117E-010
+ Imaginary SURFACE Potential =    3.7940724735617767E-010
+ Real      SURFACE Potential =    3.7940724735617767E-010
+ Imaginary SURFACE Potential =    3.6303255462967821E-010
+ Real      SURFACE Potential =    3.6303255462967821E-010
+ Imaginary SURFACE Potential =    3.4736457102302040E-010
+ Real      SURFACE Potential =    3.4736457102302040E-010
+ Imaginary SURFACE Potential =    3.3237279594677418E-010
+ Real      SURFACE Potential =    3.3237279594677418E-010
+ Imaginary SURFACE Potential =    3.1802804517481761E-010
+ Real      SURFACE Potential =    3.1802804517481761E-010
+ NX=0  THAT IS ALL   V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =
+0PARTICLE 2************************************************************************************************************************
+ INPUT DATA          ELAB = 250.7664   RC0  =   1.3300
+                     MASSP=   1.0000   MASST=   7.0000
+                     ZP   =   0.0000   ZT   =   4.0000
+ 
+ DERIVED DATA        ECM  = 216.2808   RC   =   2.5442
+                     K    =   3.1370   ETA  =   0.0000
+0POTENTIAL PARAMETERS
+ NX=1 VOLUME W-S     V RL = -25.0700   R0RL =   1.1540   A RL =   0.6880   R RL =   2.2075   VSOR =   0.0000
+                     V IM = -10.6200   R0IM =   1.1540   A IM =   0.6880   R IM =   2.2075   VSOI =   0.0000   POWR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0050   A IM =
+ Imaginary SURFACE Potential =   0.15545421720074276     
+ Real      SURFACE Potential =   0.15545421720074276     
+ Imaginary SURFACE Potential =   0.16179800728612864     
+ Real      SURFACE Potential =   0.16179800728612864     
+ Imaginary SURFACE Potential =   0.16837477107569951     
+ Real      SURFACE Potential =   0.16837477107569951     
+ Imaginary SURFACE Potential =   0.17519081855878479     
+ Real      SURFACE Potential =   0.17519081855878479     
+ Imaginary SURFACE Potential =   0.18225242884809204     
+ Real      SURFACE Potential =   0.18225242884809204     
+ Imaginary SURFACE Potential =   0.18956582767314067     
+ Real      SURFACE Potential =   0.18956582767314067     
+ Imaginary SURFACE Potential =   0.19713716280391894     
+ Real      SURFACE Potential =   0.19713716280391894     
+ Imaginary SURFACE Potential =   0.20497247730823340     
+ Real      SURFACE Potential =   0.20497247730823340     
+ Imaginary SURFACE Potential =   0.21307768055019580     
+ Real      SURFACE Potential =   0.21307768055019580     
+ Imaginary SURFACE Potential =   0.22145851684276774     
+ Real      SURFACE Potential =   0.22145851684276774     
+ Imaginary SURFACE Potential =   0.23012053167443880     
+ Real      SURFACE Potential =   0.23012053167443880     
+ Imaginary SURFACE Potential =   0.23906903543913394     
+ Real      SURFACE Potential =   0.23906903543913394     
+ Imaginary SURFACE Potential =   0.24830906460952507     
+ Real      SURFACE Potential =   0.24830906460952507     
+ Imaginary SURFACE Potential =   0.25784534030726125     
+ Real      SURFACE Potential =   0.25784534030726125     
+ Imaginary SURFACE Potential =   0.26768222423941807     
+ Real      SURFACE Potential =   0.26768222423941807     
+ Imaginary SURFACE Potential =   0.27782367198890690     
+ Real      SURFACE Potential =   0.27782367198890690     
+ Imaginary SURFACE Potential =   0.28827318366785526     
+ Real      SURFACE Potential =   0.28827318366785526     
+ Imaginary SURFACE Potential =   0.29903375196725157     
+ Real      SURFACE Potential =   0.29903375196725157     
+ Imaginary SURFACE Potential =   0.31010780766359541     
+ Real      SURFACE Potential =   0.31010780766359541     
+ Imaginary SURFACE Potential =   0.32149716267404183     
+ Real      SURFACE Potential =   0.32149716267404183     
+ Imaginary SURFACE Potential =   0.33320295078567419     
+ Real      SURFACE Potential =   0.33320295078567419     
+ Imaginary SURFACE Potential =   0.34522556622215028     
+ Real      SURFACE Potential =   0.34522556622215028     
+ Imaginary SURFACE Potential =   0.35756460025204451     
+ Real      SURFACE Potential =   0.35756460025204451     
+ Imaginary SURFACE Potential =   0.37021877608772186     
+ Real      SURFACE Potential =   0.37021877608772186     
+ Imaginary SURFACE Potential =   0.38318588237139922     
+ Real      SURFACE Potential =   0.38318588237139922     
+ Imaginary SURFACE Potential =   0.39646270559599495     
+ Real      SURFACE Potential =   0.39646270559599495     
+ Imaginary SURFACE Potential =   0.41004496186215017     
+ Real      SURFACE Potential =   0.41004496186215017     
+ Imaginary SURFACE Potential =   0.42392722842904451     
+ Real      SURFACE Potential =   0.42392722842904451     
+ Imaginary SURFACE Potential =   0.43810287557483774     
+ Real      SURFACE Potential =   0.43810287557483774     
+ Imaginary SURFACE Potential =   0.45256399934212654     
+ Real      SURFACE Potential =   0.45256399934212654     
+ Imaginary SURFACE Potential =   0.46730135580398929     
+ Real      SURFACE Potential =   0.46730135580398929     
+ Imaginary SURFACE Potential =   0.48230429754611648     
+ Real      SURFACE Potential =   0.48230429754611648     
+ Imaginary SURFACE Potential =   0.49756071311919331     
+ Real      SURFACE Potential =   0.49756071311919331     
+ Imaginary SURFACE Potential =   0.51305697027196417     
+ Real      SURFACE Potential =   0.51305697027196417     
+ Imaginary SURFACE Potential =   0.52877786382798964     
+ Real      SURFACE Potential =   0.52877786382798964     
+ Imaginary SURFACE Potential =   0.54470656911659465     
+ Real      SURFACE Potential =   0.54470656911659465     
+ Imaginary SURFACE Potential =   0.56082460190938543     
+ Real      SURFACE Potential =   0.56082460190938543     
+ Imaginary SURFACE Potential =   0.57711178584635725     
+ Real      SURFACE Potential =   0.57711178584635725     
+ Imaginary SURFACE Potential =   0.59354622835833115     
+ Real      SURFACE Potential =   0.59354622835833115     
+ Imaginary SURFACE Potential =   0.61010430610351329     
+ Real      SURFACE Potential =   0.61010430610351329     
+ Imaginary SURFACE Potential =   0.62676066093360638     
+ Real      SURFACE Potential =   0.62676066093360638     
+ Imaginary SURFACE Potential =   0.64348820738742241     
+ Real      SURFACE Potential =   0.64348820738742241     
+ Imaginary SURFACE Potential =   0.66025815267570653     
+ Real      SURFACE Potential =   0.66025815267570653     
+ Imaginary SURFACE Potential =   0.67704003006840929     
+ Real      SURFACE Potential =   0.67704003006840929     
+ Imaginary SURFACE Potential =   0.69380174652363613     
+ Real      SURFACE Potential =   0.69380174652363613     
+ Imaginary SURFACE Potential =   0.71050964530494920     
+ Real      SURFACE Potential =   0.71050964530494920     
+ Imaginary SURFACE Potential =   0.72712858421987381     
+ Real      SURFACE Potential =   0.72712858421987381     
+ Imaginary SURFACE Potential =   0.74362202997709570     
+ Real      SURFACE Potential =   0.74362202997709570     
+ Imaginary SURFACE Potential =   0.75995216900303619     
+ Real      SURFACE Potential =   0.75995216900303619     
+ Imaginary SURFACE Potential =   0.77608003488096222     
+ Real      SURFACE Potential =   0.77608003488096222     
+ Imaginary SURFACE Potential =   0.79196565237870609     
+ Real      SURFACE Potential =   0.79196565237870609     
+ Imaginary SURFACE Potential =   0.80756819781629430     
+ Real      SURFACE Potential =   0.80756819781629430     
+ Imaginary SURFACE Potential =   0.82284617529472615     
+ Real      SURFACE Potential =   0.82284617529472615     
+ Imaginary SURFACE Potential =   0.83775760806489674     
+ Real      SURFACE Potential =   0.83775760806489674     
+ Imaginary SURFACE Potential =   0.85226024406488154     
+ Real      SURFACE Potential =   0.85226024406488154     
+ Imaginary SURFACE Potential =   0.86631177439878226     
+ Real      SURFACE Potential =   0.86631177439878226     
+ Imaginary SURFACE Potential =   0.87987006327582551     
+ Real      SURFACE Potential =   0.87987006327582551     
+ Imaginary SURFACE Potential =   0.89289338767963589     
+ Real      SURFACE Potential =   0.89289338767963589     
+ Imaginary SURFACE Potential =   0.90534068480011087     
+ Real      SURFACE Potential =   0.90534068480011087     
+ Imaginary SURFACE Potential =   0.91717180503983164     
+ Real      SURFACE Potential =   0.91717180503983164     
+ Imaginary SURFACE Potential =   0.92834776820923826     
+ Real      SURFACE Potential =   0.92834776820923826     
+ Imaginary SURFACE Potential =   0.93883102035553756     
+ Real      SURFACE Potential =   0.93883102035553756     
+ Imaginary SURFACE Potential =   0.94858568853485514     
+ Real      SURFACE Potential =   0.94858568853485514     
+ Imaginary SURFACE Potential =   0.95757783074039027     
+ Real      SURFACE Potential =   0.95757783074039027     
+ Imaginary SURFACE Potential =   0.96577567814547982     
+ Real      SURFACE Potential =   0.96577567814547982     
+ Imaginary SURFACE Potential =   0.97314986681296578     
+ Real      SURFACE Potential =   0.97314986681296578     
+ Imaginary SURFACE Potential =   0.97967365606345913     
+ Real      SURFACE Potential =   0.97967365606345913     
+ Imaginary SURFACE Potential =   0.98532313078636879     
+ Real      SURFACE Potential =   0.98532313078636879     
+ Imaginary SURFACE Potential =   0.99007738511893928     
+ Real      SURFACE Potential =   0.99007738511893928     
+ Imaginary SURFACE Potential =   0.99391868510892856     
+ Real      SURFACE Potential =   0.99391868510892856     
+ Imaginary SURFACE Potential =   0.99683260821343422     
+ Real      SURFACE Potential =   0.99683260821343422     
+ Imaginary SURFACE Potential =   0.99880815776605270     
+ Real      SURFACE Potential =   0.99880815776605270     
+ Imaginary SURFACE Potential =   0.99983785086211152     
+ Real      SURFACE Potential =   0.99983785086211152     
+ Imaginary SURFACE Potential =   0.99991777846114205     
+ Real      SURFACE Potential =   0.99991777846114205     
+ Imaginary SURFACE Potential =   0.99904763688016773     
+ Real      SURFACE Potential =   0.99904763688016773     
+ Imaginary SURFACE Potential =   0.99723073024308684     
+ Real      SURFACE Potential =   0.99723073024308684     
+ Imaginary SURFACE Potential =   0.99447394385228982     
+ Real      SURFACE Potential =   0.99447394385228982     
+ Imaginary SURFACE Potential =   0.99078768885023127     
+ Real      SURFACE Potential =   0.99078768885023127     
+ Imaginary SURFACE Potential =   0.98618581893250035     
+ Real      SURFACE Potential =   0.98618581893250035     
+ Imaginary SURFACE Potential =   0.98068552025180267     
+ Real      SURFACE Potential =   0.98068552025180267     
+ Imaginary SURFACE Potential =   0.97430717600639727     
+ Real      SURFACE Potential =   0.97430717600639727     
+ Imaginary SURFACE Potential =   0.96707420752990458     
+ Real      SURFACE Potential =   0.96707420752990458     
+ Imaginary SURFACE Potential =   0.95901289398580658     
+ Real      SURFACE Potential =   0.95901289398580658     
+ Imaginary SURFACE Potential =   0.95015217301435051     
+ Real      SURFACE Potential =   0.95015217301435051     
+ Imaginary SURFACE Potential =   0.94052342487795482     
+ Real      SURFACE Potential =   0.94052342487795482     
+ Imaginary SURFACE Potential =   0.93016024280097698     
+ Real      SURFACE Potential =   0.93016024280097698     
+ Imaginary SURFACE Potential =   0.91909819229941003     
+ Real      SURFACE Potential =   0.91909819229941003     
+ Imaginary SURFACE Potential =   0.90737456234564862     
+ Real      SURFACE Potential =   0.90737456234564862     
+ Imaginary SURFACE Potential =   0.89502811121399672     
+ Real      SURFACE Potential =   0.89502811121399672     
+ Imaginary SURFACE Potential =   0.88209880980632294     
+ Real      SURFACE Potential =   0.88209880980632294     
+ Imaginary SURFACE Potential =   0.86862758516745431     
+ Real      SURFACE Potential =   0.86862758516745431     
+ Imaginary SURFACE Potential =   0.85465606677062389     
+ Real      SURFACE Potential =   0.85465606677062389     
+ Imaginary SURFACE Potential =   0.84022633798935109     
+ Real      SURFACE Potential =   0.84022633798935109     
+ Imaginary SURFACE Potential =   0.82538069497881705     
+ Real      SURFACE Potential =   0.82538069497881705     
+ Imaginary SURFACE Potential =   0.81016141497274097     
+ Real      SURFACE Potential =   0.81016141497274097     
+ Imaginary SURFACE Potential =   0.79461053576671803     
+ Real      SURFACE Potential =   0.79461053576671803     
+ Imaginary SURFACE Potential =   0.77876964791170566     
+ Real      SURFACE Potential =   0.77876964791170566     
+ Imaginary SURFACE Potential =   0.76267970088744885     
+ Real      SURFACE Potential =   0.76267970088744885     
+ Imaginary SURFACE Potential =   0.74638082427032415     
+ Real      SURFACE Potential =   0.74638082427032415     
+ Imaginary SURFACE Potential =   0.72991216465830966     
+ Real      SURFACE Potential =   0.72991216465830966     
+ Imaginary SURFACE Potential =   0.71331173887181210     
+ Real      SURFACE Potential =   0.71331173887181210     
+ Imaginary SURFACE Potential =   0.69661630371675010     
+ Real      SURFACE Potential =   0.69661630371675010     
+ Imaginary SURFACE Potential =   0.67986124237876244     
+ Real      SURFACE Potential =   0.67986124237876244     
+ Imaginary SURFACE Potential =   0.66308046731719850     
+ Real      SURFACE Potential =   0.66308046731719850     
+ Imaginary SURFACE Potential =   0.64630633934664172     
+ Real      SURFACE Potential =   0.64630633934664172     
+ Imaginary SURFACE Potential =   0.62956960243335469     
+ Real      SURFACE Potential =   0.62956960243335469     
+ Imaginary SURFACE Potential =   0.61289933359505844     
+ Real      SURFACE Potential =   0.61289933359505844     
+ Imaginary SURFACE Potential =   0.59632290717500192     
+ Real      SURFACE Potential =   0.59632290717500192     
+ Imaginary SURFACE Potential =   0.57986597266520734     
+ Real      SURFACE Potential =   0.57986597266520734     
+ Imaginary SURFACE Potential =   0.56355244517835823     
+ Real      SURFACE Potential =   0.56355244517835823     
+ Imaginary SURFACE Potential =   0.54740450761213710     
+ Real      SURFACE Potential =   0.54740450761213710     
+ Imaginary SURFACE Potential =   0.53144262351260263     
+ Real      SURFACE Potential =   0.53144262351260263     
+ Imaginary SURFACE Potential =   0.51568555962301788     
+ Real      SURFACE Potential =   0.51568555962301788     
+ Imaginary SURFACE Potential =   0.50015041709974395     
+ Real      SURFACE Potential =   0.50015041709974395     
+ Imaginary SURFACE Potential =   0.48485267038574009     
+ Real      SURFACE Potential =   0.48485267038574009     
+ Imaginary SURFACE Potential =   0.46980621275308676     
+ Real      SURFACE Potential =   0.46980621275308676     
+ Imaginary SURFACE Potential =   0.45502340755704174     
+ Real      SURFACE Potential =   0.45502340755704174     
+ Imaginary SURFACE Potential =   0.44051514428375038     
+ Real      SURFACE Potential =   0.44051514428375038     
+ Imaginary SURFACE Potential =   0.42629089852021934     
+ Real      SURFACE Potential =   0.42629089852021934     
+ Imaginary SURFACE Potential =   0.41235879502698203     
+ Real      SURFACE Potential =   0.41235879502698203     
+ Imaginary SURFACE Potential =   0.39872567314963087     
+ Real      SURFACE Potential =   0.39872567314963087     
+ Imaginary SURFACE Potential =   0.38539715386373163     
+ Real      SURFACE Potential =   0.38539715386373163     
+ Imaginary SURFACE Potential =   0.37237770780742624     
+ Real      SURFACE Potential =   0.37237770780742624     
+ Imaginary SURFACE Potential =   0.35967072371623438     
+ Real      SURFACE Potential =   0.35967072371623438     
+ Imaginary SURFACE Potential =   0.34727857673428469     
+ Real      SURFACE Potential =   0.34727857673428469     
+ Imaginary SURFACE Potential =   0.33520269613468295     
+ Real      SURFACE Potential =   0.33520269613468295     
+ Imaginary SURFACE Potential =   0.32344363203833681     
+ Real      SURFACE Potential =   0.32344363203833681     
+ Imaginary SURFACE Potential =   0.31200112077478281     
+ Real      SURFACE Potential =   0.31200112077478281     
+ Imaginary SURFACE Potential =   0.30087414858000039     
+ Real      SURFACE Potential =   0.30087414858000039     
+ Imaginary SURFACE Potential =   0.29006101337456613     
+ Real      SURFACE Potential =   0.29006101337456613     
+ Imaginary SURFACE Potential =   0.27955938441057454     
+ Real      SURFACE Potential =   0.27955938441057454     
+ Imaginary SURFACE Potential =   0.26936635961741645     
+ Real      SURFACE Potential =   0.26936635961741645     
+ Imaginary SURFACE Potential =   0.25947852051469800     
+ Real      SURFACE Potential =   0.25947852051469800     
+ Imaginary SURFACE Potential =   0.24989198459530773     
+ Real      SURFACE Potential =   0.24989198459530773     
+ Imaginary SURFACE Potential =   0.24060245511295661     
+ Real      SURFACE Potential =   0.24060245511295661     
+ Imaginary SURFACE Potential =   0.23160526823650515     
+ Real      SURFACE Potential =   0.23160526823650515     
+ Imaginary SURFACE Potential =   0.22289543755819657     
+ Real      SURFACE Potential =   0.22289543755819657     
+ Imaginary SURFACE Potential =   0.21446769596468554     
+ Real      SURFACE Potential =   0.21446769596468554     
+ Imaginary SURFACE Potential =   0.20631653489864579     
+ Real      SURFACE Potential =   0.20631653489864579     
+ Imaginary SURFACE Potential =   0.19843624105496874     
+ Real      SURFACE Potential =   0.19843624105496874     
+ Imaginary SURFACE Potential =   0.19082093056929603     
+ Real      SURFACE Potential =   0.19082093056929603     
+ Imaginary SURFACE Potential =   0.18346458076807584     
+ Real      SURFACE Potential =   0.18346458076807584     
+ Imaginary SURFACE Potential =   0.17636105955868780     
+ Real      SURFACE Potential =   0.17636105955868780     
+ Imaginary SURFACE Potential =   0.16950415254563328     
+ Real      SURFACE Potential =   0.16950415254563328     
+ Imaginary SURFACE Potential =   0.16288758796453665     
+ Real      SURFACE Potential =   0.16288758796453665     
+ Imaginary SURFACE Potential =   0.15650505952991611     
+ Real      SURFACE Potential =   0.15650505952991611     
+ Imaginary SURFACE Potential =   0.15035024729554525     
+ Real      SURFACE Potential =   0.15035024729554525     
+ Imaginary SURFACE Potential =   0.14441683662789165     
+ Real      SURFACE Potential =   0.14441683662789165     
+ Imaginary SURFACE Potential =   0.13869853539374416     
+ Real      SURFACE Potential =   0.13869853539374416     
+ Imaginary SURFACE Potential =   0.13318908946286490     
+ Real      SURFACE Potential =   0.13318908946286490     
+ Imaginary SURFACE Potential =   0.12788229662545575     
+ Real      SURFACE Potential =   0.12788229662545575     
+ Imaginary SURFACE Potential =   0.12277201902253181     
+ Real      SURFACE Potential =   0.12277201902253181     
+ Imaginary SURFACE Potential =   0.11785219418505381     
+ Real      SURFACE Potential =   0.11785219418505381     
+ Imaginary SURFACE Potential =   0.11311684477498557     
+ Real      SURFACE Potential =   0.11311684477498557     
+ Imaginary SURFACE Potential =   0.10856008711839868     
+ Real      SURFACE Potential =   0.10856008711839868     
+ Imaginary SURFACE Potential =   0.10417613861742353     
+ Real      SURFACE Potential =   0.10417613861742353     
+ Imaginary SURFACE Potential =    9.9959324124313631E-002
+ Real      SURFACE Potential =    9.9959324124313631E-002
+ Imaginary SURFACE Potential =    9.5904081357205781E-002
+ Real      SURFACE Potential =    9.5904081357205781E-002
+ Imaginary SURFACE Potential =    9.2004965433382269E-002
+ Real      SURFACE Potential =    9.2004965433382269E-002
+ Imaginary SURFACE Potential =    8.8256652592011348E-002
+ Real      SURFACE Potential =    8.8256652592011348E-002
+ Imaginary SURFACE Potential =    8.4653943174504379E-002
+ Real      SURFACE Potential =    8.4653943174504379E-002
+ Imaginary SURFACE Potential =    8.1191763926812280E-002
+ Real      SURFACE Potential =    8.1191763926812280E-002
+ Imaginary SURFACE Potential =    7.7865169684220470E-002
+ Real      SURFACE Potential =    7.7865169684220470E-002
+ Imaginary SURFACE Potential =    7.4669344495512907E-002
+ Real      SURFACE Potential =    7.4669344495512907E-002
+ Imaginary SURFACE Potential =    7.1599602239782081E-002
+ Real      SURFACE Potential =    7.1599602239782081E-002
+ Imaginary SURFACE Potential =    6.8651386785677351E-002
+ Real      SURFACE Potential =    6.8651386785677351E-002
+ Imaginary SURFACE Potential =    6.5820271739522360E-002
+ Real      SURFACE Potential =    6.5820271739522360E-002
+ Imaginary SURFACE Potential =    6.3101959825501958E-002
+ Real      SURFACE Potential =    6.3101959825501958E-002
+ Imaginary SURFACE Potential =    6.0492281938024466E-002
+ Real      SURFACE Potential =    6.0492281938024466E-002
+ Imaginary SURFACE Potential =    5.7987195903415771E-002
+ Real      SURFACE Potential =    5.7987195903415771E-002
+ Imaginary SURFACE Potential =    5.5582784985294093E-002
+ Real      SURFACE Potential =    5.5582784985294093E-002
+ Imaginary SURFACE Potential =    5.3275256165313235E-002
+ Real      SURFACE Potential =    5.3275256165313235E-002
+ Imaginary SURFACE Potential =    5.1060938228445943E-002
+ Real      SURFACE Potential =    5.1060938228445943E-002
+ Imaginary SURFACE Potential =    4.8936279679604566E-002
+ Real      SURFACE Potential =    4.8936279679604566E-002
+ Imaginary SURFACE Potential =    4.6897846516163508E-002
+ Real      SURFACE Potential =    4.6897846516163508E-002
+ Imaginary SURFACE Potential =    4.4942319878851035E-002
+ Real      SURFACE Potential =    4.4942319878851035E-002
+ Imaginary SURFACE Potential =    4.3066493601513593E-002
+ Real      SURFACE Potential =    4.3066493601513593E-002
+ Imaginary SURFACE Potential =    4.1267271678420758E-002
+ Real      SURFACE Potential =    4.1267271678420758E-002
+ Imaginary SURFACE Potential =    3.9541665666065567E-002
+ Real      SURFACE Potential =    3.9541665666065567E-002
+ Imaginary SURFACE Potential =    3.7886792034820101E-002
+ Real      SURFACE Potential =    3.7886792034820101E-002
+ Imaginary SURFACE Potential =    3.6299869484324981E-002
+ Real      SURFACE Potential =    3.6299869484324981E-002
+ Imaginary SURFACE Potential =    3.4778216235115129E-002
+ Real      SURFACE Potential =    3.4778216235115129E-002
+ Imaginary SURFACE Potential =    3.3319247307712123E-002
+ Real      SURFACE Potential =    3.3319247307712123E-002
+ Imaginary SURFACE Potential =    3.1920471799235309E-002
+ Real      SURFACE Potential =    3.1920471799235309E-002
+ Imaginary SURFACE Potential =    3.0579490166498188E-002
+ Real      SURFACE Potential =    3.0579490166498188E-002
+ Imaginary SURFACE Potential =    2.9293991523555558E-002
+ Real      SURFACE Potential =    2.9293991523555558E-002
+ Imaginary SURFACE Potential =    2.8061750960746267E-002
+ Real      SURFACE Potential =    2.8061750960746267E-002
+ Imaginary SURFACE Potential =    2.6880626891431721E-002
+ Real      SURFACE Potential =    2.6880626891431721E-002
+ Imaginary SURFACE Potential =    2.5748558431855240E-002
+ Real      SURFACE Potential =    2.5748558431855240E-002
+ Imaginary SURFACE Potential =    2.4663562818839059E-002
+ Real      SURFACE Potential =    2.4663562818839059E-002
+ Imaginary SURFACE Potential =    2.3623732869388101E-002
+ Real      SURFACE Potential =    2.3623732869388101E-002
+ Imaginary SURFACE Potential =    2.2627234485680034E-002
+ Real      SURFACE Potential =    2.2627234485680034E-002
+ Imaginary SURFACE Potential =    2.1672304208383522E-002
+ Real      SURFACE Potential =    2.1672304208383522E-002
+ Imaginary SURFACE Potential =    2.0757246820759953E-002
+ Real      SURFACE Potential =    2.0757246820759953E-002
+ Imaginary SURFACE Potential =    1.9880433005560944E-002
+ Real      SURFACE Potential =    1.9880433005560944E-002
+ Imaginary SURFACE Potential =    1.9040297056335354E-002
+ Real      SURFACE Potential =    1.9040297056335354E-002
+ Imaginary SURFACE Potential =    1.8235334644398388E-002
+ Real      SURFACE Potential =    1.8235334644398388E-002
+ Imaginary SURFACE Potential =    1.7464100642391282E-002
+ Real      SURFACE Potential =    1.7464100642391282E-002
+ Imaginary SURFACE Potential =    1.6725207005068722E-002
+ Real      SURFACE Potential =    1.6725207005068722E-002
+ Imaginary SURFACE Potential =    1.6017320707690502E-002
+ Real      SURFACE Potential =    1.6017320707690502E-002
+ Imaginary SURFACE Potential =    1.5339161742161505E-002
+ Real      SURFACE Potential =    1.5339161742161505E-002
+ Imaginary SURFACE Potential =    1.4689501170857067E-002
+ Real      SURFACE Potential =    1.4689501170857067E-002
+ Imaginary SURFACE Potential =    1.4067159237887799E-002
+ Real      SURFACE Potential =    1.4067159237887799E-002
+ Imaginary SURFACE Potential =    1.3471003537396208E-002
+ Real      SURFACE Potential =    1.3471003537396208E-002
+ Imaginary SURFACE Potential =    1.2899947238335657E-002
+ Real      SURFACE Potential =    1.2899947238335657E-002
+ Imaginary SURFACE Potential =    1.2352947365058360E-002
+ Real      SURFACE Potential =    1.2352947365058360E-002
+ Imaginary SURFACE Potential =    1.1829003132931462E-002
+ Real      SURFACE Potential =    1.1829003132931462E-002
+ Imaginary SURFACE Potential =    1.1327154338107900E-002
+ Real      SURFACE Potential =    1.1327154338107900E-002
+ Imaginary SURFACE Potential =    1.0846479800499575E-002
+ Real      SURFACE Potential =    1.0846479800499575E-002
+ Imaginary SURFACE Potential =    1.0386095858933584E-002
+ Real      SURFACE Potential =    1.0386095858933584E-002
+ Imaginary SURFACE Potential =    9.9451549174166369E-003
+ Real      SURFACE Potential =    9.9451549174166369E-003
+ Imaginary SURFACE Potential =    9.5228440413871185E-003
+ Real      SURFACE Potential =    9.5228440413871185E-003
+ Imaginary SURFACE Potential =    9.1183836027975782E-003
+ Real      SURFACE Potential =    9.1183836027975782E-003
+ Imaginary SURFACE Potential =    8.7310259728419944E-003
+ Real      SURFACE Potential =    8.7310259728419944E-003
+ Imaginary SURFACE Potential =    8.3600542611209343E-003
+ Real      SURFACE Potential =    8.3600542611209343E-003
+ Imaginary SURFACE Potential =    8.0047811000229924E-003
+ Real      SURFACE Potential =    8.0047811000229924E-003
+ Imaginary SURFACE Potential =    7.6645474730919986E-003
+ Real      SURFACE Potential =    7.6645474730919986E-003
+ Imaginary SURFACE Potential =    7.3387215861459298E-003
+ Real      SURFACE Potential =    7.3387215861459298E-003
+ Imaginary SURFACE Potential =    7.0266977799141239E-003
+ Real      SURFACE Potential =    7.0266977799141239E-003
+ Imaginary SURFACE Potential =    6.7278954829645375E-003
+ Real      SURFACE Potential =    6.7278954829645375E-003
+ Imaginary SURFACE Potential =    6.4417582037011884E-003
+ Real      SURFACE Potential =    6.4417582037011884E-003
+ Imaginary SURFACE Potential =    6.1677525602236109E-003
+ Real      SURFACE Potential =    6.1677525602236109E-003
+ Imaginary SURFACE Potential =    5.9053673468545311E-003
+ Real      SURFACE Potential =    5.9053673468545311E-003
+ Imaginary SURFACE Potential =    5.6541126361586017E-003
+ Real      SURFACE Potential =    5.6541126361586017E-003
+ Imaginary SURFACE Potential =    5.4135189152938927E-003
+ Real      SURFACE Potential =    5.4135189152938927E-003
+ Imaginary SURFACE Potential =    5.1831362555582244E-003
+ Real      SURFACE Potential =    5.1831362555582244E-003
+ Imaginary SURFACE Potential =    4.9625335140143622E-003
+ Real      SURFACE Potential =    4.9625335140143622E-003
+ Imaginary SURFACE Potential =    4.7512975661012143E-003
+ Real      SURFACE Potential =    4.7512975661012143E-003
+ Imaginary SURFACE Potential =    4.5490325681623103E-003
+ Real      SURFACE Potential =    4.5490325681623103E-003
+ Imaginary SURFACE Potential =    4.3553592488477172E-003
+ Real      SURFACE Potential =    4.3553592488477172E-003
+ Imaginary SURFACE Potential =    4.1699142283710255E-003
+ Real      SURFACE Potential =    4.1699142283710255E-003
+ Imaginary SURFACE Potential =    3.9923493646291056E-003
+ Real      SURFACE Potential =    3.9923493646291056E-003
+ Imaginary SURFACE Potential =    3.8223311252184576E-003
+ Real      SURFACE Potential =    3.8223311252184576E-003
+ Imaginary SURFACE Potential =    3.6595399844085771E-003
+ Real      SURFACE Potential =    3.6595399844085771E-003
+ Imaginary SURFACE Potential =    3.5036698441591840E-003
+ Real      SURFACE Potential =    3.5036698441591840E-003
+ Imaginary SURFACE Potential =    3.3544274782947216E-003
+ Real      SURFACE Potential =    3.3544274782947216E-003
+ Imaginary SURFACE Potential =    3.2115319989758609E-003
+ Real      SURFACE Potential =    3.2115319989758609E-003
+ Imaginary SURFACE Potential =    3.0747143446340029E-003
+ Real      SURFACE Potential =    3.0747143446340029E-003
+ Imaginary SURFACE Potential =    2.9437167885606390E-003
+ Real      SURFACE Potential =    2.9437167885606390E-003
+ Imaginary SURFACE Potential =    2.8182924673690823E-003
+ Real      SURFACE Potential =    2.8182924673690823E-003
+ Imaginary SURFACE Potential =    2.6982049285713267E-003
+ Real      SURFACE Potential =    2.6982049285713267E-003
+ Imaginary SURFACE Potential =    2.5832276965375863E-003
+ Real      SURFACE Potential =    2.5832276965375863E-003
+ Imaginary SURFACE Potential =    2.4731438561305338E-003
+ Real      SURFACE Potential =    2.4731438561305338E-003
+ Imaginary SURFACE Potential =    2.3677456533300789E-003
+ Real      SURFACE Potential =    2.3677456533300789E-003
+ Imaginary SURFACE Potential =    2.2668341121879982E-003
+ Real      SURFACE Potential =    2.2668341121879982E-003
+ Imaginary SURFACE Potential =    2.1702186674745841E-003
+ Real      SURFACE Potential =    2.1702186674745841E-003
+ Imaginary SURFACE Potential =    2.0777168124018349E-003
+ Real      SURFACE Potential =    2.0777168124018349E-003
+ Imaginary SURFACE Potential =    1.9891537608294845E-003
+ Real      SURFACE Potential =    1.9891537608294845E-003
+ Imaginary SURFACE Potential =    1.9043621233814127E-003
+ Real      SURFACE Potential =    1.9043621233814127E-003
+ Imaginary SURFACE Potential =    1.8231815969206434E-003
+ Real      SURFACE Potential =    1.8231815969206434E-003
+ Imaginary SURFACE Potential =    1.7454586668511974E-003
+ Real      SURFACE Potential =    1.7454586668511974E-003
+ Imaginary SURFACE Potential =    1.6710463217346236E-003
+ Real      SURFACE Potential =    1.6710463217346236E-003
+ Imaginary SURFACE Potential =    1.5998037797279527E-003
+ Real      SURFACE Potential =    1.5998037797279527E-003
+ Imaginary SURFACE Potential =    1.5315962263681949E-003
+ Real      SURFACE Potential =    1.5315962263681949E-003
+ Imaginary SURFACE Potential =    1.4662945632463371E-003
+ Real      SURFACE Potential =    1.4662945632463371E-003
+ Imaginary SURFACE Potential =    1.4037751671310283E-003
+ Real      SURFACE Potential =    1.4037751671310283E-003
+ Imaginary SURFACE Potential =    1.3439196591188622E-003
+ Real      SURFACE Potential =    1.3439196591188622E-003
+ Imaginary SURFACE Potential =    1.2866146834043227E-003
+ Real      SURFACE Potential =    1.2866146834043227E-003
+ Imaginary SURFACE Potential =    1.2317516952780900E-003
+ Real      SURFACE Potential =    1.2317516952780900E-003
+ Imaginary SURFACE Potential =    1.1792267579775059E-003
+ Real      SURFACE Potential =    1.1792267579775059E-003
+ Imaginary SURFACE Potential =    1.1289403480276080E-003
+ Real      SURFACE Potential =    1.1289403480276080E-003
+ Imaginary SURFACE Potential =    1.0807971687252012E-003
+ Real      SURFACE Potential =    1.0807971687252012E-003
+ Imaginary SURFACE Potential =    1.0347059714320777E-003
+ Real      SURFACE Potential =    1.0347059714320777E-003
+ Imaginary SURFACE Potential =    9.9057938435657619E-004
+ Real      SURFACE Potential =    9.9057938435657619E-004
+ Imaginary SURFACE Potential =    9.4833374851536372E-004
+ Real      SURFACE Potential =    9.4833374851536372E-004
+ Imaginary SURFACE Potential =    9.0788896057950020E-004
+ Real      SURFACE Potential =    9.0788896057950020E-004
+ Imaginary SURFACE Potential =    8.6916832232061716E-004
+ Real      SURFACE Potential =    8.6916832232061716E-004
+ Imaginary SURFACE Potential =    8.3209839638436704E-004
+ Real      SURFACE Potential =    8.3209839638436704E-004
+ Imaginary SURFACE Potential =    7.9660886812921020E-004
+ Real      SURFACE Potential =    7.9660886812921020E-004
+ Imaginary SURFACE Potential =    7.6263241327912150E-004
+ Real      SURFACE Potential =    7.6263241327912150E-004
+ Imaginary SURFACE Potential =    7.3010457114890169E-004
+ Real      SURFACE Potential =    7.3010457114890169E-004
+ Imaginary SURFACE Potential =    6.9896362321052250E-004
+ Real      SURFACE Potential =    6.9896362321052250E-004
+ Imaginary SURFACE Potential =    6.6915047677829228E-004
+ Real      SURFACE Potential =    6.6915047677829228E-004
+ Imaginary SURFACE Potential =    6.4060855359964169E-004
+ Real      SURFACE Potential =    6.4060855359964169E-004
+ Imaginary SURFACE Potential =    6.1328368314699086E-004
+ Real      SURFACE Potential =    6.1328368314699086E-004
+ Imaginary SURFACE Potential =    5.8712400041448904E-004
+ Real      SURFACE Potential =    5.8712400041448904E-004
+ Imaginary SURFACE Potential =    5.6207984803142454E-004
+ Real      SURFACE Potential =    5.6207984803142454E-004
+ Imaginary SURFACE Potential =    5.3810368251180072E-004
+ Real      SURFACE Potential =    5.3810368251180072E-004
+ Imaginary SURFACE Potential =    5.1514998446696770E-004
+ Real      SURFACE Potential =    5.1514998446696770E-004
+ Imaginary SURFACE Potential =    4.9317517261530399E-004
+ Real      SURFACE Potential =    4.9317517261530399E-004
+ Imaginary SURFACE Potential =    4.7213752142977319E-004
+ Real      SURFACE Potential =    4.7213752142977319E-004
+ Imaginary SURFACE Potential =    4.5199708227072451E-004
+ Real      SURFACE Potential =    4.5199708227072451E-004
+ Imaginary SURFACE Potential =    4.3271560785762022E-004
+ Real      SURFACE Potential =    4.3271560785762022E-004
+ Imaginary SURFACE Potential =    4.1425647993939779E-004
+ Real      SURFACE Potential =    4.1425647993939779E-004
+ Imaginary SURFACE Potential =    3.9658464002899428E-004
+ Real      SURFACE Potential =    3.9658464002899428E-004
+ Imaginary SURFACE Potential =    3.7966652307312357E-004
+ Real      SURFACE Potential =    3.7966652307312357E-004
+ Imaginary SURFACE Potential =    3.6346999393374493E-004
+ Real      SURFACE Potential =    3.6346999393374493E-004
+ Imaginary SURFACE Potential =    3.4796428656279750E-004
+ Real      SURFACE Potential =    3.4796428656279750E-004
+ Imaginary SURFACE Potential =    3.3311994575669501E-004
+ Real      SURFACE Potential =    3.3311994575669501E-004
+ Imaginary SURFACE Potential =    3.1890877138180188E-004
+ Real      SURFACE Potential =    3.1890877138180188E-004
+ Imaginary SURFACE Potential =    3.0530376496664920E-004
+ Real      SURFACE Potential =    3.0530376496664920E-004
+ Imaginary SURFACE Potential =    2.9227907856099034E-004
+ Real      SURFACE Potential =    2.9227907856099034E-004
+ Imaginary SURFACE Potential =    2.7980996576597517E-004
+ Real      SURFACE Potential =    2.7980996576597517E-004
+ Imaginary SURFACE Potential =    2.6787273484371761E-004
+ Real      SURFACE Potential =    2.6787273484371761E-004
+ Imaginary SURFACE Potential =    2.5644470381837211E-004
+ Real      SURFACE Potential =    2.5644470381837211E-004
+ Imaginary SURFACE Potential =    2.4550415748451351E-004
+ Real      SURFACE Potential =    2.4550415748451351E-004
+ Imaginary SURFACE Potential =    2.3503030624214257E-004
+ Real      SURFACE Potential =    2.3503030624214257E-004
+ Imaginary SURFACE Potential =    2.2500324668102434E-004
+ Real      SURFACE Potential =    2.2500324668102434E-004
+ Imaginary SURFACE Potential =    2.1540392384031162E-004
+ Real      SURFACE Potential =    2.1540392384031162E-004
+ Imaginary SURFACE Potential =    2.0621409507251212E-004
+ Real      SURFACE Potential =    2.0621409507251212E-004
+ Imaginary SURFACE Potential =    1.9741629544384491E-004
+ Real      SURFACE Potential =    1.9741629544384491E-004
+ Imaginary SURFACE Potential =    1.8899380460588451E-004
+ Real      SURFACE Potential =    1.8899380460588451E-004
+ Imaginary SURFACE Potential =    1.8093061507613587E-004
+ Real      SURFACE Potential =    1.8093061507613587E-004
+ Imaginary SURFACE Potential =    1.7321140186780414E-004
+ Real      SURFACE Potential =    1.7321140186780414E-004
+ Imaginary SURFACE Potential =    1.6582149341154415E-004
+ Real      SURFACE Potential =    1.6582149341154415E-004
+ Imaginary SURFACE Potential =    1.5874684371438495E-004
+ Real      SURFACE Potential =    1.5874684371438495E-004
+ Imaginary SURFACE Potential =    1.5197400570333562E-004
+ Real      SURFACE Potential =    1.5197400570333562E-004
+ Imaginary SURFACE Potential =    1.4549010570339506E-004
+ Real      SURFACE Potential =    1.4549010570339506E-004
+ Imaginary SURFACE Potential =    1.3928281900181028E-004
+ Real      SURFACE Potential =    1.3928281900181028E-004
+ Imaginary SURFACE Potential =    1.3334034645246298E-004
+ Real      SURFACE Potential =    1.3334034645246298E-004
+ Imaginary SURFACE Potential =    1.2765139207621075E-004
+ Real      SURFACE Potential =    1.2765139207621075E-004
+ Imaginary SURFACE Potential =    1.2220514161487994E-004
+ Real      SURFACE Potential =    1.2220514161487994E-004
+ Imaginary SURFACE Potential =    1.1699124199839310E-004
+ Real      SURFACE Potential =    1.1699124199839310E-004
+ Imaginary SURFACE Potential =    1.1199978168623067E-004
+ Real      SURFACE Potential =    1.1199978168623067E-004
+ Imaginary SURFACE Potential =    1.0722127184606706E-004
+ Real      SURFACE Potential =    1.0722127184606706E-004
+ Imaginary SURFACE Potential =    1.0264662833399527E-004
+ Real      SURFACE Potential =    1.0264662833399527E-004
+ Imaginary SURFACE Potential =    9.8267154442261808E-005
+ Real      SURFACE Potential =    9.8267154442261808E-005
+ Imaginary SURFACE Potential =    9.4074524381875928E-005
+ Real      SURFACE Potential =    9.4074524381875928E-005
+ Imaginary SURFACE Potential =    9.0060767468841952E-005
+ Real      SURFACE Potential =    9.0060767468841952E-005
+ Imaginary SURFACE Potential =    8.6218252984087543E-005
+ Real      SURFACE Potential =    8.6218252984087543E-005
+ Imaginary SURFACE Potential =    8.2539675678429213E-005
+ Real      SURFACE Potential =    8.2539675678429213E-005
+ Imaginary SURFACE Potential =    7.9018041895132974E-005
+ Real      SURFACE Potential =    7.9018041895132974E-005
+ Imaginary SURFACE Potential =    7.5646656283791838E-005
+ Real      SURFACE Potential =    7.5646656283791838E-005
+ Imaginary SURFACE Potential =    7.2419109080356102E-005
+ Real      SURFACE Potential =    7.2419109080356102E-005
+ Imaginary SURFACE Potential =    6.9329263929222593E-005
+ Real      SURFACE Potential =    6.9329263929222593E-005
+ Imaginary SURFACE Potential =    6.6371246224309596E-005
+ Real      SURFACE Potential =    6.6371246224309596E-005
+ Imaginary SURFACE Potential =    6.3539431947025703E-005
+ Real      SURFACE Potential =    6.3539431947025703E-005
+ Imaginary SURFACE Potential =    6.0828436979977852E-005
+ Real      SURFACE Potential =    6.0828436979977852E-005
+ Imaginary SURFACE Potential =    5.8233106876164070E-005
+ Real      SURFACE Potential =    5.8233106876164070E-005
+ Imaginary SURFACE Potential =    5.5748507064255034E-005
+ Real      SURFACE Potential =    5.5748507064255034E-005
+ Imaginary SURFACE Potential =    5.3369913471394788E-005
+ Real      SURFACE Potential =    5.3369913471394788E-005
+ Imaginary SURFACE Potential =    5.1092803545738721E-005
+ Real      SURFACE Potential =    5.1092803545738721E-005
+ Imaginary SURFACE Potential =    4.8912847661703926E-005
+ Real      SURFACE Potential =    4.8912847661703926E-005
+ Imaginary SURFACE Potential =    4.6825900891630094E-005
+ Real      SURFACE Potential =    4.6825900891630094E-005
+ Imaginary SURFACE Potential =    4.4827995128243002E-005
+ Real      SURFACE Potential =    4.4827995128243002E-005
+ Imaginary SURFACE Potential =    4.2915331542976075E-005
+ Real      SURFACE Potential =    4.2915331542976075E-005
+ Imaginary SURFACE Potential =    4.1084273365841169E-005
+ Real      SURFACE Potential =    4.1084273365841169E-005
+ Imaginary SURFACE Potential =    3.9331338973148629E-005
+ Real      SURFACE Potential =    3.9331338973148629E-005
+ Imaginary SURFACE Potential =    3.7653195269959653E-005
+ Real      SURFACE Potential =    3.7653195269959653E-005
+ Imaginary SURFACE Potential =    3.6046651354711751E-005
+ Real      SURFACE Potential =    3.6046651354711751E-005
+ Imaginary SURFACE Potential =    3.4508652453993050E-005
+ Real      SURFACE Potential =    3.4508652453993050E-005
+ Imaginary SURFACE Potential =    3.3036274115952539E-005
+ Real      SURFACE Potential =    3.3036274115952539E-005
+ Imaginary SURFACE Potential =    3.1626716651323861E-005
+ Real      SURFACE Potential =    3.1626716651323861E-005
+ Imaginary SURFACE Potential =    3.0277299811509103E-005
+ Real      SURFACE Potential =    3.0277299811509103E-005
+ Imaginary SURFACE Potential =    2.8985457693618521E-005
+ Real      SURFACE Potential =    2.8985457693618521E-005
+ Imaginary SURFACE Potential =    2.7748733862792423E-005
+ Real      SURFACE Potential =    2.7748733862792423E-005
+ Imaginary SURFACE Potential =    2.6564776682543284E-005
+ Real      SURFACE Potential =    2.6564776682543284E-005
+ Imaginary SURFACE Potential =    2.5431334844250459E-005
+ Real      SURFACE Potential =    2.5431334844250459E-005
+ Imaginary SURFACE Potential =    2.4346253087317969E-005
+ Real      SURFACE Potential =    2.4346253087317969E-005
+ Imaginary SURFACE Potential =    2.3307468101866895E-005
+ Real      SURFACE Potential =    2.3307468101866895E-005
+ Imaginary SURFACE Potential =    2.2313004606180483E-005
+ Real      SURFACE Potential =    2.2313004606180483E-005
+ Imaginary SURFACE Potential =    2.1360971591451565E-005
+ Real      SURFACE Potential =    2.1360971591451565E-005
+ Imaginary SURFACE Potential =    2.0449558726699184E-005
+ Real      SURFACE Potential =    2.0449558726699184E-005
+ Imaginary SURFACE Potential =    1.9577032917025248E-005
+ Real      SURFACE Potential =    1.9577032917025248E-005
+ Imaginary SURFACE Potential =    1.8741735008673054E-005
+ Real      SURFACE Potential =    1.8741735008673054E-005
+ Imaginary SURFACE Potential =    1.7942076634628160E-005
+ Real      SURFACE Potential =    1.7942076634628160E-005
+ Imaginary SURFACE Potential =    1.7176537194768652E-005
+ Real      SURFACE Potential =    1.7176537194768652E-005
+ Imaginary SURFACE Potential =    1.6443660964827431E-005
+ Real      SURFACE Potential =    1.6443660964827431E-005
+ Imaginary SURFACE Potential =    1.5742054328673544E-005
+ Real      SURFACE Potential =    1.5742054328673544E-005
+ Imaginary SURFACE Potential =    1.5070383128653750E-005
+ Real      SURFACE Potential =    1.5070383128653750E-005
+ Imaginary SURFACE Potential =    1.4427370128959590E-005
+ Real      SURFACE Potential =    1.4427370128959590E-005
+ Imaginary SURFACE Potential =    1.3811792587199884E-005
+ Real      SURFACE Potential =    1.3811792587199884E-005
+ Imaginary SURFACE Potential =    1.3222479929563996E-005
+ Real      SURFACE Potential =    1.3222479929563996E-005
+ Imaginary SURFACE Potential =    1.2658311525158009E-005
+ Real      SURFACE Potential =    1.2658311525158009E-005
+ Imaginary SURFACE Potential =    1.2118214555284094E-005
+ Real      SURFACE Potential =    1.2118214555284094E-005
+ Imaginary SURFACE Potential =    1.1601161973613868E-005
+ Real      SURFACE Potential =    1.1601161973613868E-005
+ Imaginary SURFACE Potential =    1.1106170553379111E-005
+ Real      SURFACE Potential =    1.1106170553379111E-005
+ Imaginary SURFACE Potential =    1.0632299017868323E-005
+ Real      SURFACE Potential =    1.0632299017868323E-005
+ Imaginary SURFACE Potential =    1.0178646250676157E-005
+ Real      SURFACE Potential =    1.0178646250676157E-005
+ Imaginary SURFACE Potential =    9.7443495823039312E-006
+ Real      SURFACE Potential =    9.7443495823039312E-006
+ Imaginary SURFACE Potential =    9.3285831498546949E-006
+ Real      SURFACE Potential =    9.3285831498546949E-006
+ Imaginary SURFACE Potential =    8.9305563267050260E-006
+ Real      SURFACE Potential =    8.9305563267050260E-006
+ Imaginary SURFACE Potential =    8.5495122191688412E-006
+ Real      SURFACE Potential =    8.5495122191688412E-006
+ Imaginary SURFACE Potential =    8.1847262272955765E-006
+ Real      SURFACE Potential =    8.1847262272955765E-006
+ Imaginary SURFACE Potential =    7.8355046670671442E-006
+ Real      SURFACE Potential =    7.8355046670671442E-006
+ Imaginary SURFACE Potential =    7.5011834513746051E-006
+ Real      SURFACE Potential =    7.5011834513746051E-006
+ Imaginary SURFACE Potential =    7.1811268272672293E-006
+ Real      SURFACE Potential =    7.1811268272672293E-006
+ Imaginary SURFACE Potential =    6.8747261670735370E-006
+ Real      SURFACE Potential =    6.8747261670735370E-006
+ Imaginary SURFACE Potential =    6.5813988110962698E-006
+ Real      SURFACE Potential =    6.5813988110962698E-006
+ Imaginary SURFACE Potential =    6.3005869596813026E-006
+ Real      SURFACE Potential =    6.3005869596813026E-006
+ Imaginary SURFACE Potential =    6.0317566125542469E-006
+ Real      SURFACE Potential =    6.0317566125542469E-006
+ Imaginary SURFACE Potential =    5.7743965534083807E-006
+ Real      SURFACE Potential =    5.7743965534083807E-006
+ Imaginary SURFACE Potential =    5.5280173778135346E-006
+ Real      SURFACE Potential =    5.5280173778135346E-006
+ Imaginary SURFACE Potential =    5.2921505625979146E-006
+ Real      SURFACE Potential =    5.2921505625979146E-006
+ Imaginary SURFACE Potential =    5.0663475749335659E-006
+ Real      SURFACE Potential =    5.0663475749335659E-006
+ Imaginary SURFACE Potential =    4.8501790194317928E-006
+ Real      SURFACE Potential =    4.8501790194317928E-006
+ Imaginary SURFACE Potential =    4.6432338216269751E-006
+ Real      SURFACE Potential =    4.6432338216269751E-006
+ Imaginary SURFACE Potential =    4.4451184462964253E-006
+ Real      SURFACE Potential =    4.4451184462964253E-006
+ Imaginary SURFACE Potential =    4.2554561491301672E-006
+ Real      SURFACE Potential =    4.2554561491301672E-006
+ Imaginary SURFACE Potential =    4.0738862603278617E-006
+ Real      SURFACE Potential =    4.0738862603278617E-006
+ Imaginary SURFACE Potential =    3.9000634987608453E-006
+ Real      SURFACE Potential =    3.9000634987608453E-006
+ Imaginary SURFACE Potential =    3.7336573153952808E-006
+ Real      SURFACE Potential =    3.7336573153952808E-006
+ Imaginary SURFACE Potential =    3.5743512647281174E-006
+ Real      SURFACE Potential =    3.5743512647281174E-006
+ Imaginary SURFACE Potential =    3.4218424030407488E-006
+ Real      SURFACE Potential =    3.4218424030407488E-006
+ Imaginary SURFACE Potential =    3.2758407123262639E-006
+ Real      SURFACE Potential =    3.2758407123262639E-006
+ Imaginary SURFACE Potential =    3.1360685487949838E-006
+ Real      SURFACE Potential =    3.1360685487949838E-006
+ Imaginary SURFACE Potential =    3.0022601149096994E-006
+ Real      SURFACE Potential =    3.0022601149096994E-006
+ Imaginary SURFACE Potential =    2.8741609539467627E-006
+ Real      SURFACE Potential =    2.8741609539467627E-006
+ Imaginary SURFACE Potential =    2.7515274661220059E-006
+ Real      SURFACE Potential =    2.7515274661220059E-006
+ Imaginary SURFACE Potential =    2.6341264453614472E-006
+ Real      SURFACE Potential =    2.6341264453614472E-006
+ Imaginary SURFACE Potential =    2.5217346358360104E-006
+ Real      SURFACE Potential =    2.5217346358360104E-006
+ Imaginary SURFACE Potential =    2.4141383074170350E-006
+ Real      SURFACE Potential =    2.4141383074170350E-006
+ Imaginary SURFACE Potential =    2.3111328492453616E-006
+ Real      SURFACE Potential =    2.3111328492453616E-006
+ Imaginary SURFACE Potential =    2.2125223806411729E-006
+ Real      SURFACE Potential =    2.2125223806411729E-006
+ Imaginary SURFACE Potential =    2.1181193786147556E-006
+ Real      SURFACE Potential =    2.1181193786147556E-006
+ Imaginary SURFACE Potential =    2.0277443212699403E-006
+ Real      SURFACE Potential =    2.0277443212699403E-006
+ Imaginary SURFACE Potential =    1.9412253464221256E-006
+ Real      SURFACE Potential =    1.9412253464221256E-006
+ Imaginary SURFACE Potential =    1.8583979247818008E-006
+ Real      SURFACE Potential =    1.8583979247818008E-006
+ Imaginary SURFACE Potential =    1.7791045470820979E-006
+ Real      SURFACE Potential =    1.7791045470820979E-006
+ Imaginary SURFACE Potential =    1.7031944245554712E-006
+ Real      SURFACE Potential =    1.7031944245554712E-006
+ Imaginary SURFACE Potential =    1.6305232021899569E-006
+ Real      SURFACE Potential =    1.6305232021899569E-006
+ Imaginary SURFACE Potential =    1.5609526842197672E-006
+ Real      SURFACE Potential =    1.5609526842197672E-006
+ Imaginary SURFACE Potential =    1.4943505713282435E-006
+ Real      SURFACE Potential =    1.4943505713282435E-006
+ Imaginary SURFACE Potential =    1.4305902090634488E-006
+ Real      SURFACE Potential =    1.4305902090634488E-006
+ Imaginary SURFACE Potential =    1.3695503469880077E-006
+ Real      SURFACE Potential =    1.3695503469880077E-006
+ Imaginary SURFACE Potential =    1.3111149081052194E-006
+ Real      SURFACE Potential =    1.3111149081052194E-006
+ Imaginary SURFACE Potential =    1.2551727681229879E-006
+ Real      SURFACE Potential =    1.2551727681229879E-006
+ Imaginary SURFACE Potential =    1.2016175441358363E-006
+ Real      SURFACE Potential =    1.2016175441358363E-006
+ Imaginary SURFACE Potential =    1.1503473923231786E-006
+ Real      SURFACE Potential =    1.1503473923231786E-006
+ Imaginary SURFACE Potential =    1.1012648142791560E-006
+ Real      SURFACE Potential =    1.1012648142791560E-006
+ Imaginary SURFACE Potential =    1.0542764716057657E-006
+ Real      SURFACE Potential =    1.0542764716057657E-006
+ Imaginary SURFACE Potential =    1.0092930084167204E-006
+ Real      SURFACE Potential =    1.0092930084167204E-006
+ Imaginary SURFACE Potential =    9.6622888141451972E-007
+ Real      SURFACE Potential =    9.6622888141451972E-007
+ Imaginary SURFACE Potential =    9.2500219721760770E-007
+ Real      SURFACE Potential =    9.2500219721760770E-007
+ Imaginary SURFACE Potential =    8.8553455662829127E-007
+ Real      SURFACE Potential =    8.8553455662829127E-007
+ Imaginary SURFACE Potential =    8.4775090554527424E-007
+ Real      SURFACE Potential =    8.4775090554527424E-007
+ Imaginary SURFACE Potential =    8.1157939223731056E-007
+ Real      SURFACE Potential =    8.1157939223731056E-007
+ Imaginary SURFACE Potential =    7.7695123070656867E-007
+ Real      SURFACE Potential =    7.7695123070656867E-007
+ Imaginary SURFACE Potential =    7.4380056988188076E-007
+ Real      SURFACE Potential =    7.4380056988188076E-007
+ Imaginary SURFACE Potential =    7.1206436839313684E-007
+ Real      SURFACE Potential =    7.1206436839313684E-007
+ Imaginary SURFACE Potential =    6.8168227468869193E-007
+ Real      SURFACE Potential =    6.8168227468869193E-007
+ Imaginary SURFACE Potential =    6.5259651226782447E-007
+ Real      SURFACE Potential =    6.5259651226782447E-007
+ Imaginary SURFACE Potential =    6.2475176980999642E-007
+ Real      SURFACE Potential =    6.2475176980999642E-007
+ Imaginary SURFACE Potential =    5.9809509599198965E-007
+ Real      SURFACE Potential =    5.9809509599198965E-007
+ Imaginary SURFACE Potential =    5.7257579879290088E-007
+ Real      SURFACE Potential =    5.7257579879290088E-007
+ Imaginary SURFACE Potential =    5.4814534909551161E-007
+ Real      SURFACE Potential =    5.4814534909551161E-007
+ Imaginary SURFACE Potential =    5.2475728840072282E-007
+ Real      SURFACE Potential =    5.2475728840072282E-007
+ Imaginary SURFACE Potential =    5.0236714047955847E-007
+ Real      SURFACE Potential =    5.0236714047955847E-007
+ Imaginary SURFACE Potential =    4.8093232679474018E-007
+ Real      SURFACE Potential =    4.8093232679474018E-007
+ Imaginary SURFACE Potential =    4.6041208553099169E-007
+ Real      SURFACE Potential =    4.6041208553099169E-007
+ Imaginary SURFACE Potential =    4.4076739408010292E-007
+ Real      SURFACE Potential =    4.4076739408010292E-007
+ Imaginary SURFACE Potential =    4.2196089483334613E-007
+ Real      SURFACE Potential =    4.2196089483334613E-007
+ Imaginary SURFACE Potential =    4.0395682414013445E-007
+ Real      SURFACE Potential =    4.0395682414013445E-007
+ Imaginary SURFACE Potential =    3.8672094429782414E-007
+ Real      SURFACE Potential =    3.8672094429782414E-007
+ Imaginary SURFACE Potential =    3.7022047844333072E-007
+ Real      SURFACE Potential =    3.7022047844333072E-007
+ Imaginary SURFACE Potential =    3.5442404822275139E-007
+ Real      SURFACE Potential =    3.5442404822275139E-007
+ Imaginary SURFACE Potential =    3.3930161412045905E-007
+ Real      SURFACE Potential =    3.3930161412045905E-007
+ Imaginary SURFACE Potential =    3.2482441833419850E-007
+ Real      SURFACE Potential =    3.2482441833419850E-007
+ Imaginary SURFACE Potential =    3.1096493008755458E-007
+ Real      SURFACE Potential =    3.1096493008755458E-007
+ Imaginary SURFACE Potential =    2.9769679327579439E-007
+ Real      SURFACE Potential =    2.9769679327579439E-007
+ Imaginary SURFACE Potential =    2.8499477634552790E-007
+ Real      SURFACE Potential =    2.8499477634552790E-007
+ Imaginary SURFACE Potential =    2.7283472431287303E-007
+ Real      SURFACE Potential =    2.7283472431287303E-007
+ Imaginary SURFACE Potential =    2.6119351282888379E-007
+ Real      SURFACE Potential =    2.6119351282888379E-007
+ Imaginary SURFACE Potential =    2.5004900420488857E-007
+ Real      SURFACE Potential =    2.5004900420488857E-007
+ Imaginary SURFACE Potential =    2.3938000531411627E-007
+ Real      SURFACE Potential =    2.3938000531411627E-007
+ Imaginary SURFACE Potential =    2.2916622728955181E-007
+ Real      SURFACE Potential =    2.2916622728955181E-007
+ Imaginary SURFACE Potential =    2.1938824694138381E-007
+ Real      SURFACE Potential =    2.1938824694138381E-007
+ Imaginary SURFACE Potential =    2.1002746982067089E-007
+ Real      SURFACE Potential =    2.1002746982067089E-007
+ Imaginary SURFACE Potential =    2.0106609485898956E-007
+ Real      SURFACE Potential =    2.0106609485898956E-007
+ Imaginary SURFACE Potential =    1.9248708051681884E-007
+ Real      SURFACE Potential =    1.9248708051681884E-007
+ Imaginary SURFACE Potential =    1.8427411237628915E-007
+ Real      SURFACE Potential =    1.8427411237628915E-007
+ Imaginary SURFACE Potential =    1.7641157211666724E-007
+ Real      SURFACE Potential =    1.7641157211666724E-007
+ Imaginary SURFACE Potential =    1.6888450781357984E-007
+ Real      SURFACE Potential =    1.6888450781357984E-007
+ Imaginary SURFACE Potential =    1.6167860550549613E-007
+ Real      SURFACE Potential =    1.6167860550549613E-007
+ Imaginary SURFACE Potential =    1.5478016197339728E-007
+ Real      SURFACE Potential =    1.5478016197339728E-007
+ Imaginary SURFACE Potential =    1.4817605868187030E-007
+ Real      SURFACE Potential =    1.4817605868187030E-007
+ Imaginary SURFACE Potential =    1.4185373683207121E-007
+ Real      SURFACE Potential =    1.4185373683207121E-007
+ Imaginary SURFACE Potential =    1.3580117347911646E-007
+ Real      SURFACE Potential =    1.3580117347911646E-007
+ Imaginary SURFACE Potential =    1.3000685866848660E-007
+ Real      SURFACE Potential =    1.3000685866848660E-007
+ Imaginary SURFACE Potential =    1.2445977354796355E-007
+ Real      SURFACE Potential =    1.2445977354796355E-007
+ Imaginary SURFACE Potential =    1.1914936941347726E-007
+ Real      SURFACE Potential =    1.1914936941347726E-007
+ Imaginary SURFACE Potential =    1.1406554764901557E-007
+ Real      SURFACE Potential =    1.1406554764901557E-007
+ Imaginary SURFACE Potential =    1.0919864052244839E-007
+ Real      SURFACE Potential =    1.0919864052244839E-007
+ Imaginary SURFACE Potential =    1.0453939280074736E-007
+ Real      SURFACE Potential =    1.0453939280074736E-007
+ Imaginary SURFACE Potential =    1.0007894414963941E-007
+ Real      SURFACE Potential =    1.0007894414963941E-007
+ Imaginary SURFACE Potential =    9.5808812284223984E-008
+ Real      SURFACE Potential =    9.5808812284223984E-008
+ Imaginary SURFACE Potential =    9.1720876838512528E-008
+ Real      SURFACE Potential =    9.1720876838512528E-008
+ Imaginary SURFACE Potential =    8.7807363923215521E-008
+ Real      SURFACE Potential =    8.7807363923215521E-008
+ Imaginary SURFACE Potential =    8.4060831342411385E-008
+ Real      SURFACE Potential =    8.4060831342411385E-008
+ Imaginary SURFACE Potential =    8.0474154440984132E-008
+ Real      SURFACE Potential =    8.0474154440984132E-008
+ Imaginary SURFACE Potential =    7.7040512555916628E-008
+ Real      SURFACE Potential =    7.7040512555916628E-008
+ Imaginary SURFACE Potential =    7.3753376045674319E-008
+ Real      SURFACE Potential =    7.3753376045674319E-008
+ Imaginary SURFACE Potential =    7.0606493873013981E-008
+ Real      SURFACE Potential =    7.0606493873013981E-008
+ Imaginary SURFACE Potential =    6.7593881717603965E-008
+ Real      SURFACE Potential =    6.7593881717603965E-008
+ Imaginary SURFACE Potential =    6.4709810595850132E-008
+ Real      SURFACE Potential =    6.4709810595850132E-008
+ Imaginary SURFACE Potential =    6.1948795966286589E-008
+ Real      SURFACE Potential =    6.1948795966286589E-008
+ Imaginary SURFACE Potential =    5.9305587299813035E-008
+ Real      SURFACE Potential =    5.9305587299813035E-008
+ Imaginary SURFACE Potential =    5.6775158094945010E-008
+ Real      SURFACE Potential =    5.6775158094945010E-008
+ Imaginary SURFACE Potential =    5.4352696319089493E-008
+ Real      SURFACE Potential =    5.4352696319089493E-008
+ Imaginary SURFACE Potential =    5.2033595257668119E-008
+ Real      SURFACE Potential =    5.2033595257668119E-008
+ Imaginary SURFACE Potential =    4.9813444753686601E-008
+ Real      SURFACE Potential =    4.9813444753686601E-008
+ Imaginary SURFACE Potential =    4.7688022821090377E-008
+ Real      SURFACE Potential =    4.7688022821090377E-008
+ Imaginary SURFACE Potential =    4.5653287615958641E-008
+ Real      SURFACE Potential =    4.5653287615958641E-008
+ Imaginary SURFACE Potential =    4.3705369750267879E-008
+ Real      SURFACE Potential =    4.3705369750267879E-008
+ Imaginary SURFACE Potential =    4.1840564933609168E-008
+ Real      SURFACE Potential =    4.1840564933609168E-008
+ Imaginary SURFACE Potential =    4.0055326928865252E-008
+ Real      SURFACE Potential =    4.0055326928865252E-008
+ Imaginary SURFACE Potential =    3.8346260808452570E-008
+ Real      SURFACE Potential =    3.8346260808452570E-008
+ Imaginary SURFACE Potential =    3.6710116498302872E-008
+ Real      SURFACE Potential =    3.6710116498302872E-008
+ Imaginary SURFACE Potential =    3.5143782597308017E-008
+ Real      SURFACE Potential =    3.5143782597308017E-008
+ Imaginary SURFACE Potential =    3.3644280460474066E-008
+ Real      SURFACE Potential =    3.3644280460474066E-008
+ Imaginary SURFACE Potential =    3.2208758534533267E-008
+ Real      SURFACE Potential =    3.2208758534533267E-008
+ Imaginary SURFACE Potential =    3.0834486935241800E-008
+ Real      SURFACE Potential =    3.0834486935241800E-008
+ Imaginary SURFACE Potential =    2.9518852256051430E-008
+ Real      SURFACE Potential =    2.9518852256051430E-008
+ Imaginary SURFACE Potential =    2.8259352598282560E-008
+ Real      SURFACE Potential =    2.8259352598282560E-008
+ Imaginary SURFACE Potential =    2.7053592813348238E-008
+ Real      SURFACE Potential =    2.7053592813348238E-008
+ Imaginary SURFACE Potential =    2.5899279947980867E-008
+ Real      SURFACE Potential =    2.5899279947980867E-008
+ Imaginary SURFACE Potential =    2.4794218883800385E-008
+ Real      SURFACE Potential =    2.4794218883800385E-008
+ Imaginary SURFACE Potential =    2.3736308162931675E-008
+ Real      SURFACE Potential =    2.3736308162931675E-008
+ Imaginary SURFACE Potential =    2.2723535991732876E-008
+ Real      SURFACE Potential =    2.2723535991732876E-008
+ Imaginary SURFACE Potential =    2.1753976415035185E-008
+ Real      SURFACE Potential =    2.1753976415035185E-008
+ Imaginary SURFACE Potential =    2.0825785653618690E-008
+ Real      SURFACE Potential =    2.0825785653618690E-008
+ Imaginary SURFACE Potential =    1.9937198597959417E-008
+ Real      SURFACE Potential =    1.9937198597959417E-008
+ Imaginary SURFACE Potential =    1.9086525451579858E-008
+ Real      SURFACE Potential =    1.9086525451579858E-008
+ Imaginary SURFACE Potential =    1.8272148517619724E-008
+ Real      SURFACE Potential =    1.8272148517619724E-008
+ Imaginary SURFACE Potential =    1.7492519122516171E-008
+ Real      SURFACE Potential =    1.7492519122516171E-008
+ Imaginary SURFACE Potential =    1.6746154670943155E-008
+ Real      SURFACE Potential =    1.6746154670943155E-008
+ Imaginary SURFACE Potential =    1.6031635826409641E-008
+ Real      SURFACE Potential =    1.6031635826409641E-008
+ Imaginary SURFACE Potential =    1.5347603812154928E-008
+ Real      SURFACE Potential =    1.5347603812154928E-008
+ Imaginary SURFACE Potential =    1.4692757827208419E-008
+ Real      SURFACE Potential =    1.4692757827208419E-008
+ Imaginary SURFACE Potential =    1.4065852572699916E-008
+ Real      SURFACE Potential =    1.4065852572699916E-008
+ Imaginary SURFACE Potential =    1.3465695883716427E-008
+ Real      SURFACE Potential =    1.3465695883716427E-008
+ Imaginary SURFACE Potential =    1.2891146462202035E-008
+ Real      SURFACE Potential =    1.2891146462202035E-008
+ Imaginary SURFACE Potential =    1.2341111706589520E-008
+ Real      SURFACE Potential =    1.2341111706589520E-008
+ Imaginary SURFACE Potential =    1.1814545634036470E-008
+ Real      SURFACE Potential =    1.1814545634036470E-008
+ Imaginary SURFACE Potential =    1.1310446891314642E-008
+ Real      SURFACE Potential =    1.1310446891314642E-008
+ Imaginary SURFACE Potential =    1.0827856850569966E-008
+ Real      SURFACE Potential =    1.0827856850569966E-008
+ Imaginary SURFACE Potential =    1.0365857786331951E-008
+ Real      SURFACE Potential =    1.0365857786331951E-008
+ Imaginary SURFACE Potential =    9.9235711303057675E-009
+ Real      SURFACE Potential =    9.9235711303057675E-009
+ Imaginary SURFACE Potential =    9.5001558006282394E-009
+ Real      SURFACE Potential =    9.5001558006282394E-009
+ Imaginary SURFACE Potential =    9.0948066024105045E-009
+ Real      SURFACE Potential =    9.0948066024105045E-009
+ Imaginary SURFACE Potential =    8.7067526965257194E-009
+ Real      SURFACE Potential =    8.7067526965257194E-009
+ Imaginary SURFACE Potential =    8.3352561337300055E-009
+ Real      SURFACE Potential =    8.3352561337300055E-009
+ Imaginary SURFACE Potential =    7.9796104513289368E-009
+ Real      SURFACE Potential =    7.9796104513289368E-009
+ Imaginary SURFACE Potential =    7.6391393297209794E-009
+ Real      SURFACE Potential =    7.6391393297209794E-009
+ Imaginary SURFACE Potential =    7.3131953062630039E-009
+ Real      SURFACE Potential =    7.3131953062630039E-009
+ Imaginary SURFACE Potential =    7.0011585440121572E-009
+ Real      SURFACE Potential =    7.0011585440121572E-009
+ Imaginary SURFACE Potential =    6.7024356530025590E-009
+ Real      SURFACE Potential =    6.7024356530025590E-009
+ Imaginary SURFACE Potential =    6.4164585618153601E-009
+ Real      SURFACE Potential =    6.4164585618153601E-009
+ Imaginary SURFACE Potential =    6.1426834372962123E-009
+ Real      SURFACE Potential =    6.1426834372962123E-009
+ Imaginary SURFACE Potential =    5.8805896503658642E-009
+ Real      SURFACE Potential =    5.8805896503658642E-009
+ Imaginary SURFACE Potential =    5.6296787859571342E-009
+ Real      SURFACE Potential =    5.6296787859571342E-009
+ Imaginary SURFACE Potential =    5.3894736951955720E-009
+ Real      SURFACE Potential =    5.3894736951955720E-009
+ Imaginary SURFACE Potential =    5.1595175880212895E-009
+ Real      SURFACE Potential =    5.1595175880212895E-009
+ Imaginary SURFACE Potential =    4.9393731645264871E-009
+ Real      SURFACE Potential =    4.9393731645264871E-009
+ Imaginary SURFACE Potential =    4.7286217833567653E-009
+ Real      SURFACE Potential =    4.7286217833567653E-009
+ Imaginary SURFACE Potential =    4.5268626655947573E-009
+ Real      SURFACE Potential =    4.5268626655947573E-009
+ Imaginary SURFACE Potential =    4.3337121326121815E-009
+ Real      SURFACE Potential =    4.3337121326121815E-009
+ Imaginary SURFACE Potential =    4.1488028764409396E-009
+ Real      SURFACE Potential =    4.1488028764409396E-009
+ Imaginary SURFACE Potential =    3.9717832612757567E-009
+ Real      SURFACE Potential =    3.9717832612757567E-009
+ Imaginary SURFACE Potential =    3.8023166547800351E-009
+ Real      SURFACE Potential =    3.8023166547800351E-009
+ Imaginary SURFACE Potential =    3.6400807879233342E-009
+ Real      SURFACE Potential =    3.6400807879233342E-009
+ Imaginary SURFACE Potential =    3.4847671421330459E-009
+ Real      SURFACE Potential =    3.4847671421330459E-009
+ Imaginary SURFACE Potential =    3.3360803625948642E-009
+ Real      SURFACE Potential =    3.3360803625948642E-009
+ Imaginary SURFACE Potential =    3.1937376965863467E-009
+ Real      SURFACE Potential =    3.1937376965863467E-009
+ Imaginary SURFACE Potential =    3.0574684557754405E-009
+ Real      SURFACE Potential =    3.0574684557754405E-009
+ Imaginary SURFACE Potential =    2.9270135014614649E-009
+ Real      SURFACE Potential =    2.9270135014614649E-009
+ Imaginary SURFACE Potential =    2.8021247517796486E-009
+ Real      SURFACE Potential =    2.8021247517796486E-009
+ Imaginary SURFACE Potential =    2.6825647099320736E-009
+ Real      SURFACE Potential =    2.6825647099320736E-009
+ Imaginary SURFACE Potential =    2.5681060125478953E-009
+ Real      SURFACE Potential =    2.5681060125478953E-009
+ Imaginary SURFACE Potential =    2.4585309973139643E-009
+ Real      SURFACE Potential =    2.4585309973139643E-009
+ Imaginary SURFACE Potential =    2.3536312890536252E-009
+ Real      SURFACE Potential =    2.3536312890536252E-009
+ Imaginary SURFACE Potential =    2.2532074034665521E-009
+ Real      SURFACE Potential =    2.2532074034665521E-009
+ Imaginary SURFACE Potential =    2.1570683677760764E-009
+ Real      SURFACE Potential =    2.1570683677760764E-009
+ Imaginary SURFACE Potential =    2.0650313575625855E-009
+ Real      SURFACE Potential =    2.0650313575625855E-009
+ Imaginary SURFACE Potential =    1.9769213490923904E-009
+ Real      SURFACE Potential =    1.9769213490923904E-009
+ Imaginary SURFACE Potential =    1.8925707864808951E-009
+ Real      SURFACE Potential =    1.8925707864808951E-009
+ Imaginary SURFACE Potential =    1.8118192630571219E-009
+ Real      SURFACE Potential =    1.8118192630571219E-009
+ Imaginary SURFACE Potential =    1.7345132163236716E-009
+ Real      SURFACE Potential =    1.7345132163236716E-009
+ Imaginary SURFACE Potential =    1.6605056359320065E-009
+ Real      SURFACE Potential =    1.6605056359320065E-009
+ Imaginary SURFACE Potential =    1.5896557841177488E-009
+ Real      SURFACE Potential =    1.5896557841177488E-009
+ Imaginary SURFACE Potential =    1.5218289280643363E-009
+ Real      SURFACE Potential =    1.5218289280643363E-009
+ Imaginary SURFACE Potential =    1.4568960836860946E-009
+ Real      SURFACE Potential =    1.4568960836860946E-009
+ Imaginary SURFACE Potential =    1.3947337703434738E-009
+ Real      SURFACE Potential =    1.3947337703434738E-009
+ Imaginary SURFACE Potential =    1.3352237760240128E-009
+ Real      SURFACE Potential =    1.3352237760240128E-009
+ Imaginary SURFACE Potential =    1.2782529325424681E-009
+ Real      SURFACE Potential =    1.2782529325424681E-009
+ Imaginary SURFACE Potential =    1.2237129003326325E-009
+ Real      SURFACE Potential =    1.2237129003326325E-009
+ Imaginary SURFACE Potential =    1.1714999624215681E-009
+ Real      SURFACE Potential =    1.1714999624215681E-009
+ Imaginary SURFACE Potential =    1.1215148271944794E-009
+ Real      SURFACE Potential =    1.1215148271944794E-009
+ Imaginary SURFACE Potential =    1.0736624395751364E-009
+ Real      SURFACE Potential =    1.0736624395751364E-009
+ Imaginary SURFACE Potential =    1.0278518002627889E-009
+ Real      SURFACE Potential =    1.0278518002627889E-009
+ Imaginary SURFACE Potential =    9.8399579268181134E-010
+ Real      SURFACE Potential =    9.8399579268181134E-010
+ Imaginary SURFACE Potential =    9.4201101731499689E-010
+ Real      SURFACE Potential =    9.4201101731499689E-010
+ Imaginary SURFACE Potential =    9.0181763310545820E-010
+ Real      SURFACE Potential =    9.0181763310545820E-010
+ Imaginary SURFACE Potential =    8.6333920562553674E-010
+ Real      SURFACE Potential =    8.6333920562553674E-010
+ Imaginary SURFACE Potential =    8.2650256172398421E-010
+ Real      SURFACE Potential =    8.2650256172398421E-010
+ Imaginary SURFACE Potential =    7.9123765037500318E-010
+ Real      SURFACE Potential =    7.9123765037500318E-010
+ Imaginary SURFACE Potential =    7.5747740946453393E-010
+ Real      SURFACE Potential =    7.5747740946453393E-010
+ Imaginary SURFACE Potential =    7.2515763826045400E-010
+ Real      SURFACE Potential =    7.2515763826045400E-010
+ Imaginary SURFACE Potential =    6.9421687532417140E-010
+ Real      SURFACE Potential =    6.9421687532417140E-010
+ Imaginary SURFACE Potential =    6.6459628163144505E-010
+ Real      SURFACE Potential =    6.6459628163144505E-010
+ Imaginary SURFACE Potential =    6.3623952868015945E-010
+ Real      SURFACE Potential =    6.3623952868015945E-010
+ Imaginary SURFACE Potential =    6.0909269137228002E-010
+ Real      SURFACE Potential =    6.0909269137228002E-010
+ Imaginary SURFACE Potential =    5.8310414546627906E-010
+ Real      SURFACE Potential =    5.8310414546627906E-010
+ Imaginary SURFACE Potential =    5.5822446940502731E-010
+ Real      SURFACE Potential =    5.5822446940502731E-010
+ Imaginary SURFACE Potential =    5.3440635033245463E-010
+ Real      SURFACE Potential =    5.3440635033245463E-010
+ Imaginary SURFACE Potential =    5.1160449412025923E-010
+ Real      SURFACE Potential =    5.1160449412025923E-010
+ Imaginary SURFACE Potential =    4.8977553923356425E-010
+ Real      SURFACE Potential =    4.8977553923356425E-010
+ Imaginary SURFACE Potential =    4.6887797427172322E-010
+ Real      SURFACE Potential =    4.6887797427172322E-010
+ Imaginary SURFACE Potential =    4.4887205902746467E-010
+ Real      SURFACE Potential =    4.4887205902746467E-010
+ Imaginary SURFACE Potential =    4.2971974891425572E-010
+ Real      SURFACE Potential =    4.2971974891425572E-010
+ NX=0  THAT IS ALL   V RL =   0.0000   R0RL =   0.0000   A RL =   0.0000   R RL =   0.0000   VSOR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =   0.0000   R IM =   0.0000   VSOI =   0.0000   POWR =   0.0000
+                     V IM =   0.0000   R0IM =   0.0000   A IM =
+       24000 **********
+1  FORM FACTOR DATA
+0**********************************************************************************************************************************
+0FORM FACTOR 1        LTR =   0        2*STR=   0        2*JTR=   0
+0BETAR =   0.0000  BETAI =   0.0000  BETAC =   0.0000  FNORM =   1.0000
+0    R    RL,R        IM,R        RL,R+DR     IM,R+DR     RL,R+DR*2   IM,R+DR*2   RL,R+DR*3   IM,R+DR*3   RL,R+DR*4   IM,R+DR*4     
+   0.03 -0.2423E+00 -0.6204E+01 -0.2421E+00 -0.6190E+01 -0.2417E+00 -0.6167E+01 -0.2411E+00 -0.6134E+01 -0.2404E+00 -0.6093E+01
+   0.18 -0.2395E+00 -0.6043E+01 -0.2384E+00 -0.5984E+01 -0.2373E+00 -0.5917E+01 -0.2360E+00 -0.5842E+01 -0.2346E+00 -0.5759E+01
+   0.33 -0.2330E+00 -0.5668E+01 -0.2314E+00 -0.5571E+01 -0.2297E+00 -0.5467E+01 -0.2280E+00 -0.5356E+01 -0.2262E+00 -0.5240E+01
+   0.48 -0.2244E+00 -0.5118E+01 -0.2226E+00 -0.4992E+01 -0.2207E+00 -0.4861E+01 -0.2190E+00 -0.4726E+01 -0.2172E+00 -0.4588E+01
+   0.63 -0.2155E+00 -0.4447E+01 -0.2140E+00 -0.4304E+01 -0.2125E+00 -0.4159E+01 -0.2111E+00 -0.4012E+01 -0.2099E+00 -0.3865E+01
+   0.78 -0.2088E+00 -0.3717E+01 -0.2079E+00 -0.3570E+01 -0.2071E+00 -0.3424E+01 -0.2065E+00 -0.3278E+01 -0.2061E+00 -0.3135E+01
+   0.93 -0.2059E+00 -0.2993E+01 -0.2058E+00 -0.2854E+01 -0.2060E+00 -0.2718E+01 -0.2063E+00 -0.2585E+01 -0.2068E+00 -0.2456E+01
+   1.08 -0.2075E+00 -0.2330E+01 -0.2084E+00 -0.2209E+01 -0.2094E+00 -0.2092E+01 -0.2105E+00 -0.1980E+01 -0.2118E+00 -0.1873E+01
+   1.23 -0.2132E+00 -0.1771E+01 -0.2147E+00 -0.1674E+01 -0.2163E+00 -0.1583E+01 -0.2180E+00 -0.1497E+01 -0.2197E+00 -0.1416E+01
+   1.38 -0.2215E+00 -0.1341E+01 -0.2233E+00 -0.1271E+01 -0.2251E+00 -0.1207E+01 -0.2268E+00 -0.1149E+01 -0.2285E+00 -0.1095E+01
+   1.53 -0.2302E+00 -0.1047E+01 -0.2317E+00 -0.1004E+01 -0.2332E+00 -0.9660E+00 -0.2345E+00 -0.9328E+00 -0.2357E+00 -0.9043E+00
+   1.68 -0.2367E+00 -0.8802E+00 -0.2376E+00 -0.8604E+00 -0.2382E+00 -0.8446E+00 -0.2386E+00 -0.8326E+00 -0.2388E+00 -0.8242E+00
+   1.83 -0.2387E+00 -0.8192E+00 -0.2383E+00 -0.8172E+00 -0.2376E+00 -0.8181E+00 -0.2367E+00 -0.8215E+00 -0.2355E+00 -0.8273E+00
+   1.98 -0.2339E+00 -0.8351E+00 -0.2321E+00 -0.8448E+00 -0.2299E+00 -0.8561E+00 -0.2274E+00 -0.8688E+00 -0.2247E+00 -0.8826E+00
+   2.13 -0.2216E+00 -0.8973E+00 -0.2182E+00 -0.9126E+00 -0.2145E+00 -0.9285E+00 -0.2106E+00 -0.9447E+00 -0.2064E+00 -0.9610E+00
+   2.28 -0.2019E+00 -0.9772E+00 -0.1972E+00 -0.9932E+00 -0.1923E+00 -0.1009E+01 -0.1872E+00 -0.1024E+01 -0.1819E+00 -0.1038E+01
+   2.43 -0.1764E+00 -0.1052E+01 -0.1707E+00 -0.1065E+01 -0.1649E+00 -0.1077E+01 -0.1590E+00 -0.1088E+01 -0.1530E+00 -0.1098E+01
+   2.58 -0.1469E+00 -0.1106E+01 -0.1407E+00 -0.1114E+01 -0.1345E+00 -0.1120E+01 -0.1283E+00 -0.1125E+01 -0.1221E+00 -0.1129E+01
+   2.73 -0.1159E+00 -0.1131E+01 -0.1097E+00 -0.1132E+01 -0.1035E+00 -0.1132E+01 -0.9745E-01 -0.1131E+01 -0.9144E-01 -0.1128E+01
+   2.88 -0.8552E-01 -0.1124E+01 -0.7970E-01 -0.1119E+01 -0.7401E-01 -0.1113E+01 -0.6844E-01 -0.1106E+01 -0.6301E-01 -0.1097E+01
+   3.03 -0.5773E-01 -0.1088E+01 -0.5261E-01 -0.1077E+01 -0.4765E-01 -0.1066E+01 -0.4287E-01 -0.1054E+01 -0.3826E-01 -0.1041E+01
+   3.18 -0.3383E-01 -0.1027E+01 -0.2958E-01 -0.1013E+01 -0.2552E-01 -0.9979E+00 -0.2164E-01 -0.9823E+00 -0.1795E-01 -0.9661E+00
+   3.33 -0.1444E-01 -0.9495E+00 -0.1112E-01 -0.9324E+00 -0.7979E-02 -0.9149E+00 -0.5017E-02 -0.8971E+00 -0.2231E-02 -0.8791E+00
+   3.48  0.3808E-03 -0.8608E+00  0.2823E-02 -0.8423E+00  0.5101E-02 -0.8236E+00  0.7216E-02 -0.8049E+00  0.9175E-02 -0.7861E+00
+   3.63  0.1098E-01 -0.7673E+00  0.1264E-01 -0.7485E+00  0.1416E-01 -0.7297E+00  0.1554E-01 -0.7111E+00  0.1678E-01 -0.6925E+00
+   3.78  0.1791E-01 -0.6740E+00  0.1891E-01 -0.6558E+00  0.1979E-01 -0.6377E+00  0.2057E-01 -0.6198E+00  0.2124E-01 -0.6021E+00
+   3.93  0.2182E-01 -0.5847E+00  0.2230E-01 -0.5675E+00  0.2270E-01 -0.5506E+00  0.2302E-01 -0.5340E+00  0.2326E-01 -0.5177E+00
+   4.08  0.2343E-01 -0.5017E+00  0.2354E-01 -0.4860E+00  0.2359E-01 -0.4707E+00  0.2358E-01 -0.4556E+00  0.2352E-01 -0.4409E+00
+   4.23  0.2342E-01 -0.4265E+00  0.2328E-01 -0.4125E+00  0.2309E-01 -0.3988E+00  0.2287E-01 -0.3855E+00  0.2262E-01 -0.3724E+00
+   4.38  0.2234E-01 -0.3598E+00  0.2203E-01 -0.3474E+00  0.2170E-01 -0.3354E+00  0.2135E-01 -0.3238E+00  0.2098E-01 -0.3124E+00
+   4.53  0.2059E-01 -0.3014E+00  0.2019E-01 -0.2908E+00  0.1977E-01 -0.2804E+00  0.1935E-01 -0.2704E+00  0.1891E-01 -0.2606E+00
+   4.68  0.1848E-01 -0.2512E+00  0.1803E-01 -0.2421E+00  0.1758E-01 -0.2332E+00  0.1714E-01 -0.2247E+00  0.1669E-01 -0.2164E+00
+   4.83  0.1624E-01 -0.2084E+00  0.1580E-01 -0.2007E+00  0.1535E-01 -0.1932E+00  0.1492E-01 -0.1860E+00  0.1449E-01 -0.1790E+00
+   4.98  0.1406E-01 -0.1722E+00  0.1365E-01 -0.1657E+00  0.1323E-01 -0.1595E+00  0.1283E-01 -0.1534E+00  0.1243E-01 -0.1476E+00
+   5.13  0.1204E-01 -0.1419E+00  0.1166E-01 -0.1365E+00  0.1129E-01 -0.1313E+00  0.1092E-01 -0.1262E+00  0.1056E-01 -0.1214E+00
+   5.28  0.1021E-01 -0.1167E+00  0.9862E-02 -0.1122E+00  0.9526E-02 -0.1079E+00  0.9197E-02 -0.1037E+00  0.8877E-02 -0.9967E-01
+   5.43  0.8565E-02 -0.9581E-01  0.8261E-02 -0.9209E-01  0.7966E-02 -0.8851E-01  0.7680E-02 -0.8507E-01  0.7402E-02 -0.8175E-01
+   5.58  0.7134E-02 -0.7857E-01  0.6874E-02 -0.7550E-01  0.6623E-02 -0.7256E-01  0.6380E-02 -0.6972E-01  0.6146E-02 -0.6700E-01
+   5.73  0.5920E-02 -0.6437E-01  0.5703E-02 -0.6185E-01  0.5493E-02 -0.5943E-01  0.5290E-02 -0.5710E-01  0.5094E-02 -0.5487E-01
+   5.88  0.4904E-02 -0.5272E-01  0.4721E-02 -0.5065E-01  0.4544E-02 -0.4867E-01  0.4373E-02 -0.4676E-01  0.4206E-02 -0.4493E-01
+   6.03  0.4046E-02 -0.4317E-01  0.3890E-02 -0.4148E-01  0.3739E-02 -0.3986E-01  0.3593E-02 -0.3830E-01  0.3453E-02 -0.3681E-01
+   6.18  0.3317E-02 -0.3537E-01  0.3186E-02 -0.3399E-01  0.3060E-02 -0.3267E-01  0.2939E-02 -0.3139E-01  0.2823E-02 -0.3017E-01
+   6.33  0.2711E-02 -0.2900E-01  0.2605E-02 -0.2787E-01  0.2503E-02 -0.2678E-01  0.2405E-02 -0.2574E-01  0.2312E-02 -0.2474E-01
+   6.48  0.2223E-02 -0.2378E-01  0.2138E-02 -0.2285E-01  0.2056E-02 -0.2197E-01  0.1978E-02 -0.2111E-01  0.1902E-02 -0.2029E-01
+   6.63  0.1829E-02 -0.1951E-01  0.1759E-02 -0.1875E-01  0.1690E-02 -0.1803E-01  0.1625E-02 -0.1733E-01  0.1561E-02 -0.1667E-01
+   6.78  0.1499E-02 -0.1602E-01  0.1439E-02 -0.1541E-01  0.1381E-02 -0.1482E-01  0.1324E-02 -0.1425E-01  0.1270E-02 -0.1371E-01
+   6.93  0.1218E-02 -0.1318E-01  0.1168E-02 -0.1268E-01  0.1121E-02 -0.1220E-01  0.1075E-02 -0.1174E-01  0.1032E-02 -0.1129E-01
+   7.08  0.9907E-03 -0.1086E-01  0.9517E-03 -0.1045E-01  0.9147E-03 -0.1005E-01  0.8797E-03 -0.9668E-02  0.8464E-03 -0.9301E-02
+   7.23  0.8148E-03 -0.8948E-02  0.7846E-03 -0.8609E-02  0.7557E-03 -0.8283E-02  0.7279E-03 -0.7969E-02  0.7010E-03 -0.7668E-02
+   7.38  0.6749E-03 -0.7379E-02  0.6495E-03 -0.7101E-02  0.6246E-03 -0.6834E-02  0.6003E-03 -0.6578E-02  0.5765E-03 -0.6332E-02
+   7.53  0.5532E-03 -0.6097E-02  0.5305E-03 -0.5870E-02  0.5084E-03 -0.5652E-02  0.4870E-03 -0.5443E-02  0.4664E-03 -0.5242E-02
+   7.68  0.4467E-03 -0.5049E-02  0.4280E-03 -0.4863E-02  0.4103E-03 -0.4684E-02  0.3936E-03 -0.4511E-02  0.3779E-03 -0.4345E-02
+   7.83  0.3634E-03 -0.4185E-02  0.3498E-03 -0.4030E-02  0.3371E-03 -0.3881E-02  0.3253E-03 -0.3738E-02  0.3142E-03 -0.3600E-02
+   7.98  0.3036E-03 -0.3467E-02  0.2936E-03 -0.3338E-02  0.2838E-03 -0.3215E-02  0.2743E-03 -0.3097E-02  0.2650E-03 -0.2983E-02
+   8.13  0.2556E-03 -0.2873E-02  0.2463E-03 -0.2769E-02  0.2369E-03 -0.2668E-02  0.2276E-03 -0.2571E-02  0.2182E-03 -0.2479E-02
+   8.28  0.2089E-03 -0.2390E-02  0.1997E-03 -0.2304E-02  0.1908E-03 -0.2222E-02  0.1821E-03 -0.2143E-02  0.1739E-03 -0.2067E-02
+   8.43  0.1661E-03 -0.1994E-02  0.1589E-03 -0.1923E-02  0.1522E-03 -0.1854E-02  0.1461E-03 -0.1788E-02  0.1407E-03 -0.1724E-02
+   8.58  0.1358E-03 -0.1662E-02  0.1314E-03 -0.1602E-02  0.1275E-03 -0.1544E-02  0.1239E-03 -0.1488E-02  0.1206E-03 -0.1434E-02
+   8.73  0.1175E-03 -0.1382E-02  0.1144E-03 -0.1332E-02  0.1113E-03 -0.1284E-02  0.1080E-03 -0.1238E-02  0.1047E-03 -0.1194E-02
+   8.88  0.1011E-03 -0.1151E-02  0.9735E-04 -0.1111E-02  0.9339E-04 -0.1072E-02  0.8928E-04 -0.1034E-02  0.8507E-04 -0.9988E-03
+   9.03  0.8082E-04 -0.9646E-03  0.7663E-04 -0.9318E-03  0.7257E-04 -0.9001E-03  0.6872E-04 -0.8695E-03  0.6516E-04 -0.8400E-03
+   9.18  0.6194E-04 -0.8113E-03  0.5911E-04 -0.7835E-03  0.5669E-04 -0.7564E-03  0.5467E-04 -0.7300E-03  0.5305E-04 -0.7044E-03
+   9.33  0.5176E-04 -0.6794E-03  0.5077E-04 -0.6552E-03  0.4998E-04 -0.6316E-03  0.4933E-04 -0.6089E-03  0.4872E-04 -0.5869E-03
+   9.48  0.4807E-04 -0.5657E-03  0.4732E-04 -0.5455E-03  0.4639E-04 -0.5260E-03  0.4525E-04 -0.5075E-03  0.4386E-04 -0.4899E-03
+   9.63  0.4223E-04 -0.4731E-03  0.4036E-04 -0.4571E-03  0.3830E-04 -0.4419E-03  0.3610E-04 -0.4274E-03  0.3382E-04 -0.4136E-03
+   9.78  0.3153E-04 -0.4003E-03  0.2931E-04 -0.3875E-03  0.2724E-04 -0.3751E-03  0.2537E-04 -0.3630E-03  0.2376E-04 -0.3512E-03
+   9.93  0.2244E-04 -0.3396E-03  0.2145E-04 -0.3282E-03  0.2077E-04 -0.3170E-03  0.2039E-04 -0.3060E-03  0.2026E-04 -0.2951E-03
+  10.08  0.2035E-04 -0.2845E-03  0.2058E-04 -0.2742E-03  0.2088E-04 -0.2641E-03  0.2118E-04 -0.2543E-03  0.2141E-04 -0.2450E-03
+  10.23  0.2150E-04 -0.2361E-03  0.2141E-04 -0.2276E-03  0.2109E-04 -0.2196E-03  0.2053E-04 -0.2120E-03  0.1973E-04 -0.2050E-03
+  10.38  0.1869E-04 -0.1984E-03  0.1747E-04 -0.1922E-03  0.1610E-04 -0.1863E-03  0.1464E-04 -0.1808E-03  0.1316E-04 -0.1755E-03
+  10.53  0.1173E-04 -0.1704E-03  0.1042E-04 -0.1654E-03  0.9273E-05 -0.1605E-03  0.8345E-05 -0.1556E-03  0.7667E-05 -0.1508E-03
+  10.68  0.7255E-05 -0.1459E-03  0.7107E-05 -0.1409E-03  0.7206E-05 -0.1360E-03  0.7517E-05 -0.1310E-03  0.7992E-05 -0.1261E-03
+  10.83  0.8575E-05 -0.1213E-03  0.9200E-05 -0.1165E-03  0.9804E-05 -0.1119E-03  0.1032E-04 -0.1076E-03  0.1070E-04 -0.1034E-03
+  10.98  0.1090E-04 -0.9956E-04  0.1088E-04 -0.9599E-04  0.1064E-04 -0.9272E-04  0.1016E-04 -0.8975E-04  0.9474E-05 -0.8706E-04
+  11.13  0.8610E-05 -0.8462E-04  0.7612E-05 -0.8239E-04  0.6535E-05 -0.8032E-04  0.5439E-05 -0.7837E-04  0.4385E-05 -0.7648E-04
+  11.28  0.3432E-05 -0.7461E-04  0.2630E-05 -0.7271E-04  0.2020E-05 -0.7074E-04  0.1631E-05 -0.6868E-04  0.1475E-05 -0.6652E-04
+  11.43  0.1549E-05 -0.6425E-04  0.1836E-05 -0.6189E-04  0.2303E-05 -0.5946E-04  0.2906E-05 -0.5699E-04  0.3592E-05 -0.5452E-04
+  11.58  0.4305E-05 -0.5209E-04  0.4985E-05 -0.4975E-04  0.5577E-05 -0.4753E-04  0.6033E-05 -0.4548E-04  0.6314E-05 -0.4362E-04
+  11.73  0.6393E-05 -0.4197E-04  0.6260E-05 -0.4055E-04  0.5918E-05 -0.3933E-04  0.5383E-05 -0.3832E-04  0.4688E-05 -0.3749E-04
+  11.88  0.3875E-05 -0.3679E-04  0.2994E-05 -0.3619E-04  0.2099E-05 -0.3565E-04  0.1246E-05 -0.3511E-04  0.4878E-06 -0.3455E-04
+  12.03 -0.1308E-06 -0.3391E-04 -0.5738E-06 -0.3317E-04 -0.8173E-06 -0.3231E-04 -0.8514E-06 -0.3132E-04 -0.6803E-06 -0.3021E-04
+  12.18 -0.3223E-06 -0.2897E-04  0.1921E-06 -0.2765E-04  0.8217E-06 -0.2626E-04  0.1518E-05 -0.2485E-04  0.2228E-05 -0.2346E-04
+  12.33  0.2900E-05 -0.2212E-04  0.3483E-05 -0.2088E-04  0.3934E-05 -0.1976E-04  0.4220E-05 -0.1880E-04  0.4318E-05 -0.1801E-04
+  12.48  0.4219E-05 -0.1740E-04  0.3929E-05 -0.1696E-04  0.3466E-05 -0.1668E-04  0.2860E-05 -0.1654E-04  0.2150E-05 -0.1649E-04
+  12.63  0.1382E-05 -0.1651E-04  0.6086E-06 -0.1656E-04 -0.1213E-06 -0.1659E-04 -0.7601E-06 -0.1657E-04 -0.1267E-05 -0.1646E-04
+  12.78 -0.1611E-05 -0.1624E-04 -0.1771E-05 -0.1589E-04 -0.1741E-05 -0.1541E-04 -0.1525E-05 -0.1480E-04 -0.1142E-05 -0.1407E-04
+  12.93 -0.6224E-06 -0.1324E-04 -0.3905E-08 -0.1235E-04  0.6680E-06 -0.1143E-04  0.1345E-05 -0.1052E-04  0.1978E-05 -0.9655E-05
+  13.08  0.2523E-05 -0.8869E-05  0.2941E-05 -0.8192E-05  0.3203E-05 -0.7650E-05  0.3289E-05 -0.7255E-05  0.3194E-05 -0.7013E-05
+  13.23  0.2923E-05 -0.6919E-05  0.2496E-05 -0.6958E-05  0.1940E-05 -0.7108E-05  0.1295E-05 -0.7338E-05  0.6028E-06 -0.7614E-05
+  13.38 -0.8913E-07 -0.7899E-05 -0.7346E-06 -0.8156E-05 -0.1291E-05 -0.8351E-05 -0.1721E-05 -0.8456E-05 -0.1998E-05 -0.8448E-05
+  13.53 -0.2105E-05 -0.8313E-05 -0.2035E-05 -0.8046E-05 -0.1797E-05 -0.7653E-05 -0.1409E-05 -0.7148E-05 -0.8997E-06 -0.6553E-05
+  13.68 -0.3052E-06 -0.5896E-05  0.3318E-06 -0.5211E-05  0.9662E-06 -0.4533E-05  0.1554E-05 -0.3896E-05  0.2053E-05 -0.3332E-05
+  13.83  0.2429E-05 -0.2870E-05  0.2657E-05 -0.2528E-05  0.2721E-05 -0.2320E-05  0.2616E-05 -0.2248E-05  0.2351E-05 -0.2307E-05
+  13.98  0.1943E-05 -0.2483E-05  0.1421E-05 -0.2752E-05  0.8205E-06 -0.3087E-05  0.1834E-06 -0.3456E-05 -0.4470E-06 -0.3823E-05
+  14.13 -0.1028E-05 -0.4156E-05 -0.1520E-05 -0.4423E-05 -0.1891E-05 -0.4598E-05 -0.2116E-05 -0.4663E-05 -0.2180E-05 -0.4605E-05
+  14.28 -0.2081E-05 -0.4421E-05 -0.1826E-05 -0.4119E-05 -0.1434E-05 -0.3713E-05 -0.9330E-06 -0.3224E-05 -0.3579E-06 -0.2680E-05
+  14.43  0.2511E-06 -0.2113E-05  0.8519E-06 -0.1556E-05  0.1403E-05 -0.1042E-05  0.1867E-05 -0.5997E-06  0.2213E-05 -0.2549E-06
+  14.58  0.2417E-05 -0.2568E-07  0.2466E-05  0.7730E-07  0.2357E-05  0.5194E-07  0.2099E-05 -0.9538E-07  0.1710E-05 -0.3502E-06
+  14.73  0.1218E-05 -0.6910E-06  0.6560E-06 -0.1091E-05  0.6345E-07 -0.1519E-05 -0.5191E-06 -0.1944E-05 -0.1052E-05 -0.2333E-05
+  14.88 -0.1500E-05 -0.2658E-05 -0.1832E-05 -0.2895E-05 -0.2027E-05 -0.3027E-05 -0.2073E-05 -0.3044E-05 -0.1969E-05 -0.2943E-05
+  15.03 -0.1722E-05 -0.2731E-05 -0.1351E-05 -0.2421E-05 -0.8827E-06 -0.2034E-05 -0.3508E-06 -0.1597E-05  0.2076E-06 -0.1137E-05
+  15.18  0.7535E-06 -0.6857E-06  0.1249E-05 -0.2721E-06  0.1660E-05  0.7698E-07  0.1958E-05  0.3395E-06  0.2124E-05  0.4998E-06
+  15.33  0.2146E-05  0.5491E-06  0.2023E-05  0.4868E-06  0.1766E-05  0.3199E-06  0.1393E-05  0.6278E-07  0.9290E-06 -0.2640E-06
+  15.48  0.4080E-06 -0.6352E-06 -0.1339E-06 -0.1022E-05 -0.6590E-06 -0.1396E-05 -0.1131E-05 -0.1728E-05 -0.1517E-05 -0.1993E-05
+  15.63 -0.1792E-05 -0.2171E-05 -0.1936E-05 -0.2246E-05 -0.1939E-05 -0.2212E-05 -0.1803E-05 -0.2069E-05 -0.1538E-05 -0.1825E-05
+  15.78 -0.1161E-05 -0.1495E-05 -0.6999E-06 -0.1100E-05 -0.1868E-06 -0.6653E-06  0.3428E-06 -0.2186E-06  0.8520E-06  0.2111E-06
+  15.93  0.1306E-05  0.5960E-06  0.1673E-05  0.9115E-06  0.1928E-05  0.1138E-05  0.2054E-05  0.1262E-05  0.2043E-05  0.1276E-05
+  16.08  0.1896E-05  0.1182E-05  0.1622E-05  0.9883E-06  0.1242E-05  0.7092E-06  0.7823E-06  0.3658E-06  0.2739E-06 -0.1676E-07
+  16.23 -0.2478E-06 -0.4110E-06 -0.7471E-06 -0.7887E-06 -0.1190E-05 -0.1123E-05 -0.1545E-05 -0.1390E-05 -0.1791E-05 -0.1571E-05
+  16.38 -0.1909E-05 -0.1654E-05 -0.1892E-05 -0.1631E-05 -0.1744E-05 -0.1505E-05 -0.1473E-05 -0.1284E-05 -0.1100E-05 -0.9826E-06
+  16.53 -0.6513E-06 -0.6223E-06 -0.1576E-06 -0.2271E-06  0.3464E-06  0.1758E-06  0.8260E-06  0.5593E-06  0.1248E-05  0.8972E-06
+  16.68  0.1583E-05  0.1167E-05  0.1810E-05  0.1350E-05  0.1911E-05  0.1436E-05  0.1882E-05  0.1418E-05  0.1723E-05  0.1298E-05
+  16.83  0.1448E-05  0.1086E-05  0.1075E-05  0.7972E-06  0.6293E-06  0.4512E-06  0.1432E-06  0.7282E-07 -0.3502E-06 -0.3117E-06
+  16.98 -0.8168E-06 -0.6755E-06 -0.1225E-05 -0.9934E-06 -0.1546E-05 -0.1244E-05 -0.1759E-05 -0.1409E-05 -0.1849E-05 -0.1478E-05
+  17.13 -0.1811E-05 -0.1447E-05 -0.1648E-05 -0.1317E-05 -0.1371E-05 -0.1099E-05 -0.1001E-05 -0.8063E-06 -0.5623E-06 -0.4606E-06
+  17.28 -0.8640E-07 -0.8565E-07  0.3939E-06  0.2928E-06  0.8456E-06  0.6488E-06  0.1237E-05  0.9578E-06  0.1543E-05  0.1199E-05
+  17.43  0.1741E-05  0.1355E-05  0.1818E-05  0.1417E-05  0.1770E-05  0.1380E-05  0.1600E-05  0.1248E-05  0.1320E-05  0.1029E-05
+  17.58  0.9508E-06  0.7401E-06  0.5172E-06  0.4004E-06  0.4954E-07  0.3381E-07 -0.4198E-06 -0.3341E-06 -0.8584E-06 -0.6781E-06
+  17.73 -0.1236E-05 -0.9743E-06 -0.1527E-05 -0.1202E-05 -0.1712E-05 -0.1347E-05 -0.1778E-05 -0.1398E-05 -0.1721E-05 -0.1353E-05
+  17.88 -0.1545E-05 -0.1215E-05 -0.1264E-05 -0.9934E-06 -0.8957E-06 -0.7042E-06 -0.4672E-06 -0.3673E-06 -0.7978E-08 -0.6272E-08
+0**********************************************************************************************************************************
+
+          Plotfile written to file = Li7_IAS_250.plot
+                                     ----------------
+
+
+1
+
+     ELASTIC SCATTERING INFO:
+
+
+     0 ( 0.2013,  0.2510)     1 ( 0.1826,  0.2328)     2 ( 0.1701,  0.2167)     3 ( 0.1580,  0.1981)     4 ( 0.1442,  0.1760) 
+     5 ( 0.1279,  0.1505)     6 ( 0.1093,  0.1229)     7 ( 0.0895,  0.0957)     8 ( 0.0699,  0.0712)     9 ( 0.0523,  0.0509) 
+    10 ( 0.0377,  0.0353)    11 ( 0.0263,  0.0239)    12 ( 0.0180,  0.0160)    13 ( 0.0121,  0.0105)    14 ( 0.0080,  0.0069) 
+    15 ( 0.0053,  0.0045)    16 ( 0.0034,  0.0029)    17 ( 0.0022,  0.0019)    18 ( 0.0014,  0.0012)    19 ( 0.0009,  0.0008) 
+    20 ( 0.0006,  0.0005)    21 ( 0.0004,  0.0003)    22 ( 0.0003,  0.0002)    23 ( 0.0002,  0.0001)    24 ( 0.0001,  0.0001) 
+    25 ( 0.0001,  0.0001)    26 ( 0.0000,  0.0000)    27 ( 0.0000,  0.0000)    28 ( 0.0000,  0.0000)    29 ( 0.0000,  0.0000) 
+    30 ( 0.0000,  0.0000)    31 ( 0.0000,  0.0000)    32 ( 0.0000,  0.0000)    33 ( 0.0000,  0.0000)    34 ( 0.0000,  0.0000) 
+    35 ( 0.0000,  0.0000)    36 ( 0.0000,  0.0000)    37 ( 0.0000,  0.0000)    38 ( 0.0000,  0.0000)    39 ( 0.0000,  0.0000) 
+    40 ( 0.0000,  0.0000)    41 ( 0.0000,  0.0000)    42 ( 0.0000,  0.0000)    43 ( 0.0000,  0.0000)    44 ( 0.0000,  0.0000) 
+    45 ( 0.0000,  0.0000)    46 ( 0.0000,  0.0000)    47 ( 0.0000,  0.0000)    48 ( 0.0000,  0.0000)    49 ( 0.0000,  0.0000) 
+    50 ( 0.0000,  0.0000)    51 (-0.0000,  0.0000)    52 (-0.0000,  0.0000)    53 (-0.0000,  0.0000)    54 (-0.0000,  0.0000) 
+    55 (-0.0000,  0.0000)    56 (-0.0000,  0.0000)    57 (-0.0000,  0.0000)    58 ( 0.0000,  0.0000)    59 ( 0.0000,  0.0000) 
+    60 ( 0.0000,  0.0000)    61 ( 0.0000,  0.0000)    62 ( 0.0000,  0.0000)    63 ( 0.0000,  0.0000)    64 ( 0.0000,  0.0000) 
+    65 ( 0.0000,  0.0000)    66 (-0.0000,  0.0000)    67 (-0.0000,  0.0000)    68 (-0.0000,  0.0000)    69 (-0.0000,  0.0000) 
+    70 (-0.0000,  0.0000)    71 (-0.0000,  0.0000)    72 (-0.0000,  0.0000)    73 (-0.0000,  0.0000)    74 (-0.0000,  0.0000) 
+    75 (-0.0000,  0.0000)    76 (-0.0000,  0.0000)    77 (-0.0000,  0.0000)    78 (-0.0000,  0.0000)    79 (-0.0000,  0.0000) 
+    80 (-0.0000,  0.0000)    81 (-0.0000,  0.0000)    82 (-0.0000,  0.0000)    83 (-0.0000,  0.0000)    84 (-0.0000,  0.0000) 
+    85 (-0.0000,  0.0000)    86 (-0.0000,  0.0000)    87 (-0.0000,  0.0000)    88 (-0.0000,  0.0000)    89 (-0.0000,  0.0000) 
+    90 (-0.0000,  0.0000)    91 (-0.0000,  0.0000)    92 (-0.0000,  0.0000)    93 (-0.0000,  0.0000)    94 (-0.0000,  0.0000) 
+    95 (-0.0000,  0.0000)    96 (-0.0000,  0.0000)    97 (-0.0000,  0.0000)    98 (-0.0000,  0.0000)    99 (-0.0000,  0.0000) 
+   100 (-0.0000,  0.0000)   101 (-0.0000,  0.0000)   102 (-0.0000,  0.0000)   103 (-0.0000,  0.0000)   104 (-0.0000,  0.0000) 
+   105 (-0.0000,  0.0000)   106 (-0.0000,  0.0000)   107 (-0.0000,  0.0000)   108 (-0.0000,  0.0000)   109 (-0.0000,  0.0000) 
+   110 (-0.0000,  0.0000)   111 (-0.0000,  0.0000)   112 (-0.0000,  0.0000)   113 (-0.0000,  0.0000)   114 (-0.0000,  0.0000) 
+   115 (-0.0000,  0.0000)   116 (-0.0000,  0.0000)   117 (-0.0000,  0.0000)   118 (-0.0000,  0.0000)   119 (-0.0000,  0.0000) 
+   120 (-0.0000,  0.0000)   121 (-0.0000,  0.0000)   122 (-0.0000,  0.0000)   123 (-0.0000,  0.0000)   124 (-0.0000,  0.0000) 
+   125 (-0.0000,  0.0000)   126 (-0.0000,  0.0000)   127 (-0.0000,  0.0000)   128 (-0.0000,  0.0000)   129 (-0.0000,  0.0000) 
+   130 (-0.0000,  0.0000)   131 (-0.0000,  0.0000)   132 (-0.0000,  0.0000)   133 (-0.0000,  0.0000)   134 (-0.0000,  0.0000) 
+   135 (-0.0000,  0.0000)   136 (-0.0000,  0.0000)   137 (-0.0000,  0.0000)   138 (-0.0000,  0.0000)   139 (-0.0000,  0.0000) 
+   140 (-0.0000,  0.0000)   141 (-0.0000,  0.0000)   142 (-0.0000,  0.0000)   143 (-0.0000,  0.0000)   144 (-0.0000,  0.0000) 
+   145 (-0.0000,  0.0000)   146 (-0.0000,  0.0000)   147 (-0.0000,  0.0000)   148 (-0.0000,  0.0000)   149 (-0.0000,  0.0000) 
+   150 (-0.0000,  0.0000)   151 (-0.0000,  0.0000)   152 (-0.0000,  0.0000)   153 (-0.0000,  0.0000)   154 (-0.0000,  0.0000) 
+   155 (-0.0000,  0.0000)   156 (-0.0000,  0.0000)   157 (-0.0000,  0.0000)   158 (-0.0000,  0.0000)   159 (-0.0000,  0.0000) 
+   160 (-0.0000,  0.0000) 
+
+
+     0 ( 0.2656,  0.2715)     1 ( 0.2628,  0.2639)     2 ( 0.2568,  0.2496)     3 ( 0.2468,  0.2286)     4 ( 0.2317,  0.2014) 
+     5 ( 0.2105,  0.1693)     6 ( 0.1832,  0.1348)     7 ( 0.1518,  0.1015)     8 ( 0.1193,  0.0726)     9 ( 0.0895,  0.0499) 
+    10 ( 0.0644,  0.0334)    11 ( 0.0450,  0.0220)    12 ( 0.0307,  0.0144)    13 ( 0.0206,  0.0093)    14 ( 0.0137,  0.0061) 
+    15 ( 0.0090,  0.0039)    16 ( 0.0059,  0.0025)    17 ( 0.0038,  0.0016)    18 ( 0.0025,  0.0011)    19 ( 0.0016,  0.0007) 
+    20 ( 0.0011,  0.0004)    21 ( 0.0007,  0.0003)    22 ( 0.0004,  0.0002)    23 ( 0.0003,  0.0001)    24 ( 0.0002,  0.0001) 
+    25 ( 0.0001,  0.0000)    26 ( 0.0001,  0.0000)    27 ( 0.0000,  0.0000)    28 ( 0.0000,  0.0000)    29 ( 0.0000,  0.0000) 
+    30 ( 0.0000,  0.0000)    31 ( 0.0000,  0.0000)    32 ( 0.0000,  0.0000)    33 ( 0.0000,  0.0000)    34 ( 0.0000,  0.0000) 
+    35 ( 0.0000,  0.0000)    36 ( 0.0000,  0.0000)    37 ( 0.0000,  0.0000)    38 ( 0.0000,  0.0000)    39 ( 0.0000,  0.0000) 
+    40 ( 0.0000,  0.0000)    41 ( 0.0000,  0.0000)    42 ( 0.0000,  0.0000)    43 ( 0.0000,  0.0000)    44 ( 0.0000,  0.0000) 
+    45 ( 0.0000,  0.0000)    46 ( 0.0000,  0.0000)    47 ( 0.0000,  0.0000)    48 ( 0.0000,  0.0000)    49 ( 0.0000,  0.0000) 
+    50 ( 0.0000,  0.0000)    51 (-0.0000,  0.0000)    52 (-0.0000,  0.0000)    53 (-0.0000,  0.0000)    54 (-0.0000,  0.0000) 
+    55 (-0.0000,  0.0000)    56 (-0.0000,  0.0000)    57 (-0.0000,  0.0000)    58 ( 0.0000,  0.0000)    59 ( 0.0000,  0.0000) 
+    60 ( 0.0000,  0.0000)    61 ( 0.0000,  0.0000)    62 ( 0.0000,  0.0000)    63 ( 0.0000,  0.0000)    64 ( 0.0000,  0.0000) 
+    65 ( 0.0000,  0.0000)    66 (-0.0000,  0.0000)    67 (-0.0000,  0.0000)    68 (-0.0000,  0.0000)    69 (-0.0000,  0.0000) 
+    70 (-0.0000,  0.0000)    71 (-0.0000,  0.0000)    72 (-0.0000,  0.0000)    73 (-0.0000,  0.0000)    74 (-0.0000,  0.0000) 
+    75 (-0.0000,  0.0000)    76 (-0.0000,  0.0000)    77 (-0.0000,  0.0000)    78 (-0.0000,  0.0000)    79 (-0.0000,  0.0000) 
+    80 (-0.0000,  0.0000)    81 (-0.0000,  0.0000)    82 (-0.0000,  0.0000)    83 (-0.0000,  0.0000)    84 (-0.0000,  0.0000) 
+    85 (-0.0000,  0.0000)    86 (-0.0000,  0.0000)    87 (-0.0000,  0.0000)    88 (-0.0000,  0.0000)    89 (-0.0000,  0.0000) 
+    90 (-0.0000,  0.0000)    91 (-0.0000,  0.0000)    92 (-0.0000,  0.0000)    93 (-0.0000,  0.0000)    94 (-0.0000,  0.0000) 
+    95 (-0.0000,  0.0000)    96 (-0.0000,  0.0000)    97 (-0.0000,  0.0000)    98 (-0.0000,  0.0000)    99 (-0.0000,  0.0000) 
+   100 (-0.0000,  0.0000)   101 (-0.0000,  0.0000)   102 (-0.0000,  0.0000)   103 (-0.0000,  0.0000)   104 (-0.0000,  0.0000) 
+   105 (-0.0000,  0.0000)   106 (-0.0000,  0.0000)   107 (-0.0000,  0.0000)   108 (-0.0000,  0.0000)   109 (-0.0000,  0.0000) 
+   110 (-0.0000,  0.0000)   111 (-0.0000,  0.0000)   112 (-0.0000,  0.0000)   113 (-0.0000,  0.0000)   114 (-0.0000,  0.0000) 
+   115 (-0.0000,  0.0000)   116 (-0.0000,  0.0000)   117 (-0.0000,  0.0000)   118 (-0.0000,  0.0000)   119 (-0.0000,  0.0000) 
+   120 (-0.0000,  0.0000)   121 (-0.0000,  0.0000)   122 (-0.0000,  0.0000)   123 (-0.0000,  0.0000)   124 (-0.0000,  0.0000) 
+   125 (-0.0000,  0.0000)   126 (-0.0000,  0.0000)   127 (-0.0000,  0.0000)   128 (-0.0000,  0.0000)   129 (-0.0000,  0.0000) 
+   130 (-0.0000,  0.0000)   131 (-0.0000,  0.0000)   132 (-0.0000,  0.0000)   133 (-0.0000,  0.0000)   134 (-0.0000,  0.0000) 
+   135 (-0.0000,  0.0000)   136 (-0.0000,  0.0000)   137 (-0.0000,  0.0000)   138 (-0.0000,  0.0000)   139 (-0.0000,  0.0000) 
+   140 (-0.0000,  0.0000)   141 (-0.0000,  0.0000)   142 (-0.0000,  0.0000)   143 (-0.0000,  0.0000)   144 (-0.0000,  0.0000) 
+   145 (-0.0000,  0.0000)   146 (-0.0000,  0.0000)   147 (-0.0000,  0.0000)   148 (-0.0000,  0.0000)   149 (-0.0000,  0.0000) 
+   150 (-0.0000,  0.0000)   151 (-0.0000,  0.0000)   152 (-0.0000,  0.0000)   153 (-0.0000,  0.0000)   154 (-0.0000,  0.0000) 
+   155 (-0.0000,  0.0000)   156 (-0.0000,  0.0000)   157 (-0.0000,  0.0000)   158 (-0.0000,  0.0000)   159 (-0.0000,  0.0000) 
+   160 (-0.0000,  0.0000) 
+
+1PARTIAL CROSS SECTION FOR FORM FACTOR
+ hier   2.4678907168399756E-005
+    0.00   0.14021E+01
+    0.20   0.14012E+01
+    0.40   0.13985E+01
+    0.60   0.13939E+01
+    0.80   0.13876E+01
+    1.00   0.13795E+01
+    1.20   0.13697E+01
+    1.40   0.13581E+01
+    1.60   0.13449E+01
+    1.80   0.13301E+01
+    2.00   0.13137E+01
+    2.20   0.12959E+01
+    2.40   0.12766E+01
+    2.60   0.12559E+01
+    2.80   0.12340E+01
+    3.00   0.12108E+01
+    3.20   0.11866E+01
+    3.40   0.11612E+01
+    3.60   0.11349E+01
+    3.80   0.11078E+01
+    4.00   0.10798E+01
+    4.20   0.10511E+01
+    4.40   0.10219E+01
+    4.60   0.99207E+00
+    4.80   0.96185E+00
+    5.00   0.93128E+00
+    5.20   0.90045E+00
+    5.40   0.86946E+00
+    5.60   0.83837E+00
+    5.80   0.80728E+00
+    6.00   0.77625E+00
+    6.20   0.74537E+00
+    6.40   0.71471E+00
+    6.60   0.68433E+00
+    6.80   0.65431E+00
+    7.00   0.62469E+00
+    7.20   0.59554E+00
+    7.40   0.56692E+00
+    7.60   0.53886E+00
+    7.80   0.51142E+00
+    8.00   0.48464E+00
+    8.20   0.45855E+00
+    8.40   0.43318E+00
+    8.60   0.40857E+00
+    8.80   0.38474E+00
+    9.00   0.36170E+00
+    9.20   0.33948E+00
+    9.40   0.31808E+00
+    9.60   0.29752E+00
+    9.80   0.27780E+00
+   10.00   0.25892E+00
+1INCOHERENT SUM OF PARTIAL CROSS SECTIONS
+
+   ANGLE     SIGMA 
+
+    0.00   0.14021E+01
+    0.20   0.14012E+01
+    0.40   0.13985E+01
+    0.60   0.13939E+01
+    0.80   0.13876E+01
+    1.00   0.13795E+01
+    1.20   0.13697E+01
+    1.40   0.13581E+01
+    1.60   0.13449E+01
+    1.80   0.13301E+01
+    2.00   0.13137E+01
+    2.20   0.12959E+01
+    2.40   0.12766E+01
+    2.60   0.12559E+01
+    2.80   0.12340E+01
+    3.00   0.12108E+01
+    3.20   0.11866E+01
+    3.40   0.11612E+01
+    3.60   0.11349E+01
+    3.80   0.11078E+01
+    4.00   0.10798E+01
+    4.20   0.10511E+01
+    4.40   0.10219E+01
+    4.60   0.99207E+00
+    4.80   0.96185E+00
+    5.00   0.93128E+00
+    5.20   0.90045E+00
+    5.40   0.86946E+00
+    5.60   0.83837E+00
+    5.80   0.80728E+00
+    6.00   0.77625E+00
+    6.20   0.74537E+00
+    6.40   0.71471E+00
+    6.60   0.68433E+00
+    6.80   0.65431E+00
+    7.00   0.62469E+00
+    7.20   0.59554E+00
+    7.40   0.56692E+00
+    7.60   0.53886E+00
+    7.80   0.51142E+00
+    8.00   0.48464E+00
+    8.20   0.45855E+00
+    8.40   0.43318E+00
+    8.60   0.40857E+00
+    8.80   0.38474E+00
+    9.00   0.36170E+00
+    9.20   0.33948E+00
+    9.40   0.31808E+00
+    9.60   0.29752E+00
+    9.80   0.27780E+00
+   10.00   0.25892E+00
+1          10**( -3)                                                                                           10**(  1)
+
+    THETA  *++++++++++++++++++++++++*++++++++++++++++++++++++*++++++++++++++++++++++++*++++++++++++++++++++++++*
+     0.00  +                                                                              *                     +
+     0.20  +                                                                              *                     +
+     0.40  +                                                                              *                     +
+     0.60  +                                                                              *                     +
+     0.80  +                                                                              *                     +
+     1.00  +                                                                             *                      +
+     1.20  +                                                                             *                      +
+     1.40  +                                                                             *                      +
+     1.60  +                                                                             *                      +
+     1.80  +                                                                             *                      +
+     2.00  +                                                                             *                      +
+     2.20  +                                                                             *                      +
+     2.40  +                                                                             *                      +
+     2.60  +                                                                            *                       +
+     2.80  +                                                                            *                       +
+     3.00  +                                                                            *                       +
+     3.20  +                                                                            *                       +
+     3.40  +                                                                            *                       +
+     3.60  +                                                                           *                        +
+     3.80  +                                                                           *                        +
+     4.00  +                                                                           *                        +
+     4.20  +                                                                           *                        +
+     4.40  +                                                                          *                         +
+     4.60  +                                                                          *                         +
+     4.80  +                                                                          *                         +
+     5.00  +                                                                         *                          +
+     5.20  +                                                                         *                          +
+     5.40  +                                                                        *                           +
+     5.60  +                                                                        *                           +
+     5.80  +                                                                        *                           +
+     6.00  +                                                                       *                            +
+     6.20  +                                                                       *                            +
+     6.40  +                                                                      *                             +
+     6.60  +                                                                      *                             +
+     6.80  +                                                                     *                              +
+     7.00  +                                                                     *                              +
+     7.20  +                                                                    *                               +
+     7.40  +                                                                    *                               +
+     7.60  +                                                                   *                                +
+     7.80  +                                                                   *                                +
+     8.00  +                                                                  *                                 +
+     8.20  +                                                                  *                                 +
+     8.40  +                                                                 *                                  +
+     8.60  +                                                                *                                   +
+     8.80  +                                                                *                                   +
+     9.00  +                                                               *                                    +
+     9.20  +                                                              *                                     +
+     9.40  +                                                              *                                     +
+     9.60  +                                                             *                                      +
+     9.80  +                                                            *                                       +
+    10.00  +                                                           *                                        +
+    10.20  +                                                           *                                        +
+    10.40  +                                                          *                                         +
+    10.60  +                                                         *                                          +
+    10.80  +                                                        *                                           +
+    THETA  *++++++++++++++++++++++++*++++++++++++++++++++++++*++++++++++++++++++++++++*++++++++++++++++++++++++*
+1
+
+***********************************   END OF DWHI CALCULATION   ***********************************
+
+

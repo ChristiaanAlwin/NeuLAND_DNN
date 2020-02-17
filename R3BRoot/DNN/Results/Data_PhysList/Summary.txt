@@ -1,0 +1,59 @@
+FANN round 1:  <Training/Validation>:
+    INCXX/INCLXX  INCLXX/BERT  ERROR
+0n  59%           70%          11%
+1n  94%           96%           2%
+2n  73%           73%           0
+3n  51%           53%           2%
+4n  46%           45%           1%
+5n  75%           76%           1%
+
+FANN round 2:  <Training/Validation>:
+    INCXX/INCLXX  INCLXX/BERT  ERROR  ERROR (stoch. INCLXX)
+0n  --            --           --     ALL
+1n  91%           93%           2%     3%
+2n  79%           78%           1%     6%
+3n  53%           54%           1%     2%
+4n  35%           36%           1%    11%
+5n  77%           78%           1%     2%
+
+FANN round 3:  <Training/Validation>:
+    BERT/INCLXX  BERT/BERT  ERROR
+0n  59%          70%        11%
+1n  90%          92%         2%
+2n  70%          67%         3%
+3n  60%          62%         2%
+4n  48%          47%         1%
+5n  72%          72%         1%
+
+
+FANN round 4:  <Training/Validation>:
+    BERT/INCLXX  BERT/BERT  ERROR     ERROR (stoch. BERT)
+0n  --           --         --        ALL
+1n  93%          94%         1%        3%
+2n  82%          81%         1%       12%
+3n  45%          44%         1%       15%
+4n  57%          56%         1%        9%
+5n  14%          15%         1%       ALL
+
+Traditional:  <Training/Validation>
+    INCLXX/INCLXX  INCLXX/BERT  BERT/INCLXX BERT/BERT    ERROR:
+0n  72%            74%          73%         74%           2%    
+1n  77%            78%          79%         81%           4%
+2n  68%            66%          67%         65%           3%
+3n  61%            62%          59%         61%           3%
+4n  52%            51%          57%         55%           6%
+5n  59%            60%          58%         58%           2%
+
+Physics list error is always <3%
+Schochastic error in traning the network can be up to 10% and above.
+
+Stochastic error is due to randomness in initial weights and
+and randomness of stochastic decent training algorithm.
+Of course; if it is physically possible to train a network
+perfectly, any random path will convert to this perfect 
+training, given enough epochs (CPU time). But in our example,
+the blobs overlap quite a bit and a perfect training is 
+simply impossible. Hence, there will be no convergence in
+the training, giving rise to a stochastic error. To fix this
+error, we need to supply more input to the network so that
+a better classification is possible (better convergence).

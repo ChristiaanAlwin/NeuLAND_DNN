@@ -1,0 +1,21 @@
+NEUTRON SEPARATION MATRIX:
+
+               True neutron multiplicity:
+               0n    1n    2n    3n    4n    5n    
+obtained   0n  73%   46%    0%    0%    0%    0%   
+neutron    1n  24%   79%   12%   28%   51%    0%   
+mult.      2n  24%   16%   67%   17%   18%   13%   
+           3n   0%   43%   20%   59%   23%   63%   
+           4n   0%    0%   65%   22%   57%   35%   
+           5n   0%    0%    0%   14%   17%   58%   
+
+
+
+CALIBRATION CUTS USED TO COMPUTE THIS MATRIX:
+
+Kappa = -0.0121039 [#clusters/MeV]
+0n Energy Cut = 253.238 [MeV]
+1n Energy Cut = 849.48 [MeV]
+2n Energy Cut = 1403.83 [MeV]
+3n Energy Cut = 1977.58 [MeV]
+4n Energy Cut = 2570.59 [MeV]

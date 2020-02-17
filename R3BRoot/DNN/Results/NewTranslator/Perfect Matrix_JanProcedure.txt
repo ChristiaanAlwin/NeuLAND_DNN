@@ -1,0 +1,40 @@
+
+
+Amount of events with 1 prim. track fired                       = 1730
+Amount of events with 1 prim. track interaction with NeuLAND    = 1651
+Amount of events with 1 prim. track detected by NeuLAND signals = 1645
+
+
+Neutron Separation Matrix for perfect reconstruction (Gun/Detected):
+        Particle Gun Multiplicities:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n:   0.00%    4.91%    0.79%    0.00%    0.00%    0.00%  
+Det. mult. 1n:   0.00%   95.09%    9.85%    0.48%    0.55%    0.00%  
+Det. mult. 2n:   0.00%    0.00%   89.67%   13.81%    1.73%    0.60%  
+Det. mult. 3n:   0.00%    0.00%    0.00%   85.24%   20.41%    3.26%  
+Det. mult. 4n:   0.00%    0.00%    0.00%    0.00%   77.81%   24.91%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.00%    0.00%   71.57%  
+
+
+Neutron Separation Matrix for perfect reconstruction (Gun/Interaction):
+        Particle Gun Multiplicities:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Int. mult. 0n:   0.00%    4.56%    0.79%    0.00%    0.00%    0.00%  
+Int. mult. 1n:   0.00%   95.43%    8.52%    0.43%    0.55%    0.00%  
+Int. mult. 2n:   0.00%    0.00%   91.00%   11.86%    1.32%    0.34%  
+Int. mult. 3n:   0.00%    0.00%    0.00%   87.30%   16.67%    1.91%  
+Int. mult. 4n:   0.00%    0.00%    0.00%    0.00%   81.96%   21.52%  
+Int. mult. 5n:   0.00%    0.00%    0.00%    0.00%    0.00%   76.52%  
+
+
+Neutron Separation Matrix for perfect reconstruction (NeuLAND/Detected):
+        NeuLAND Interaction Multiplicities:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n: 100.00%    0.28%    0.00%    0.00%    0.00%    0.00%  
+Det. mult. 1n:   0.00%   99.67%    1.32%    0.84%    0.00%    0.00%  
+Det. mult. 2n:   0.00%    0.00%   98.68%    2.37%    0.71%    0.68%  
+Det. mult. 3n:   0.00%    0.00%    0.00%   97.58%    5.10%    0.97%  
+Det. mult. 4n:   0.00%    0.00%    0.00%    0.00%   94.81%    6.02%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.00%    0.00%   93.52%  
+
+

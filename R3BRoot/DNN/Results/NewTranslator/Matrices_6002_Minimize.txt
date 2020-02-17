@@ -1,0 +1,85 @@
+
+
+Neutron Separation Matrix for perfect reconstruction:
+        Particle Gun Multiplicities:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n:   0.00%   11.06%    0.25%    0.93%    0.00%    0.00%  
+Det. mult. 1n:   0.00%   88.94%   10.26%    0.39%    0.92%    0.00%  
+Det. mult. 2n:   0.00%    0.00%   89.12%   11.98%    1.28%    0.02%  
+Det. mult. 3n:   0.00%    0.00%    0.00%   87.23%   11.97%    1.18%  
+Det. mult. 4n:   0.00%    0.00%    0.00%    0.00%   86.70%   14.48%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.00%    0.00%   84.23%  
+Average Performance =  87.24%
+
+UnFolded Neutron Separation Matrix for TDR reconstruction:
+Limited to Events where Gun Multiplicity and Detected Multiplicity are equal.
+        Detected Multiplicities in NeuLAND:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n:   0.00%    8.44%    0.62%    0.00%    0.00%    0.00%  
+Det. mult. 1n:   0.00%   83.28%   15.56%    1.41%    0.13%    0.00%  
+Det. mult. 2n:   0.00%    8.27%   67.80%   22.78%    3.12%    0.22%  
+Det. mult. 3n:   0.00%    0.00%   16.21%   61.62%   33.75%    6.89%  
+Det. mult. 4n:   0.00%    0.00%    0.70%   13.79%   48.58%   37.38%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.95%   14.43%   55.61%  
+Average Performance =  63.38%
+
+UnFolded Neutron Separation Matrix for TDR reconstruction:
+        Detected Multiplicities in NeuLAND:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n:  51.77%    8.27%    0.41%    0.00%    0.00%    0.00%  
+Det. mult. 1n:  44.25%   80.04%   15.08%    1.27%    0.79%    0.00%  
+Det. mult. 2n:   3.98%   11.01%   66.35%   22.74%    3.08%    0.22%  
+Det. mult. 3n:   0.00%    0.20%   18.00%   60.12%   32.96%    6.89%  
+Det. mult. 4n:   0.00%    0.17%    0.24%   15.18%   48.82%   37.38%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.87%   15.03%   55.61%  
+Average Performance =  62.19%
+
+Folded Neutron Separation Matrix for TDR reconstruction:
+        Particle Gun Multiplicities:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n:   0.00%   13.41%    1.10%    0.00%    0.00%    0.00%  
+Det. mult. 1n:   0.00%   79.03%   20.03%    2.95%    0.46%    0.00%  
+Det. mult. 2n:   0.00%    7.56%   63.75%   27.07%    6.10%    0.70%  
+Det. mult. 3n:   0.00%    0.00%   14.88%   57.35%   36.01%   10.32%  
+Det. mult. 4n:   0.00%    0.00%    0.40%   12.28%   44.83%   39.29%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.45%   12.81%   49.61%  
+Average Performance =  58.91%
+
+UnFolded Neutron Separation Matrix for DNN reconstruction:
+Limited to Events where Gun Multiplicity and Detected Multiplicity are equal.
+        Detected Multiplicities in NeuLAND:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n:   0.00%    0.00%    0.00%    0.00%    0.00%    0.00%  
+Det. mult. 1n:   0.00%   94.90%    9.56%    0.95%    0.00%    0.00%  
+Det. mult. 2n:   0.00%    5.10%   79.09%   17.30%    1.42%    0.00%  
+Det. mult. 3n:   0.00%    0.00%   11.35%   65.35%   23.41%    2.86%  
+Det. mult. 4n:   0.00%    0.00%    0.00%   16.68%   53.92%   26.10%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.82%   21.25%   71.04%  
+Average Performance =  72.86%
+
+UnFolded Neutron Separation Matrix for DNN reconstruction:
+        Detected Multiplicities in NeuLAND:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n:   0.00%    0.00%    0.00%    0.00%    0.00%    0.00%  
+Det. mult. 1n:  96.46%   90.59%    9.14%    0.43%    0.00%    0.00%  
+Det. mult. 2n:   3.54%    8.99%   77.05%   17.04%    1.46%    0.00%  
+Det. mult. 3n:   0.00%    0.61%   13.48%   64.44%   22.72%    2.86%  
+Det. mult. 4n:   0.00%    0.17%    0.29%   17.34%   53.77%   26.10%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.35%   22.04%   71.04%  
+Average Performance =  71.38%
+
+Folded Neutron Separation Matrix for DNN reconstruction:
+        Particle Gun Multiplicities:
+                 0n:      1n:      2n:      3n:      4n:      5n:      
+Det. mult. 0n:   0.00%    0.00%    0.00%    0.00%    0.00%    0.00%  
+Det. mult. 1n:   0.00%   95.25%   15.17%    1.47%    0.00%    0.00%  
+Det. mult. 2n:   0.00%    4.74%   74.53%   23.08%    3.94%    0.59%  
+Det. mult. 3n:   0.00%    0.00%   10.30%   60.36%   27.98%    5.59%  
+Det. mult. 4n:   0.00%    0.00%    0.00%   14.84%   49.31%   30.05%  
+Det. mult. 5n:   0.00%    0.00%    0.00%    0.46%   18.77%   64.00%  
+Average Performance =  68.69%
+
+NB: at 1n, the correct percentage in the Folded DNN matrix might be larger then the
+percentage in the max. matrix. This is, because the DNN does not have a 0n
+output neuron. Hence, Those events are mistaken for 1n events. It is not a bug!
+

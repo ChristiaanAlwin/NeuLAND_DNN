@@ -1,0 +1,109 @@
+Compare TDR Cross Sections with Single Reconstruction cross sections.
+In simulations, TDR Keeps after the cuts: 64.3% (BERT/BERT)     
+                                          71.8% (BERT/INCLXX)   
+                                          56.9% (INCLXX/BERT)   
+                                          67.5% (INCLXX/INCLXX) 
+                                          ---------------------
+                                          65.1% +/- 8.2%
+                                          
+In experiment, TDR Keeps after the cuts: 61.3% (INCLXX)
+                                          49.2% (BERT)
+                                          ---------------------
+                                          55.3% +/- 6.1%
+                                          
+Comparing averages: 65.1% / 55.25% = 1.179 ==> 17.9% extra.
+Comparing simulation average with INCLXX 65.1% - 61.3% ==> 6.2%
+
+In validation (Unfolded matrices), these numbers are: 70.5% (BERT/BERT)
+                                                      65.0% (BERT/INCLXX)
+                                                      75.3% (INCLXX/BERT)
+                                                      71.1% (INCLXX/INCLXX)
+                                                      ---------------------
+                                                      70.5% +/- 5.5%
+                                                      
+Compare with INCLXX Exp data: 70.5% - 61.3% ==> 15.0%
+Differences in numbers is because unfolded matrices are computed
+differently. They are unfolded (Detected Multiplicity==GunMultiplicity).
+With these matrices, we do not have such a restriction. 
+For single reconstruction, we just take GunMultiplicity==1 & 
+consider everything being 1 unless #Clusters==0. This causes the difference
+
+Overall efficiencies (Including physics list)
+0.2249165 0.014257
+0.2261672 0.014098 
+0.2277558 0.013745  
+0.2299127 0.015248  
+0.1968355 0.056650
+
+Error = 6.2% (Less than the 8.2% that we predicted).
+
+HOWEVER: The experimental integral of the histograms is for the full E* range.
+We know that if E* goes up, Eneutron goes down, so the high E* points are more
+likely to fall under the cut. Hence, compute experimental percentages
+under the limit |E*| < 10 MeV: 55.7% (INCLXX)
+                               43.9% (BERT)
+                               --------------
+                               49.8% +/- 5.9%
+                               
+We do not need to take any resitrictions technically, because the simulation
+was done with the Ex-generator, but OK: 66.5% (INCLXX/INCLXX)
+                                        70.0% (INCLXX/BERT)
+                                        55.4% (BERT/INCLXX)
+                                        62.1% (BERT/BERT)
+                                        ---------------------
+                                        63.5% +/- 8.1%
+
+Now compare 55.7% (Exp INCLXX) with average: 63.5% ==> 14% difference. But the way
+we calculated the physics list error, the total TDR error is of the order of 6.2%
+Single reconstruction is 0.33 +/- 0.02 ==> error is of the order of 6% as well.
+Hence, we see that 14% is slightly more than 2*6% and that is what we see!
+
+(q=0) cross sections are 2.172e6 (min. TOF) & 1.800e6 (TDR) ==> Difference = 21%
+
+But note that although we simulated a delta-spike at 'true' E*=0, even the 
+single-reconstructed simulation outcome is NOT within +/- 10 MeV entirely.
+This is the reason why there are slight differences. And if we compute
+the error difference with respect to non-restricted simulation percentages,
+that 55.7% w.r.t. 65.1% = 17%. TDR statisti error is 2.8% and minTOF is 2.2%
+Hence 21%/17% falls within statistical margins. and lets not forget that
+all of this is an estimate. The true cross section calculation is the 
+correct method.
+
+TAKE HOME MESSAGE: TDR cuts keep 65.1% +/- 8.1% of the simulated data, while with
+experimental data, it keeps (INCLXX) only 55.7% This difference gives an 
+underestimate of the TDR cross section. It is a priori possible to choose
+the INCLXX training over the BERT training when computing cross sections,
+because one can always make the Edep/#clusters plot and see that BERT<INCLXX<Exp.
+65.1%/55.7% ==> 17% underestimation, which is enough to explain the difference.
+In simulation, we do E*=0 delta-spike, so there is no need to restrict it,
+but for Exp data, we need to restrict to |E*| < 10 MeV to really study the peak. 
+At higher E*, Eneutron goes down, hence those will fall below the cut. This
+is why TDR especially underestimates the peak.
+
+DNN is much like TDR, only a little more advanced. Hence, we see that TDR & DNN behave
+the same way, only DNN has larger statistics. But cross sections are the same.
+
+This effect cannot be seen from simulation. Physics list has 2 aspects:
+1) Single neutron detection efficiency (This determines #counts in Edep/#clusters)
+2) Secondary interactions (This determines the shape of Edep/#clusters).
+
+Jan Mayer benchmarked 1) to be between BERT & INCLXX. But no-one
+benchmarked 2). We did and we found BERT<INCLXX<Exp. Hence, it is understandable
+that we cannot reasonably a priori estimate the error in 2). We need
+benchmarkings for that (and preferably a better physics list).
+
+Also notice that MinTOF method is model-independent. Hence, it is only sensitive
+to aspect 1), while TDR & DNN also feel the effects of 2). Hence, changing
+the physics list will affect TDR & DNN in the same way, but not minTOF.
+So the physics list error bands can (hand have to be) used to explain the difference
+between TDR & minTOF. But physics list error bands should NOT be needed to explain
+the difference between TDR & DNN (and they are not).
+
+Also, since BERT<INCLXX<Exp for aspect 2), while BERT<Exp<INCLXX for 1), it is also
+understandable that we should compute cross sections from Exp with INCLXX training.
+we can know this a priori by looking at Edep/#clusters plot. This is the argument
+against taking BERT/INCLXX average for Exp. Cross sections.
+
+NOTE: For the exp. Edep/#clusters plot, the #bins cannot be too high, because otherwise,
+the background subtraction will just be 1-0 or 0-1. That is incorrect. But this will
+cause the percentages to be less exact than for the accurate validation calculations.
