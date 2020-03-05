@@ -5,6 +5,6 @@ cd ./InputFiles
 rm -rf ./InputsFile.txt
 rm -rf ./OutputPath.txt
 cd ../Macros
-#root -l -q GenerateInputs.cpp
-root -l -q GenerateSAMURAIInputs.cpp
+root -l -q GenerateInputs.cpp
+#root -l -q GenerateSAMURAIInputs.cpp
 cd ../

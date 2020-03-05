@@ -199,6 +199,26 @@ void ScoringClass::GenerateSpectrum(Int_t const Nbins, Double_t const Xmin, Doub
     }
 }
 
+Double_t ScoringClass::GetXmin()
+{
+    Double_t Xmin = 0.0;
+    if ((PrimarySpectrum!=0)&&(PrimarySpectrum!=nullptr))
+    {
+        Xmin = PrimarySpectrum->GetXaxis()->GetXmin();
+    }
+    return Xmin;
+}
+
+Double_t ScoringClass::GetXmax()
+{
+    Double_t Xmax = 1e-6;
+    if ((PrimarySpectrum!=0)&&(PrimarySpectrum!=nullptr))
+    {
+        Xmax = PrimarySpectrum->GetXaxis()->GetXmax();
+    }
+    return Xmax;
+}
+
 void ScoringClass::WriteScorer()
 {
     // Assign The OutputFile as the curent file:

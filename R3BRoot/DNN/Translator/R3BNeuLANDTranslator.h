@@ -39,6 +39,7 @@
 #include "R3BInputClass.h"
 #include "ObjInteger.h"
 #include "Nuclei.h"
+#include "AllScorers.h"
 
 using namespace std;
 
@@ -79,7 +80,7 @@ class R3BNeuLANDTranslator : public FairTask
         void CreateControlHistograms();         // Use in Init()-function.
         void InitializeNeutronMatrix();         // Use in Init()-function.
         
-        void TranslateSignals(TClonesArray* fDigiArray, TClonesArray* fSignalArray); // Use inExec()-function. Can be used for multiple translations.
+        void TranslateSignals(TClonesArray* fDigiArray, TClonesArray* fSignalArray, TString const ArrayCase); // Use inExec()-function. Can be used for multiple translations.
         void BuildPrimaryTracks();              // Use in Exec()-function.
         void GetPrimaryInteractionPointsR3BMCTrack(); // Use in Exec()-function.
         void GetPrimaryInteractionLandPoints(); // Use in Exec()-function.
@@ -192,6 +193,23 @@ class R3BNeuLANDTranslator : public FairTask
         Double_t BreakProbability;          // Probability of whether a single channel is broken.
         Bool_t ValidationMode;              // States whether this is a validation-run or not (we only break during validation).
         Bool_t DisplayBreaks;               // Gives screen output for each broken channel.
+        Double_t NoiseProbability;          // Probability for adding a bar with a noise-signal.
+        Bool_t AddNoisyChannes;             // Decides whether or not we add noise-signals.
+        Bool_t DisplayNoise;                // Gives screen output for each added noise-channel.
+        
+        // NEBULA Geometry parameters:
+        Double_t NEBULA_Center_X;
+        Double_t NEBULA_Center_Y;
+        Double_t NEBULA_Front_Z;
+        Double_t NEBULA_Rot_X;
+        Double_t NEBULA_Rot_Y;
+        Double_t NEBULA_Rot_Z;
+        Double_t NEBULA_Active_Bar_Thickness;
+        Double_t NEBULA_Total_Bar_Length;
+        Double_t NEBULA_TotalBarThickness;
+        Int_t NEBULAPaddlesPerPlane;
+        Int_t NEBULADoublePlanes;
+        Double_t NEBULADoublePLaneDistance;
         
         // Verification parameters & Counters:
         Int_t EventCounter;                 // Counts events for logging progress.
@@ -225,6 +243,8 @@ class R3BNeuLANDTranslator : public FairTask
         TFile* TheOutputFile;
         TString OutputNameTag;
         TRandom3* TheGenerator;
+        AllScorers* NeuLANDScorers;
+        AllScorers* NEBULAScorers;
         
     public:
         // Generation of ROOT dictionary:

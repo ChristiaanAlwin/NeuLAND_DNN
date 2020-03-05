@@ -117,7 +117,7 @@ Int_t R3BSignal::GetCurrentPlane(TString const TheCase, Int_t const nPaddlesPerP
     
     // NOTE: First plane starts at 1!
     return Answer;
-}        
+}
 
 Double_t R3BSignal::GetBeta(Double_t const Target_T, Double_t const Target_X, Double_t const Target_Y, Double_t const Target_Z)
 {

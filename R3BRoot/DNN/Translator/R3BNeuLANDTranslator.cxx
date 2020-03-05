@@ -33,6 +33,7 @@ R3BNeuLANDTranslator::R3BNeuLANDTranslator() : FairTask("R3BNeuLANDTranslator")
   
     // Set default input parameters:
     DisplayBreaks = kFALSE;
+    DisplayNoise = kFALSE;
     UseVETO = kFALSE;
     UseNEBULA = kFALSE;
     UseNEBVETO = kFALSE;
@@ -78,6 +79,22 @@ R3BNeuLANDTranslator::R3BNeuLANDTranslator() : FairTask("R3BNeuLANDTranslator")
     BreakChannels = kFALSE;
     BreakProbability = 0.0;
     ValidationMode = kFALSE;
+    NoiseProbability = 0.0;
+    AddNoisyChannes = kFALSE;
+    
+    // NEBULA Geometry parameters:
+    NEBULA_Center_X = 0.0;
+    NEBULA_Center_Y = 0.0;
+    NEBULA_Front_Z = 1800.0;
+    NEBULA_Rot_X = 0.0;
+    NEBULA_Rot_Y = 0.0;
+    NEBULA_Rot_Z = 0.0;
+    NEBULA_Active_Bar_Thickness = 11.8;
+    NEBULA_Total_Bar_Length = 190.0;
+    NEBULA_TotalBarThickness = 12.0;
+    NEBULAPaddlesPerPlane = 30;
+    NEBULADoublePlanes = 2;
+    NEBULADoublePLaneDistance = 85.0;
     
     // Set counters & verification parameters:
     GunMult_Counter = 0;
@@ -111,6 +128,8 @@ R3BNeuLANDTranslator::R3BNeuLANDTranslator() : FairTask("R3BNeuLANDTranslator")
     TheOutputFile = 0;
     OutputNameTag = "";
     TheGenerator = 0;
+    NeuLANDScorers = 0;
+    NEBULAScorers = 0;
 }
 
 // Destructor definition:
@@ -152,6 +171,8 @@ R3BNeuLANDTranslator::~R3BNeuLANDTranslator()
     // Delete other objects:
     delete TheNuclei;
     delete TheGenerator;
+    delete NeuLANDScorers;
+    delete NEBULAScorers;
 }
 
 // FairTask initialization function:
@@ -310,6 +331,19 @@ InitStatus R3BNeuLANDTranslator::Init()
     // Initialize the Random Number generator with the time:
     TheGenerator = new TRandom3(0);
     
+    // Initialize AllScorers-classes:
+    NeuLANDScorers = new AllScorers();
+    NeuLANDScorers->SetDetector("NeuLAND");
+    NeuLANDScorers->LinkInputsClass(Inputs);
+    Bool_t NeuTest = NeuLANDScorers->Initialize();
+    if (NeuTest==kFALSE) {cout << "### FATAL: Failed to initialize the NeuLAND Scorers!\n\n"; return kFATAL;}
+    
+    NEBULAScorers = new AllScorers();
+    NEBULAScorers->SetDetector("NEBULA");
+    NEBULAScorers->LinkInputsClass(Inputs);
+    Bool_t NebTest = NEBULAScorers->Initialize();
+    if (NebTest==kFALSE) {cout << "### FATAL: Failed to initialize the NEBULA Scorers!\n\n"; return kFATAL;}
+        
     // Then, return the succes statement & reset counters:
     if (Inputs->ContainsNoErrors()==kFALSE) {Inputs->PrintAllErrors(); return kFATAL;}
     if (MinimizationMarking_AllowMaxDist==kFALSE) {MinimizationMarking_MaxDistance = 1e99;}
@@ -350,10 +384,10 @@ void R3BNeuLANDTranslator::Exec(Option_t *option)
     PrimIntPoints_TrackID.clear();
     
     // Fill the output Array with signals:
-    TranslateSignals(fArrayDigis,fArraySignals);
-    if (UseVETO==kTRUE) {TranslateSignals(fArrayVETODigis,fArrayVETOSignals);}
-    if (UseNEBULA==kTRUE) {TranslateSignals(fArrayNEBULADigis,fArrayNEBULASignals);}
-    if (UseNEBVETO==kTRUE) {TranslateSignals(fArrayNEBVETODigis,fArrayNEBVETOSignals);}
+    TranslateSignals(fArrayDigis,fArraySignals,"NeuLAND");
+    if (UseVETO==kTRUE) {TranslateSignals(fArrayVETODigis,fArrayVETOSignals,"VETO");}
+    if (UseNEBULA==kTRUE) {TranslateSignals(fArrayNEBULADigis,fArrayNEBULASignals,"NEBULA");}
+    if (UseNEBVETO==kTRUE) {TranslateSignals(fArrayNEBVETODigis,fArrayNEBVETOSignals,"NEBVETO");}
     
     // Next, we have to decide if we will use the simulation
     // data to mark some signals as primary ones:

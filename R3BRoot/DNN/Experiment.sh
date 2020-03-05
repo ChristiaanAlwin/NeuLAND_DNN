@@ -128,9 +128,9 @@ cd ../Keras/Script/
     
 if [[ "$2" = "GPU" ]]
 then
-source /home/machinelearning/Desktop/GPUTensorFlow/bin/activate
+source /home/christiaan/Desktop/GPUTensorFlow/bin/activate
 else
-source /home/machinelearning/Desktop/TensorFlow/bin/activate
+source /home/christiaan/Desktop/TensorFlow/bin/activate
 fi
 
 python ./GenerateMultOutput.py

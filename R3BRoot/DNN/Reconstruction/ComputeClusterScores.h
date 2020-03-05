@@ -140,7 +140,7 @@ R3BSignal* AllScorers::GetPrimaryClusterHit(R3BSignalCluster* ThisCluster)
     else
     {
         Int_t ClusterSize = ThisCluster->GetSize();
-        Double_t rnd = Generator->Uniform(0.0,(Int_t) ClusterSize);
+        Double_t rnd = TheGenerator->Uniform(0.0,(Int_t) ClusterSize);
         Int_t Index = (Int_t) rnd;
         R3BSignal* rnd_Signal = ThisCluster->Atp(Index);
         return rnd_Signal;
@@ -217,7 +217,7 @@ R3BSignal* AllScorers::GetFinalClusterHit(R3BSignalCluster* ThisCluster)
     else
     {
         Int_t ClusterSize = ThisCluster->GetSize();
-        Double_t rnd = Generator->Uniform(0.0,(Int_t) ClusterSize);
+        Double_t rnd = TheGenerator->Uniform(0.0,(Int_t) ClusterSize);
         Int_t Index = (Int_t) rnd;
         R3BSignal* rnd_Signal = ThisCluster->Atp(Index);
         return rnd_Signal;

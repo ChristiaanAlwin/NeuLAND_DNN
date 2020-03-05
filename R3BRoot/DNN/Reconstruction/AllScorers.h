@@ -82,6 +82,8 @@ class AllScorers : public TObject
         ScoringClass* RetrieveClusterScorer(TString const Name);
         Int_t GetNumberOfClusterScores();
         Int_t GetNumberOfSignalScores();
+        Double_t ComputeSignalRandomValue(TString const ScoreName);
+        Double_t ComputeClusterRandomValue(TString const ScoreName);
         
         // Error handling:
         void ErrorMessage(TString const Message);
@@ -175,7 +177,7 @@ class AllScorers : public TObject
             // Auxillary classes:
             R3BInputClass* Inputs;
             Nuclei* TheNuclei;
-            TRandom3* Generator;
+            TRandom3* TheGenerator;
             
 
         public:

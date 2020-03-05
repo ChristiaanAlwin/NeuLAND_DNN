@@ -62,7 +62,7 @@ AllScorers::AllScorers()
     Inputs = 0;
     TheNuclei = new Nuclei();
     TheNuclei->BuildDataBase();
-    Generator = new TRandom3(0);
+    TheGenerator = 0;
 }
 
 // Destructor definition:
@@ -72,6 +72,7 @@ AllScorers::~AllScorers()
     for (Int_t k = 0; k<ClusterScorers.size(); ++k) {delete ClusterScorers.at(k);} ClusterScorers.clear();
     Errors.clear();
     delete TheNuclei;
+    delete TheGenerator;
 }
 
 // Include member functions:
@@ -80,6 +81,7 @@ AllScorers::~AllScorers()
 #include "ErrorHandling.h"
 #include "ComputeSignalScores.h"
 #include "ComputeClusterScores.h"
+#include "ComputeRandomValues.h"
 
 // Generation of a ROOT-dictionary:
 ClassImp(AllScorers)

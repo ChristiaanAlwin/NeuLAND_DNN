@@ -56,6 +56,9 @@ Bool_t AllScorers::Initialize()
         UseSignalScore_TOF = Inputs->GetInputBoolian("NeuLAND_Scoring_UseSignalScore_TOF");
         UseSignalScore_Rvalue = Inputs->GetInputBoolian("NeuLAND_Scoring_UseSignalScore_Rvalue");
         
+        // Initialize the Random Generator with time-seed:
+        TheGenerator = new TRandom3(0);
+        
         if (ThisDetector=="NEBULA")
         {
             OutputFile = "NEBULA_TheScorersFile.root"; // Must be predefined for Validate.sh script!

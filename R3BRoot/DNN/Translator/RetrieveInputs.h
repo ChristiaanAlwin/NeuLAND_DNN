@@ -45,4 +45,18 @@ void R3BNeuLANDTranslator::RetrieveInputs()
     ValidationMode = Inputs->GetInputBoolian("NeuLAND_DNNTextFile_ValidationMode");
     BreakChannels = Inputs->GetInputBoolian("NeuLAND_Translator_BreakChannels_OnPurpose");
     BreakProbability = Inputs->GetInputDouble("NeuLAND_Translator_BreakChannels_Percentage","probability");
+    NoiseProbability = Inputs->GetInputDouble("NeuLAND_Translator_NoisyChannels_Percentage","probability");
+    AddNoisyChannes = Inputs->GetInputBoolian("NeuLAND_Translator_AddNoisyChannels");
+    NEBULA_Center_X = Inputs->GetInputDouble("NEBULA_center_x_position","cm");
+    NEBULA_Center_Y = Inputs->GetInputDouble("NEBULA_center_y_position","cm");
+    NEBULA_Front_Z = Inputs->GetInputDouble("NEBULA_front_z_position","cm");
+    NEBULA_Rot_X = Inputs->GetInputDouble("NEBULA_x_rotation_angle","degree");
+    NEBULA_Rot_Y = Inputs->GetInputDouble("NEBULA_y_rotation_angle","degree");
+    NEBULA_Rot_Z = Inputs->GetInputDouble("NEBULA_z_rotation_angle","degree");
+    NEBULA_Active_Bar_Thickness = Inputs->GetInputDouble("NEBULA_BC408_BarThickness","cm");
+    NEBULA_Total_Bar_Length = Inputs->GetInputDouble("NEBULA_Total_BarLength","cm");
+    NEBULA_TotalBarThickness = Inputs->GetNEBULATotalPaddleThickness();
+    NEBULAPaddlesPerPlane = Inputs->GetInputInteger("NEBULA_Number_of_Bars_in_OnePlane");
+    NEBULADoublePlanes = Inputs->GetInputInteger("NEBULA_Number_of_DoublePlaneModules");
+    NEBULADoublePLaneDistance = Inputs->GetInputDouble("NEBULA_Distance_BetweenModules","cm");
 }

@@ -44,6 +44,8 @@ class ScoringClass : public TObject
         Double_t GetScoreDivision(Double_t const Value);
         Bool_t IsMarkedAsCluster();
         Bool_t IsPlotLogScale();
+        Double_t GetXmin();
+        Double_t GetXmax();
         
         // Control-functions:
         void GenerateSpectrum(Int_t const Nbins, Double_t const Xmin, Double_t const Xmax);
