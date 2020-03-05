@@ -22,6 +22,7 @@
 #include "TH3D.h"
 #include "TVector3.h"
 #include "TPolyLine3D.h"
+#include "TRandom3.h"
 
 // Inclusion of R3BRoot headers:
 #include "FairRootManager.h"
@@ -187,6 +188,10 @@ class R3BNeuLANDTranslator : public FairTask
         Double_t ParticleGun_x_position;    // x-position of the particle gun.
         Double_t ParticleGun_y_position;    // y-position of the particle gun.
         Double_t ParticleGun_z_position;    // z-position of the particle gun.
+        Bool_t BreakChannels;               // Decides whether or not we break a few channels on purpose.
+        Double_t BreakProbability;          // Probability of whether a single channel is broken.
+        Bool_t ValidationMode;              // States whether this is a validation-run or not (we only break during validation).
+        Bool_t DisplayBreaks;               // Gives screen output for each broken channel.
         
         // Verification parameters & Counters:
         Int_t EventCounter;                 // Counts events for logging progress.
@@ -219,7 +224,8 @@ class R3BNeuLANDTranslator : public FairTask
         Nuclei* TheNuclei;
         TFile* TheOutputFile;
         TString OutputNameTag;
-    
+        TRandom3* TheGenerator;
+        
     public:
         // Generation of ROOT dictionary:
         ClassDef(R3BNeuLANDTranslator, 1);

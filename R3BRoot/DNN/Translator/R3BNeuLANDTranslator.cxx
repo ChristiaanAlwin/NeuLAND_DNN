@@ -32,6 +32,7 @@ R3BNeuLANDTranslator::R3BNeuLANDTranslator() : FairTask("R3BNeuLANDTranslator")
     fArrayNEBDetMult = new TClonesArray("ObjInteger");
   
     // Set default input parameters:
+    DisplayBreaks = kFALSE;
     UseVETO = kFALSE;
     UseNEBULA = kFALSE;
     UseNEBVETO = kFALSE;
@@ -74,6 +75,9 @@ R3BNeuLANDTranslator::R3BNeuLANDTranslator() : FairTask("R3BNeuLANDTranslator")
     ParticleGun_x_position = 0.0;
     ParticleGun_y_position = 0.0;
     ParticleGun_z_position = 0.0;
+    BreakChannels = kFALSE;
+    BreakProbability = 0.0;
+    ValidationMode = kFALSE;
     
     // Set counters & verification parameters:
     GunMult_Counter = 0;
@@ -106,6 +110,7 @@ R3BNeuLANDTranslator::R3BNeuLANDTranslator() : FairTask("R3BNeuLANDTranslator")
     TheNuclei->BuildDataBase();
     TheOutputFile = 0;
     OutputNameTag = "";
+    TheGenerator = 0;
 }
 
 // Destructor definition:
@@ -146,6 +151,7 @@ R3BNeuLANDTranslator::~R3BNeuLANDTranslator()
     
     // Delete other objects:
     delete TheNuclei;
+    delete TheGenerator;
 }
 
 // FairTask initialization function:
@@ -300,6 +306,9 @@ InitStatus R3BNeuLANDTranslator::Init()
     
     // Initialize the control histograms:
     CreateControlHistograms();
+    
+    // Initialize the Random Number generator with the time:
+    TheGenerator = new TRandom3(0);
     
     // Then, return the succes statement & reset counters:
     if (Inputs->ContainsNoErrors()==kFALSE) {Inputs->PrintAllErrors(); return kFATAL;}

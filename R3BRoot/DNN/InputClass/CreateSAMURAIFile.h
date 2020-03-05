@@ -274,6 +274,8 @@ void R3BInputClass::CreateSAMURAIFile(TString const Name)
         ++NLines; AddInputBoolian("NeuLAND_Translator_MinimizationMarking_AllowMaxDist",kFALSE); 
         ++NLines;  AddInputDouble("NeuLAND_Translator_MinimizationMarking_MaxDistance","cm",5.0e10);
         ++NLines; AddInputInteger("NeuLAND_Translator_MaxMultiplicityPerCluster_JanClusters",1000);
+        ++NLines; AddInputBoolian("NeuLAND_Translator_BreakChannels_OnPurpose",kFALSE);
+        ++NLines;  AddInputDouble("NeuLAND_Translator_BreakChannels_Percentage","probability",0.0);
         ++NLines;  AddInputString("NeuLAND_ClusterFile","NeuLAND_Cluster_File.root");
         ++NLines;  AddInputString("NeuLAND_FilteredClusterFile","NeuLAND_Filtered_Cluster_File.root");
         

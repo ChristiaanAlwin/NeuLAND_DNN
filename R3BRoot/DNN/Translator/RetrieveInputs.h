@@ -42,4 +42,7 @@ void R3BNeuLANDTranslator::RetrieveInputs()
     ParticleGun_x_position = Inputs->GetInputDouble("ParticleGun_x_position","cm");
     ParticleGun_y_position = Inputs->GetInputDouble("ParticleGun_y_position","cm");
     ParticleGun_z_position = Inputs->GetInputDouble("ParticleGun_z_position","cm");
+    ValidationMode = Inputs->GetInputBoolian("NeuLAND_DNNTextFile_ValidationMode");
+    BreakChannels = Inputs->GetInputBoolian("NeuLAND_Translator_BreakChannels_OnPurpose");
+    BreakProbability = Inputs->GetInputDouble("NeuLAND_Translator_BreakChannels_Percentage","probability");
 }

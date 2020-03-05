@@ -275,6 +275,8 @@ void R3BInputClass::CreateElenaFile(TString const Name)
         ++NLines; AddInputBoolian("NeuLAND_Translator_MinimizationMarking_AllowMaxDist",kTRUE); 
         ++NLines;  AddInputDouble("NeuLAND_Translator_MinimizationMarking_MaxDistance","cm",50.0); 
         ++NLines; AddInputInteger("NeuLAND_Translator_MaxMultiplicityPerCluster_JanClusters",2);
+        ++NLines; AddInputBoolian("NeuLAND_Translator_BreakChannels_OnPurpose",kFALSE);
+        ++NLines;  AddInputDouble("NeuLAND_Translator_BreakChannels_Percentage","probability",0.0);
         ++NLines;  AddInputString("NeuLAND_ClusterFile","NeuLAND_Cluster_File.root");
         ++NLines;  AddInputString("NeuLAND_FilteredClusterFile","NeuLAND_Filtered_Cluster_File.root");
         
