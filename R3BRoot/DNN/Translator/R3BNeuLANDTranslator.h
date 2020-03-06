@@ -80,7 +80,8 @@ class R3BNeuLANDTranslator : public FairTask
         void CreateControlHistograms();         // Use in Init()-function.
         void InitializeNeutronMatrix();         // Use in Init()-function.
         
-        void TranslateSignals(TClonesArray* fDigiArray, TClonesArray* fSignalArray, TString const ArrayCase); // Use inExec()-function. Can be used for multiple translations.
+        void TranslateSignals(TClonesArray* fDigiArray, TClonesArray* fSignalArray); // Use inExec()-function. Can be used for multiple translations.
+        void AddNoisySignals(TClonesArray* fDigiArray, TClonesArray* fSignalArray, TString const ArrayCase); // Use inExec()-function. Can be used for additions in NeuLAND and NEBULA.
         void BuildPrimaryTracks();              // Use in Exec()-function.
         void GetPrimaryInteractionPointsR3BMCTrack(); // Use in Exec()-function.
         void GetPrimaryInteractionLandPoints(); // Use in Exec()-function.

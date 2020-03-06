@@ -384,10 +384,10 @@ void R3BNeuLANDTranslator::Exec(Option_t *option)
     PrimIntPoints_TrackID.clear();
     
     // Fill the output Array with signals:
-    TranslateSignals(fArrayDigis,fArraySignals,"NeuLAND");
-    if (UseVETO==kTRUE) {TranslateSignals(fArrayVETODigis,fArrayVETOSignals,"VETO");}
-    if (UseNEBULA==kTRUE) {TranslateSignals(fArrayNEBULADigis,fArrayNEBULASignals,"NEBULA");}
-    if (UseNEBVETO==kTRUE) {TranslateSignals(fArrayNEBVETODigis,fArrayNEBVETOSignals,"NEBVETO");}
+    TranslateSignals(fArrayDigis,fArraySignals);
+    if (UseVETO==kTRUE) {TranslateSignals(fArrayVETODigis,fArrayVETOSignals);}
+    if (UseNEBULA==kTRUE) {TranslateSignals(fArrayNEBULADigis,fArrayNEBULASignals);}
+    if (UseNEBVETO==kTRUE) {TranslateSignals(fArrayNEBVETODigis,fArrayNEBVETOSignals);}
     
     // Next, we have to decide if we will use the simulation
     // data to mark some signals as primary ones:
@@ -473,6 +473,12 @@ void R3BNeuLANDTranslator::Exec(Option_t *option)
     new ((*fArrayNEBMult)[0]) ObjInteger("NEBULA_Multiplicity",ThisNEBULAMultiplicity);
     new ((*fArrayDetMult)[0]) ObjInteger("Detected_Multiplicity",ThisDetectedMultiplicity);
     new ((*fArrayNEBDetMult)[0]) ObjInteger("NEBULA_Detected_Multiplicity",ThisNEBDetectedMultiplicity);
+    
+    // Add noise-signals to the arrays AFTER marking is done:
+    AddNoisySignals(fArrayDigis,fArraySignals,"NeuLAND");
+    if (UseVETO==kTRUE) {AddNoisySignals(fArrayVETODigis,fArrayVETOSignals,"VETO");}
+    if (UseNEBULA==kTRUE) {AddNoisySignals(fArrayNEBULADigis,fArrayNEBULASignals,"NEBULA");}
+    if (UseNEBVETO==kTRUE) {AddNoisySignals(fArrayNEBVETODigis,fArrayNEBVETOSignals,"NEBVETO");}
     
     // Log progress:
     EventCounter = EventCounter + 1;
@@ -573,6 +579,7 @@ void R3BNeuLANDTranslator::Finish()
 #include "InWhichNeuLANDBar.h"
 #include "RetrieveInputs.h"
 #include "TranslateSignals.h"
+#include "AddNoisySignals.h"
 #include "BuildPrimaryTracks.h"
 #include "GetPrimaryInteractionPointsR3BMCTrack.h"
 #include "GetPrimaryInteractionLandPoints.h"
