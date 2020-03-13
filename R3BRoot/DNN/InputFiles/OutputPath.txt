@@ -1,1 +1,1 @@
-/home/machinelearning/Desktop/FAIR/R3BRoot_Source/R3BRoot//DNN/OutputFiles/
+/media/christiaan/DATA/DNN_Data/NeuLAND_12dp_600MeV/INCLXX/

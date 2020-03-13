@@ -26,7 +26,7 @@ void R3BTradMethClass::DoMultipleOptimizations(Int_t const nTimes)
             OptimizeCuts();
         
             // Then, update the averages:
-            if (MinimizerStatus==0)
+            if ((MinimizerStatus==0)||(MinimizerStatus==5))
             {
                 Avg_Kappa = Avg_Kappa + Kappa;
                 for (Int_t k = 0; k<Max_Multiplicity; ++k) {Avg_Ethresholds[k] = Avg_Ethresholds[k] + Ethresholds[k];}
