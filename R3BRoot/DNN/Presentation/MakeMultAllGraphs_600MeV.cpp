@@ -45,12 +45,12 @@ void MakeMultAllGraphs_600MeV()
     
     // ------------------------------------------------------------
     
-    // Then, add the 16dp scenario:
-    DNN_1n->AddYpoint(1,75.1,75.3,74.4,75.9,75.3); DNN_Res_1n->AddYpoint(1,73.9,74.1,73.3,74.6,74.0); TDR_1n->AddYpoint(1,58.8,59.2,58.4,59.1,58.2); TDR_Res_1n->AddYpoint(1,58.1,58.5,57.7,58.4,57.4); Perfect_1n->AddYpoint(1,85.6,85.7,84.7,85.5,84.6);
-    DNN_2n->AddYpoint(1,55.7,49.4,53.9,54.6,52.8); DNN_Res_2n->AddYpoint(1,49.4,43.3,47.4,48.7,46.7); TDR_2n->AddYpoint(1,49.3,49.2,48.2,49.3,48.2); TDR_Res_2n->AddYpoint(1,42.4,42.5,40.9,42.5,40.9); Perfect_2n->AddYpoint(1,73.1,73.4,71.9,73.2,71.8);
-    DNN_3n->AddYpoint(1,39.7,44.8,37.9,40.4,38.5); DNN_Res_3n->AddYpoint(1,31.6,33.8,29.7,32.3,30.3); TDR_3n->AddYpoint(1,39.2,38.9,37.8,39.0,37.9); TDR_Res_3n->AddYpoint(1,31.3,31.2,29.4,31.0,29.5); Perfect_3n->AddYpoint(1,62.2,62.5,60.6,62.2,60.6);
-    DNN_4n->AddYpoint(1,36.0,39.5,34.2,32.2,31.0); DNN_Res_4n->AddYpoint(1,25.1,27.3,23.3,22.7,21.0); TDR_4n->AddYpoint(1,30.8,30.7,29.7,31.0,29.9); TDR_Res_4n->AddYpoint(1,22.6,22.6,21.2,22.8,21.4); Perfect_4n->AddYpoint(1,52.5,52.9,51.0,52.9,50.9);
-    DNN_5n->AddYpoint(1,43.3,41.8,41.2,44.2,44.2); DNN_Res_5n->AddYpoint(1,29.1,28.4,27.1,29.5,28.5); TDR_5n->AddYpoint(1,35.4,35.0,34.9,35.2,34.6); TDR_Res_5n->AddYpoint(1,24.2,23.9,23.2,24.0,23.0); Perfect_5n->AddYpoint(1,44.1,44.1,42.6,43.9,42.6);
+    // Then, add the 12dp scenario:
+    DNN_1n->AddYpoint(1,66.4,66.2,63.9,69.7,67.4); DNN_Res_1n->AddYpoint(1,64.6,64.4,62.0,67.8,65.6); TDR_1n->AddYpoint(1,51.2,51.4,45.8,55.5,50.3); TDR_Res_1n->AddYpoint(1,50.2,50.4,44.7,54.4,49.2); Perfect_1n->AddYpoint(1,76.8,76.8,76.4,76.8,76.4);
+    DNN_2n->AddYpoint(1,50.7,48.0,48.9,48.2,47.0); DNN_Res_2n->AddYpoint(1,39.6,36.9,36.4,39.8,37.2); TDR_2n->AddYpoint(1,41.0,41.6,39.1,42.3,41.1); TDR_Res_2n->AddYpoint(1,30.4,31.0,26.5,33.3,29.9); Perfect_2n->AddYpoint(1,59.1,59.1,58.8,59.2,58.7);
+    DNN_3n->AddYpoint(1,31.5,36.5,30.7,28.7,29.2); DNN_Res_3n->AddYpoint(1,21.0,23.3,18.7,20.9,19.3); TDR_3n->AddYpoint(1,30.9,30.8,30.8,29.1,30.4); TDR_Res_3n->AddYpoint(1,19.9,20.2,17.6,20.7,19.4); Perfect_3n->AddYpoint(1,45.4,45.5,45.1,45.5,45.2);
+    DNN_4n->AddYpoint(1,31.2,25.5,32.0,26.6,30.2); DNN_Res_4n->AddYpoint(1,17.4,13.5,16.0,16.6,16.7); TDR_4n->AddYpoint(1,23.5,22.8,25.0,19.8,23.0); TDR_Res_4n->AddYpoint(1,13.2,13.0,12.0,12.6,12.8); Perfect_4n->AddYpoint(1,35.0,34.6,34.5,34.9,34.6);
+    DNN_5n->AddYpoint(1,27.6,36.1,33.3,19.1,26.3); DNN_Res_5n->AddYpoint(1,15.2,18.2,17.1,11.5,14.3); TDR_5n->AddYpoint(1,28.4,27.0,37.3,19.9,27.3); TDR_Res_5n->AddYpoint(1,14.6,14.3,17.7,11.0,14.0); Perfect_5n->AddYpoint(1,26.5,26.7,26.6,26.5,26.3);
     
     DNN_1n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_1n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_1n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_1n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_1n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
     DNN_2n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_2n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_2n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_2n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_2n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
@@ -58,20 +58,20 @@ void MakeMultAllGraphs_600MeV()
     DNN_4n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_4n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_4n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_4n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_4n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
     DNN_5n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_5n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_5n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_5n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_5n->AddYerror(1,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
     
-    DNN_1n->AddXpoint(1,16.0); DNN_Res_1n->AddXpoint(1,16.0); TDR_1n->AddXpoint(1,16.0); TDR_Res_1n->AddXpoint(1,16.0); Perfect_1n->AddXpoint(1,16.0);
-    DNN_2n->AddXpoint(1,16.0); DNN_Res_2n->AddXpoint(1,16.0); TDR_2n->AddXpoint(1,16.0); TDR_Res_2n->AddXpoint(1,16.0); Perfect_2n->AddXpoint(1,16.0);
-    DNN_3n->AddXpoint(1,16.0); DNN_Res_3n->AddXpoint(1,16.0); TDR_3n->AddXpoint(1,16.0); TDR_Res_3n->AddXpoint(1,16.0); Perfect_3n->AddXpoint(1,16.0);
-    DNN_4n->AddXpoint(1,16.0); DNN_Res_4n->AddXpoint(1,16.0); TDR_4n->AddXpoint(1,16.0); TDR_Res_4n->AddXpoint(1,16.0); Perfect_4n->AddXpoint(1,16.0);
-    DNN_5n->AddXpoint(1,16.0); DNN_Res_5n->AddXpoint(1,16.0); TDR_5n->AddXpoint(1,16.0); TDR_Res_5n->AddXpoint(1,16.0); Perfect_5n->AddXpoint(1,16.0);
+    DNN_1n->AddXpoint(1,12.0); DNN_Res_1n->AddXpoint(1,12.0); TDR_1n->AddXpoint(1,12.0); TDR_Res_1n->AddXpoint(1,12.0); Perfect_1n->AddXpoint(1,12.0);
+    DNN_2n->AddXpoint(1,12.0); DNN_Res_2n->AddXpoint(1,12.0); TDR_2n->AddXpoint(1,12.0); TDR_Res_2n->AddXpoint(1,12.0); Perfect_2n->AddXpoint(1,12.0);
+    DNN_3n->AddXpoint(1,12.0); DNN_Res_3n->AddXpoint(1,12.0); TDR_3n->AddXpoint(1,12.0); TDR_Res_3n->AddXpoint(1,12.0); Perfect_3n->AddXpoint(1,12.0);
+    DNN_4n->AddXpoint(1,12.0); DNN_Res_4n->AddXpoint(1,12.0); TDR_4n->AddXpoint(1,12.0); TDR_Res_4n->AddXpoint(1,12.0); Perfect_4n->AddXpoint(1,12.0);
+    DNN_5n->AddXpoint(1,12.0); DNN_Res_5n->AddXpoint(1,12.0); TDR_5n->AddXpoint(1,12.0); TDR_Res_5n->AddXpoint(1,12.0); Perfect_5n->AddXpoint(1,12.0);
     
     // ------------------------------------------------------------
     
-    // Then, add the 30dp scenario:
-    DNN_1n->AddYpoint(2,88.5,87.3,85.4,90.6,87.9); DNN_Res_1n->AddYpoint(2,88.2,87.0,85.1,90.3,87.5); TDR_1n->AddYpoint(2,74.6,76.2,61.9,82.8,74.8); TDR_Res_1n->AddYpoint(2,74.4,76.0,61.7,82.6,74.6); Perfect_1n->AddYpoint(2,96.5,96.4,96.3,96.4,96.4);
-    DNN_2n->AddYpoint(2,71.6,71.0,65.2,73.9,70.9); DNN_Res_2n->AddYpoint(2,70.4,69.8,63.6,73.0,69.6); TDR_2n->AddYpoint(2,67.9,67.5,54.3,72.9,67.2); TDR_Res_2n->AddYpoint(2,66.4,66.1,51.7,71.8,65.5); Perfect_2n->AddYpoint(2,92.7,92.7,92.3,92.6,92.4);
-    DNN_3n->AddYpoint(2,58.7,62.3,52.5,58.3,57.9); DNN_Res_3n->AddYpoint(2,55.9,59.2,48.7,56.3,55.0); TDR_3n->AddYpoint(2,59.6,59.4,49.7,57.2,59.3); TDR_Res_3n->AddYpoint(2,56.7,56.6,45.2,55.4,56.2); Perfect_3n->AddYpoint(2,88.1,88.1,87.6,88.1,87.6);
-    DNN_4n->AddYpoint(2,55.3,52.8,50.9,46.6,49.3); DNN_Res_4n->AddYpoint(2,50.2,48.1,44.3,43.6,44.4); TDR_4n->AddYpoint(2,50.6,51.1,45.9,40.6,50.9); TDR_Res_4n->AddYpoint(2,46.5,47.0,39.6,38.2,46.5); Perfect_4n->AddYpoint(2,82.9,83.0,82.3,83.2,82.2);
-    DNN_5n->AddYpoint(2,62.6,64.2,71.8,48.8,64.1); DNN_Res_5n->AddYpoint(2,54.9,55.8,60.6,43.5,55.1); TDR_5n->AddYpoint(2,55.7,57.3,75.2,32.7,55.7); TDR_Res_5n->AddYpoint(2,48.9,50.0,63.0,29.1,48.3); Perfect_5n->AddYpoint(2,77.4,77.1,76.2,77.5,76.3);
+    // Then, add the 16dp scenario:
+    DNN_1n->AddYpoint(2,75.1,75.3,74.4,75.9,75.3); DNN_Res_1n->AddYpoint(2,73.9,74.1,73.3,74.6,74.0); TDR_1n->AddYpoint(2,58.8,59.2,58.4,59.1,58.2); TDR_Res_1n->AddYpoint(2,58.1,58.5,57.7,58.4,57.4); Perfect_1n->AddYpoint(2,85.6,85.7,84.7,85.5,84.6);
+    DNN_2n->AddYpoint(2,55.7,49.4,53.9,54.6,52.8); DNN_Res_2n->AddYpoint(2,49.4,43.3,47.4,48.7,46.7); TDR_2n->AddYpoint(2,49.3,49.2,48.2,49.3,48.2); TDR_Res_2n->AddYpoint(2,42.4,42.5,40.9,42.5,40.9); Perfect_2n->AddYpoint(2,73.1,73.4,71.9,73.2,71.8);
+    DNN_3n->AddYpoint(2,39.7,44.8,37.9,40.4,38.5); DNN_Res_3n->AddYpoint(2,31.6,33.8,29.7,32.3,30.3); TDR_3n->AddYpoint(2,39.2,38.9,37.8,39.0,37.9); TDR_Res_3n->AddYpoint(2,31.3,31.2,29.4,31.0,29.5); Perfect_3n->AddYpoint(2,62.2,62.5,60.6,62.2,60.6);
+    DNN_4n->AddYpoint(2,36.0,39.5,34.2,32.2,31.0); DNN_Res_4n->AddYpoint(2,25.1,27.3,23.3,22.7,21.0); TDR_4n->AddYpoint(2,30.8,30.7,29.7,31.0,29.9); TDR_Res_4n->AddYpoint(2,22.6,22.6,21.2,22.8,21.4); Perfect_4n->AddYpoint(2,52.5,52.9,51.0,52.9,50.9);
+    DNN_5n->AddYpoint(2,43.3,41.8,41.2,44.2,44.2); DNN_Res_5n->AddYpoint(2,29.1,28.4,27.1,29.5,28.5); TDR_5n->AddYpoint(2,35.4,35.0,34.9,35.2,34.6); TDR_Res_5n->AddYpoint(2,24.2,23.9,23.2,24.0,23.0); Perfect_5n->AddYpoint(2,44.1,44.1,42.6,43.9,42.6);
     
     DNN_1n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_1n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_1n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_1n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_1n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
     DNN_2n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_2n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_2n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_2n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_2n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
@@ -79,11 +79,32 @@ void MakeMultAllGraphs_600MeV()
     DNN_4n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_4n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_4n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_4n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_4n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
     DNN_5n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_5n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_5n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_5n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_5n->AddYerror(2,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
     
-    DNN_1n->AddXpoint(2,30.0); DNN_Res_1n->AddXpoint(2,30.0); TDR_1n->AddXpoint(2,30.0); TDR_Res_1n->AddXpoint(2,30.0); Perfect_1n->AddXpoint(2,30.0);
-    DNN_2n->AddXpoint(2,30.0); DNN_Res_2n->AddXpoint(2,30.0); TDR_2n->AddXpoint(2,30.0); TDR_Res_2n->AddXpoint(2,30.0); Perfect_2n->AddXpoint(2,30.0);
-    DNN_3n->AddXpoint(2,30.0); DNN_Res_3n->AddXpoint(2,30.0); TDR_3n->AddXpoint(2,30.0); TDR_Res_3n->AddXpoint(2,30.0); Perfect_3n->AddXpoint(2,30.0);
-    DNN_4n->AddXpoint(2,30.0); DNN_Res_4n->AddXpoint(2,30.0); TDR_4n->AddXpoint(2,30.0); TDR_Res_4n->AddXpoint(2,30.0); Perfect_4n->AddXpoint(2,30.0);
-    DNN_5n->AddXpoint(2,30.0); DNN_Res_5n->AddXpoint(2,30.0); TDR_5n->AddXpoint(2,30.0); TDR_Res_5n->AddXpoint(2,30.0); Perfect_5n->AddXpoint(2,30.0);
+    DNN_1n->AddXpoint(2,16.0); DNN_Res_1n->AddXpoint(2,16.0); TDR_1n->AddXpoint(2,16.0); TDR_Res_1n->AddXpoint(2,16.0); Perfect_1n->AddXpoint(2,16.0);
+    DNN_2n->AddXpoint(2,16.0); DNN_Res_2n->AddXpoint(2,16.0); TDR_2n->AddXpoint(2,16.0); TDR_Res_2n->AddXpoint(2,16.0); Perfect_2n->AddXpoint(2,16.0);
+    DNN_3n->AddXpoint(2,16.0); DNN_Res_3n->AddXpoint(2,16.0); TDR_3n->AddXpoint(2,16.0); TDR_Res_3n->AddXpoint(2,16.0); Perfect_3n->AddXpoint(2,16.0);
+    DNN_4n->AddXpoint(2,16.0); DNN_Res_4n->AddXpoint(2,16.0); TDR_4n->AddXpoint(2,16.0); TDR_Res_4n->AddXpoint(2,16.0); Perfect_4n->AddXpoint(2,16.0);
+    DNN_5n->AddXpoint(2,16.0); DNN_Res_5n->AddXpoint(2,16.0); TDR_5n->AddXpoint(2,16.0); TDR_Res_5n->AddXpoint(2,16.0); Perfect_5n->AddXpoint(2,16.0);
+    
+    // ------------------------------------------------------------
+    
+    // Then, add the 30dp scenario:
+    DNN_1n->AddYpoint(3,88.5,87.3,85.4,90.6,87.9); DNN_Res_1n->AddYpoint(3,88.2,87.0,85.1,90.3,87.5); TDR_1n->AddYpoint(3,74.6,76.2,61.9,82.8,74.8); TDR_Res_1n->AddYpoint(3,74.4,76.0,61.7,82.6,74.6); Perfect_1n->AddYpoint(3,96.5,96.4,96.3,96.4,96.4);
+    DNN_2n->AddYpoint(3,71.6,71.0,65.2,73.9,70.9); DNN_Res_2n->AddYpoint(3,70.4,69.8,63.6,73.0,69.6); TDR_2n->AddYpoint(3,67.9,67.5,54.3,72.9,67.2); TDR_Res_2n->AddYpoint(3,66.4,66.1,51.7,71.8,65.5); Perfect_2n->AddYpoint(3,92.7,92.7,92.3,92.6,92.4);
+    DNN_3n->AddYpoint(3,58.7,62.3,52.5,58.3,57.9); DNN_Res_3n->AddYpoint(3,55.9,59.2,48.7,56.3,55.0); TDR_3n->AddYpoint(3,59.6,59.4,49.7,57.2,59.3); TDR_Res_3n->AddYpoint(3,56.7,56.6,45.2,55.4,56.2); Perfect_3n->AddYpoint(3,88.1,88.1,87.6,88.1,87.6);
+    DNN_4n->AddYpoint(3,55.3,52.8,50.9,46.6,49.3); DNN_Res_4n->AddYpoint(3,50.2,48.1,44.3,43.6,44.4); TDR_4n->AddYpoint(3,50.6,51.1,45.9,40.6,50.9); TDR_Res_4n->AddYpoint(3,46.5,47.0,39.6,38.2,46.5); Perfect_4n->AddYpoint(3,82.9,83.0,82.3,83.2,82.2);
+    DNN_5n->AddYpoint(3,62.6,64.2,71.8,48.8,64.1); DNN_Res_5n->AddYpoint(3,54.9,55.8,60.6,43.5,55.1); TDR_5n->AddYpoint(3,55.7,57.3,75.2,32.7,55.7); TDR_Res_5n->AddYpoint(3,48.9,50.0,63.0,29.1,48.3); Perfect_5n->AddYpoint(3,77.4,77.1,76.2,77.5,76.3);
+    
+    DNN_1n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_1n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_1n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_1n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_1n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
+    DNN_2n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_2n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_2n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_2n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_2n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
+    DNN_3n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_3n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_3n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_3n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_3n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
+    DNN_4n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_4n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_4n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_4n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_4n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
+    DNN_5n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); DNN_Res_5n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_5n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); TDR_Res_5n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN); Perfect_5n->AddYerror(3,SqrtN,SqrtN,SqrtN,SqrtN,SqrtN);
+    
+    DNN_1n->AddXpoint(3,30.0); DNN_Res_1n->AddXpoint(3,30.0); TDR_1n->AddXpoint(3,30.0); TDR_Res_1n->AddXpoint(3,30.0); Perfect_1n->AddXpoint(3,30.0);
+    DNN_2n->AddXpoint(3,30.0); DNN_Res_2n->AddXpoint(3,30.0); TDR_2n->AddXpoint(3,30.0); TDR_Res_2n->AddXpoint(3,30.0); Perfect_2n->AddXpoint(3,30.0);
+    DNN_3n->AddXpoint(3,30.0); DNN_Res_3n->AddXpoint(3,30.0); TDR_3n->AddXpoint(3,30.0); TDR_Res_3n->AddXpoint(3,30.0); Perfect_3n->AddXpoint(3,30.0);
+    DNN_4n->AddXpoint(3,30.0); DNN_Res_4n->AddXpoint(3,30.0); TDR_4n->AddXpoint(3,30.0); TDR_Res_4n->AddXpoint(3,30.0); Perfect_4n->AddXpoint(3,30.0);
+    DNN_5n->AddXpoint(3,30.0); DNN_Res_5n->AddXpoint(3,30.0); TDR_5n->AddXpoint(3,30.0); TDR_Res_5n->AddXpoint(3,30.0); Perfect_5n->AddXpoint(3,30.0);
     
     // ------------------------------------------------------------
     

@@ -3,7 +3,8 @@
 void Make4nInvHist()
 {
     // NOTE: Makes a 4n Invariant Mass spectrum plot.
-    TString Case = "30dp_1000MeV";
+    TString Case = "12dp_200MeV";
+    TString ThePath = "/media/christiaan/DATA/Christiaan/ENSAR/Scenario_Summary/";
     Bool_t PlotScoring = kFALSE;
     Bool_t PlotDDNMult = kFALSE;
     
@@ -14,13 +15,16 @@ void Make4nInvHist()
     if (Case=="16dp_1000MeV") {ScaleDef[0] = 0.587; ScaleDef[1] = 0.588; ScaleDef[2] = 0.580; ScaleDef[3] = 0.586; ScaleDef[4] = 0.583;}
     if (Case=="16dp_600MeV")  {ScaleDef[0] = 0.525; ScaleDef[1] = 0.529; ScaleDef[2] = 0.510; ScaleDef[3] = 0.529; ScaleDef[4] = 0.509;}
     if (Case=="16dp_200MeV")  {ScaleDef[0] = 0.461; ScaleDef[1] = 0.461; ScaleDef[2] = 0.389; ScaleDef[3] = 0.462; ScaleDef[4] = 0.389;}
+    if (Case=="12dp_1000MeV") {ScaleDef[0] = 0.413; ScaleDef[1] = 0.413; ScaleDef[2] = 0.419; ScaleDef[3] = 0.414; ScaleDef[4] = 0.422;}
+    if (Case=="12dp_600MeV")  {ScaleDef[0] = 0.350; ScaleDef[1] = 0.346; ScaleDef[2] = 0.345; ScaleDef[3] = 0.349; ScaleDef[4] = 0.346;}
+    if (Case=="12dp_200MeV")  {ScaleDef[0] = 0.279; ScaleDef[1] = 0.279; ScaleDef[2] = 0.251; ScaleDef[3] = 0.280; ScaleDef[4] = 0.252;}
     if (Case=="8dp_1000MeV")  {ScaleDef[0] = 0.199; ScaleDef[1] = 0.197; ScaleDef[2] = 0.198; ScaleDef[3] = 0.198; ScaleDef[4] = 0.199;}
     if (Case=="8dp_600MeV")   {ScaleDef[0] = 0.156; ScaleDef[1] = 0.157; ScaleDef[2] = 0.151; ScaleDef[3] = 0.158; ScaleDef[4] = 0.150;}
     if (Case=="8dp_200MeV")   {ScaleDef[0] = 0.117; ScaleDef[1] = 0.118; ScaleDef[2] = 0.086; ScaleDef[3] = 0.117; ScaleDef[4] = 0.087;}
 
     // Do perfect histograms:
     DNNDataHist* PerfectHist = new DNNDataHist();
-    PerfectHist->SetPath("/ML/Scenario_Summary/"+Case+"/");
+    PerfectHist->SetPath(ThePath+Case+"/");
     PerfectHist->SetFileName("TetraNeutron_InvMass.root");
     PerfectHist->SetHistName("NeutronTracks_PerfectMethod_Signals_MassHistogram");
     PerfectHist->CollectPrimeHists();
@@ -41,7 +45,7 @@ void Make4nInvHist()
     
     // Do DNN histograms:
     DNNDataHist* DNNHist = new DNNDataHist();
-    DNNHist->SetPath("/ML/Scenario_Summary/"+Case+"/");
+    DNNHist->SetPath(ThePath+Case+"/");
     DNNHist->SetFileName("TetraNeutron_InvMass.root");
     DNNHist->SetHistName("NeutronTracks_DNNScoringPlus_MassHistogram");
     DNNHist->Scale_INCL_INCL(1.0);
@@ -57,7 +61,7 @@ void Make4nInvHist()
     
     // Do Scoring+ histograms:
     DNNDataHist* ScoringHist = new DNNDataHist();
-    ScoringHist->SetPath("/ML/Scenario_Summary/"+Case+"/");
+    ScoringHist->SetPath(ThePath+Case+"/");
     ScoringHist->SetFileName("TetraNeutron_InvMass.root");
     ScoringHist->SetHistName("NeutronTracks_ScoringPlus_Clusters_DNNMult_MassHistogram");
     ScoringHist->Scale_INCL_INCL(1.0);
@@ -73,7 +77,7 @@ void Make4nInvHist()
     
     // Do DNN Mult & R-value Sort histograms:
     DNNDataHist* MultHist = new DNNDataHist();
-    MultHist->SetPath("/ML/Scenario_Summary/"+Case+"/");
+    MultHist->SetPath(ThePath+Case+"/");
     MultHist->SetFileName("TetraNeutron_InvMass.root");
     MultHist->SetHistName("NeutronTracks_TradMed_Clusters_DNNMult_MassHistogram");
     MultHist->Scale_INCL_INCL(1.0);
@@ -89,7 +93,7 @@ void Make4nInvHist()
     
     // Do TDR histograms:
     DNNDataHist* TDRHist = new DNNDataHist();
-    TDRHist->SetPath("/ML/Scenario_Summary/"+Case+"/");
+    TDRHist->SetPath(ThePath+Case+"/");
     TDRHist->SetFileName("TetraNeutron_InvMass.root");
     TDRHist->SetHistName("NeutronTracks_TradMed_Clusters_CutsMult_MassHistogram");
     TDRHist->Scale_INCL_INCL(1.0);
