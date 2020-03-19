@@ -103,19 +103,27 @@ Int_t R3B_TradMed_NeutronTracker::ApplyCalibrationCuts()
         }
         
 
-        // We have nClusters_d and nClusters_d which hold the point in the histogram. now we need to decide
+        // We have nClusters_d and Etotal which hold the point in the histogram. now we need to decide
         // between which cuts we are. The cuts are defined as y = fKappa*(fCuts[k] - x).
         // So compute Y for 2 successive cuts and see if nClusters_d is between them. 
+        
+        // Track the two cuts were we are between:
+        Int_t LowerCutIndex = -1;
+        Int_t UpperCutIndex = -1;
         
         if (nClusters_d<(-1.0*TMath::Abs(fKappa)*(Etotal-fCuts[0])))
         {
             // Then we are below the lowest cut:
             TheMultiplicity = 0;
+            LowerCutIndex = -1;
+            UpperCutIndex = 0;
         }
         else if (nClusters_d>(-1.0*TMath::Abs(fKappa)*(Etotal-fCuts[MaxMultiplicity-1])))
         {
             // Then we are above the highest cut:
             TheMultiplicity = MaxMultiplicity;
+            LowerCutIndex = MaxMultiplicity-1;
+            UpperCutIndex = -1;
         }
         else
         {
@@ -126,6 +134,8 @@ Int_t R3B_TradMed_NeutronTracker::ApplyCalibrationCuts()
                     if ((nClusters_d>(-1.0*TMath::Abs(fKappa)*(Etotal-fCuts[Range-1])))&&(nClusters_d<(-1.0*TMath::Abs(fKappa)*(Etotal-fCuts[Range]))))
                     {
                         TheMultiplicity = Range;
+                        LowerCutIndex = Range-1;
+                        UpperCutIndex = Range;
                     }
                 }
             }
@@ -135,6 +145,71 @@ Int_t R3B_TradMed_NeutronTracker::ApplyCalibrationCuts()
             }
         }
         
+        
+        // Next, if needed, apply a harder criterium:
+        if ((TradeEff_for_Acc==kTRUE)&&(TheMultiplicity==Acc_Selected_Multiplicity))
+        {
+            // Then, determine if the energy differences are large enough:
+            Double_t LowerDeltaE = -1.0;
+            Double_t UpperDeltaE = -1.0;
+            Double_t Etotal_Projected = Etotal + nClusters_d/TMath::Abs(fKappa);
+            
+            if (LowerCutIndex>=0)
+            {
+                // Compute energy difference:
+                LowerDeltaE = TMath::Abs(fCuts[LowerCutIndex] - Etotal_Projected);
+            }
+            
+            if (UpperCutIndex>=0)
+            {
+                // Compute energy difference:
+                UpperDeltaE = TMath::Abs(fCuts[UpperCutIndex] - Etotal_Projected);
+            }
+            
+            // Next, decide about our cases:
+            if (LowerCutIndex==-1)
+            {
+                // Then, we are below the lowest cut:
+                if (UpperDeltaE<Acc_EnergyThreshold)
+                {
+                    // Then, we must modify the multiplicity:
+                    TheMultiplicity = TheMultiplicity + 1;
+                }
+            }
+            else if (UpperCutIndex==-1)
+            {
+                // Then, we are above the highest cut:
+                if (LowerDeltaE<Acc_EnergyThreshold)
+                {
+                    // Then, we must modify the multiplicity:
+                    TheMultiplicity = TheMultiplicity - 1;
+                }
+            }        
+            else
+            {
+                // then, we are between two cuts:
+                if ((UpperDeltaE<Acc_EnergyThreshold)&&(LowerDeltaE>Acc_EnergyThreshold))
+                {
+                    // Then, raise multiplicity:
+                    TheMultiplicity = TheMultiplicity + 1;
+                }
+                else if ((LowerDeltaE<Acc_EnergyThreshold)&&(UpperDeltaE>Acc_EnergyThreshold))
+                {
+                    // Then, lower multiplicity:
+                    TheMultiplicity = TheMultiplicity - 1;
+                }
+                else if ((UpperDeltaE<Acc_EnergyThreshold)&&(LowerDeltaE<Acc_EnergyThreshold))
+                {
+                    // Them we are too close to both cuts. That just does not make any sense:
+                    TheMultiplicity = 0;
+                }
+                else
+                {
+                    // Then, we are far enough from both cuts. So do not change a thing.
+                }
+            }
+        }
+                
         // Adjust the special cases:
         if (nClusters==0) {TheMultiplicity = 0;}
         if (nClusters==1) {TheMultiplicity = 1;}

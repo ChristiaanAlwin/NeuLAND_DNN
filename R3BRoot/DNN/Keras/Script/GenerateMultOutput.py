@@ -69,6 +69,10 @@ if __name__ == "__main__":
         nEventsPerBatch = 0
         Maximum_Predicted = 0.0
         MaxIndex_Predicted = -1
+        EventMultiplicity = 0
+        MaxProb = 0.0
+        LowerMaxprob = 0.0
+        UpperMaxProb = 0.0
         
         # create the output file:
         f= open(SetParameters.OutputPath+"/PredictedMultiplicities.txt","w+")
@@ -108,9 +112,66 @@ if __name__ == "__main__":
                             Maximum_Predicted = PredictedData[n,k]
                             MaxIndex_Predicted = k
             
-                    # Right now, the predicted multiplicity is MaxIndex_Predicted+1.
+                    # Right now, the predicted multiplicity is MaxIndex_Predicted+1:
+                    EventMultiplicity = MaxIndex_Predicted+1
+                    
+                    # if the situation asks for it, check if the prediction has sufficient accuracy:
+                    if (SetParameters.TradEff_for_Acc==True):
+                        
+                        # Check if the multiplicity is indeed the one that needs boosted accuracy:
+                        if (EventMultiplicity==SetParameters.Acc_Selected_Multiplicity):
+                            
+                            # Extract the maximum probability:
+                            MaxProb = PredictedData[n,MaxIndex_Predicted]
+                        
+                            # Extract the probability below:
+                            if (MaxIndex_Predicted==0):
+                                LowerMaxprob = 0.0
+                            else:
+                                LowerMaxprob = PredictedData[n,MaxIndex_Predicted-1]
+                            
+                            # Extract the probability above:
+                            if (MaxIndex_Predicted==(SetParameters.nOutputNeurons-1)):
+                                UpperMaxProb = 0.0
+                            else:
+                                UpperMaxProb = PredictedData[n,MaxIndex_Predicted+1]
+                           
+                            # Compare. There are 3 different scenarios here:
+                            if (MaxIndex_Predicted==0):
+                                
+                                # Bottom case: Multiplicity 1:
+                                if (MaxProb>(UpperMaxProb + SetParameters.Acc_ProbThreshold)):
+                                    EventMultiplicity = 1
+                                else:
+                                    EventMultiplicity = 2
+                                    
+                            elif (MaxIndex_Predicted==(SetParameters.nOutputNeurons-1)):
+                                
+                                # Ceiling case: Max. Multiplicity:
+                                if (MaxProb>(LowerMaxprob + SetParameters.Acc_ProbThreshold)):
+                                    EventMultiplicity = SetParameters.nOutputNeurons
+                                else:
+                                    EventMultiplicity = SetParameters.nOutputNeurons - 1
+                                 
+                            else:
+                                
+                                # In-between case:
+                                if ((MaxProb>(LowerMaxprob + SetParameters.Acc_ProbThreshold)) and (MaxProb>(UpperMaxProb + SetParameters.Acc_ProbThreshold))):
+                                    EventMultiplicity = MaxIndex_Predicted+1
+                      
+                                else:
+                                    
+                                    # Then, check wich probability is larger:
+                                    if (LowerMaxprob>UpperMaxProb):
+                                        EventMultiplicity = MaxIndex_Predicted+0
+                                       
+                                    else:
+                                        EventMultiplicity = MaxIndex_Predicted+2
+                                
+                                # Done. Close all indents:
+                    
                     # Write that number to a file:
-                    f.write("%d\r\n" % (MaxIndex_Predicted+1))
+                    f.write("%d\r\n" % (EventMultiplicity))
                 
                     # Done. ------------------
             

@@ -50,6 +50,9 @@ R3B_TradMed_NeutronTracker::R3B_TradMed_NeutronTracker() : FairTask("R3B NeuLAND
     cMedia = 14.0;
     dio = 10.6; 
     nBarsTotal = 3000;
+    TradeEff_for_Acc = kFALSE;
+    Acc_Selected_Multiplicity = 4;
+    Acc_EnergyThreshold = 0.0;
     
     // constants of physics:
     amu = 931.494028; // atomic mass unit in MeV/c**2
@@ -104,6 +107,9 @@ InitStatus R3B_TradMed_NeutronTracker::Init()
     fBeam_Zpos = Inputs->GetInputDouble("ParticleGun_z_position","cm");
     TString BeamType = Inputs->GetInputString("ParticleGun_ParticleType");
     MaxMultiplicity = Inputs->GetInputInteger("ParticleGun_Multiplicity");
+    TradeEff_for_Acc = Inputs->GetInputBoolian("NeuLAND_TraditionalMethod_TradeEfficiency_For_Accuracy");
+    Acc_Selected_Multiplicity = Inputs->GetInputInteger("NeuLAND_TraditionalMethod_Multiplicity_BoostAccuracy");
+    Acc_EnergyThreshold = Inputs->GetInputDouble("NeuLAND_TraditionalMethod_Multiplicity_EnergyThreshold","MeV");
     beamEnergy = Inputs->GetAvgBeamEnergy();
     beamBeta = Inputs->GetAvgBeamBeta();
     ParticleType = Inputs->GetInputString("NeuLAND_ParticleType_ToBeDetected");

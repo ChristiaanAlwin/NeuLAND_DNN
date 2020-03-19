@@ -113,6 +113,9 @@ private:
     Double_t dio;
     Int_t nBarsTotal;
     TString MultiplicityDetermination;
+    Bool_t TradeEff_for_Acc;
+    Int_t Acc_Selected_Multiplicity;
+    Double_t Acc_EnergyThreshold;
     
     // Constants of physics:
     Double_t amu; // atomic mass unit in MeV/c**2

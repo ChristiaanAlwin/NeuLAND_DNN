@@ -312,9 +312,15 @@ void R3BInputClass::CreateElenaFile(TString const Name)
         ++NLines;  AddInputDouble("NeuLAND_DNNTextFile_TimeNormaliation_LeftBoundary","ns",59.0);
         ++NLines;  AddInputDouble("NeuLAND_DNNTextFile_TimeNormaliation_RightBoundary","ns",70.0);
         ++NLines;  AddInputString("NeuLAND_DNN_OutputFile","DNN_Multiplicities.root");
+        ++NLines; AddInputBoolian("NeuLAND_DNNTextFile_TradeEfficiency_For_Accuracy",kFALSE);
+        ++NLines; AddInputInteger("NeuLAND_DNNTextFile_Multiplicity_BoostAccuracy",4);
+        ++NLines;  AddInputDouble("NeuLAND_DNNTextFile_Multiplicity_ProbabilityThreshold","dimless",0.0);
         
         // Traditional Method:
         ++NLines;  AddInputString("NeuLAND_TraditionalMethod_ReconstructionFile","NeuLAND_TradMed_ReconstructionFile.root");
+        ++NLines; AddInputBoolian("NeuLAND_TraditionalMethod_TradeEfficiency_For_Accuracy",kFALSE);
+        ++NLines; AddInputInteger("NeuLAND_TraditionalMethod_Multiplicity_BoostAccuracy",4);
+        ++NLines;  AddInputDouble("NeuLAND_TraditionalMethod_Multiplicity_EnergyThreshold","MeV",0.0);
         
         // Beta-reconstruction:
         ++NLines;  AddInputString("BetaReconstruction_NeuLAND_Select_VETOCondition","Advanced");

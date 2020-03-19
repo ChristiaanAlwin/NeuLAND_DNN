@@ -156,5 +156,14 @@ def Initialize():
     global nMaxNeurons
     nMaxNeurons = 1
     
+    global TradEff_for_Acc
+    TradEff_for_Acc = GetInputBoolian('NeuLAND_DNNTextFile_TradeEfficiency_For_Accuracy')
+    
+    global Acc_Selected_Multiplicity
+    Acc_Selected_Multiplicity = GetInputInteger('NeuLAND_DNNTextFile_Multiplicity_BoostAccuracy')
+    
+    global Acc_ProbThreshold
+    Acc_ProbThreshold = GetInputDouble('NeuLAND_DNNTextFile_Multiplicity_ProbabilityThreshold','dimless')
+    
     # Compute Network structure:
     Compute_IO_Structure()

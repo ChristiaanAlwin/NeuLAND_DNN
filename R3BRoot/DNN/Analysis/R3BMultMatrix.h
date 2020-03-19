@@ -126,6 +126,9 @@ class R3BMultMatrix : public FairTask
         Double_t fKappa;
         Double_t* fCuts;
         Bool_t UseCalibrationCuts;
+        Bool_t TradeEff_for_Acc;
+        Int_t Acc_Selected_Multiplicity;
+        Double_t Acc_EnergyThreshold;
         
         // Different multiplicities:
         Int_t BetaNeuLANDMultiplicity;

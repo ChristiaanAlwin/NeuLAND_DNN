@@ -94,6 +94,9 @@ R3BMultMatrix::R3BMultMatrix() : FairTask("R3BMultMatrix")
     fKappa = -0.1;
     fCuts = 0;
     UseCalibrationCuts = kTRUE;
+    TradeEff_for_Acc = kFALSE;
+    Acc_Selected_Multiplicity = 4;
+    Acc_EnergyThreshold = 0.0;
     
     // Initialize Nuclear dataBase:
     TheNuclei = new Nuclei();
@@ -183,6 +186,9 @@ InitStatus R3BMultMatrix::Init()
     TheOutputPath = Inputs->GetInputString("TheOutputPath");
     MaxMultiplicity = Inputs->GetInputInteger("ParticleGun_Multiplicity");
     UseNEBULA = Inputs->GetInputBoolian("NEBULA_Include_in_SETUP");
+    TradeEff_for_Acc = Inputs->GetInputBoolian("NeuLAND_TraditionalMethod_TradeEfficiency_For_Accuracy");
+    Acc_Selected_Multiplicity = Inputs->GetInputInteger("NeuLAND_TraditionalMethod_Multiplicity_BoostAccuracy");
+    Acc_EnergyThreshold = Inputs->GetInputDouble("NeuLAND_TraditionalMethod_Multiplicity_EnergyThreshold","MeV");
     
     // Retrieve the MC neutron tracks:
     if ((TClonesArray*)ioman->GetObject("MCNeutronTracks") == nullptr)

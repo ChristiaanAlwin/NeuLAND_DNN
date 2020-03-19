@@ -64,6 +64,9 @@ R3BScoreApplier::R3BScoreApplier() : FairTask("R3BScoreApplier")
     
     // Set input parameters:
     MaxMultiplicity = 1;
+    TradeEff_for_Acc = kFALSE;
+    Acc_Selected_Multiplicity = 4;
+    Acc_EnergyThreshold = 0.0;
     
     // Set other quantities:
     nEvents = 1;
@@ -130,6 +133,9 @@ InitStatus R3BScoreApplier::Init()
     
     // Obtain required inputs:
     MaxMultiplicity = Inputs->GetInputInteger("ParticleGun_Multiplicity");
+    TradeEff_for_Acc = Inputs->GetInputBoolian("NeuLAND_TraditionalMethod_TradeEfficiency_For_Accuracy");
+    Acc_Selected_Multiplicity = Inputs->GetInputInteger("NeuLAND_TraditionalMethod_Multiplicity_BoostAccuracy");
+    Acc_EnergyThreshold = Inputs->GetInputDouble("NeuLAND_TraditionalMethod_Multiplicity_EnergyThreshold","MeV");
     
     // Obtain the R3BSignals:
     if ((TClonesArray*)ioman->GetObject("Signals") == nullptr)

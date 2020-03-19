@@ -32,6 +32,8 @@ void GenerateExperimentalInput()
     OutputPath = OutputPath + "/DNN_Experiment/";
     Inputs->ModifyString("TheOutputPath",OutputPath);
     
+    Inputs->ModifyBoolian("NeuLAND_Translator_AddNoisyChannels",kFALSE);
+    Inputs->ModifyBoolian("NeuLAND_Translator_BreakChannels_OnPurpose",kFALSE);
     Inputs->ModifyInteger("ParticleGun_StartEventReading_SnDataFiles",9000);
     Inputs->ModifyInteger("ParticleGun_EndEventReading_SnDataFiles",9999);
     Inputs->ModifyInteger("NeuLAND_Digitizer_nDifferentRuns",1);

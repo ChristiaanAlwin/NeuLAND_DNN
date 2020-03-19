@@ -74,6 +74,9 @@ class R3BScoreApplier : public FairTask
         
         // Input parameters:
         Int_t MaxMultiplicity;
+        Bool_t TradeEff_for_Acc;
+        Int_t Acc_Selected_Multiplicity;
+        Double_t Acc_EnergyThreshold;
         
         // Other quantities:
         Int_t nEvents;
