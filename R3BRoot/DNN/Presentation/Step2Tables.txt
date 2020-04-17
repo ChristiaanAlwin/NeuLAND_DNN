@@ -9,6 +9,12 @@ Primary_DNNScoring_True; Primary Clusters
 86.255 /pm 0.422019 /pm 0.535
 86.5675 /pm 0.509902 /pm 0.65
 86.58 /pm 0.306757 /pm 3.825
+81.09 /pm 0.180278 /pm 1.745
+79.8075 /pm 0.707107 /pm 5.53
+80.68 /pm 0.172047 /pm 4.255
+77.525 /pm 0.480521 /pm 1.63
+78.3925 /pm 0.806226 /pm 1.735
+76.4 /pm 0.223607 /pm 4.665
 
 
 Primary_DNNScoring_UpperBound; Primary Clusters
@@ -22,6 +28,12 @@ Primary_DNNScoring_UpperBound; Primary Clusters
 92.12 /pm 0.107703 /pm 0.5
 93.665 /pm 4.62108 /pm 0.305
 95.4875 /pm 0.10198 /pm 1.77
+88.59 /pm 0.156205 /pm 1.345
+91.2925 /pm 0.529528 /pm 1.205
+93.7125 /pm 0.250799 /pm 1.43
+86.1275 /pm 0.422019 /pm 1.275
+89.58 /pm 0.107703 /pm 1.025
+92.4475 /pm 0.128062 /pm 2.23
 
 
 Primary_ScoringPlus; Primary Clusters
@@ -35,6 +47,12 @@ Primary_ScoringPlus; Primary Clusters
 79.3775 /pm 0.116619 /pm 0.855
 80.2975 /pm 0.608276 /pm 0.41
 83.4375 /pm 0.164012 /pm 3.885
+70.815 /pm 0.156205 /pm 2.355
+72.94 /pm 0.816149 /pm 1.515
+75.7375 /pm 0.480521 /pm 4.92
+63.4775 /pm 0.568859 /pm 2.445
+66.595 /pm 0.18868 /pm 1.01
+68.915 /pm 0.197231 /pm 5.76
 
 
 Primary_RvalueSort; Primary Clusters
@@ -48,6 +66,12 @@ Primary_RvalueSort; Primary Clusters
 68.88 /pm 0.148661 /pm 0.405
 71.6025 /pm 0.657647 /pm 0.655
 78.285 /pm 0.214709 /pm 4.21
+60.6125 /pm 0.180278 /pm 1.615
+64.3825 /pm 0.965194 /pm 2.3
+70.9 /pm 0.412311 /pm 5.33
+55.785 /pm 0.618142 /pm 1.355
+60.235 /pm 0.18868 /pm 1.605
+65.9675 /pm 0.205913 /pm 6.03
 
 
 Primary_FullTDR; Primary Clusters
@@ -61,8 +85,13 @@ Primary_FullTDR; Primary Clusters
 70.7925 /pm 0.383275 /pm 0.45
 73.065 /pm 0.509902 /pm 1.235
 76.385 /pm 0.122066 /pm 4.935
+62.035 /pm 0.164012 /pm 2.055
+64.59 /pm 0.412311 /pm 1.99
+69.3075 /pm 0.297321 /pm 5.295
+56.1175 /pm 0.223607 /pm 2.405
+60.0225 /pm 0.107703 /pm 2.1
+65.585 /pm 0.128062 /pm 6.095
 
-################################################################
 
 Secondary_DNNScoring_True; Secondary Clusters
 
@@ -75,6 +104,12 @@ Secondary_DNNScoring_True; Secondary Clusters
 89.57 /pm 0.134536 /pm 0.49
 87.295 /pm 0.628013 /pm 0.545
 77.9525 /pm 0.529528 /pm 2.16
+94.1925 /pm 0.116619 /pm 0.41
+92.2125 /pm 0.470744 /pm 0.57
+85.98 /pm 0.559017 /pm 1.08
+96.2175 /pm 0.141421 /pm 0.185
+94.77 /pm 0.111803 /pm 0.21
+89.89 /pm 0.148661 /pm 1.275
 
 
 Secondary_DNNScoring_UpperBound; Secondary Clusters
@@ -88,6 +123,12 @@ Secondary_DNNScoring_UpperBound; Secondary Clusters
 90.7475 /pm 0.148661 /pm 0.495
 89.8775 /pm 4.1712 /pm 0.5
 85.2925 /pm 0.316228 /pm 2.77
+95.1725 /pm 0.10198 /pm 0.55
+94.6375 /pm 0.5001 /pm 0.725
+92.9725 /pm 0.5001 /pm 0.97
+96.96 /pm 0.148661 /pm 0.275
+96.6325 /pm 0.122066 /pm 0.38
+96.1975 /pm 0.205913 /pm 1.26
 
 
 Secondary_ScoringPlus; Secondary Clusters
@@ -101,6 +142,12 @@ Secondary_ScoringPlus; Secondary Clusters
 88.155 /pm 0.141421 /pm 0.39
 85.0075 /pm 0.588558 /pm 0.41
 75.3575 /pm 0.205913 /pm 2.135
+92.8475 /pm 0.10198 /pm 0.475
+90.3225 /pm 0.441475 /pm 0.645
+83.4125 /pm 0.354401 /pm 0.945
+95 /pm 0.128062 /pm 0.355
+92.8425 /pm 0.111803 /pm 0.355
+86.9325 /pm 0.156205 /pm 1.145
 
 
 Secondary_RvalueSort; Secondary Clusters
@@ -114,6 +161,12 @@ Secondary_RvalueSort; Secondary Clusters
 86.1475 /pm 0.141421 /pm 0.36
 82.07 /pm 0.529528 /pm 0.42
 72.2075 /pm 0.164012 /pm 2.165
+91.535 /pm 0.100499 /pm 0.475
+88.3475 /pm 0.392938 /pm 0.645
+81.0375 /pm 0.383275 /pm 0.555
+94.345 /pm 0.128062 /pm 0.335
+91.8075 /pm 0.111803 /pm 0.365
+85.7425 /pm 0.156205 /pm 0.735
 
 
 Secondary_FullTDR; Secondary Clusters
@@ -127,3 +180,9 @@ Secondary_FullTDR; Secondary Clusters
 84.855 /pm 0.134536 /pm 0.195
 79.95 /pm 0.214709 /pm 0.355
 71.7975 /pm 0.104403 /pm 2.07
+90.845 /pm 0.10198 /pm 0.53
+87.575 /pm 0.180278 /pm 0.655
+81.265 /pm 0.205913 /pm 1.005
+94.0875 /pm 0.100499 /pm 0.38
+91.6325 /pm 0.10198 /pm 0.52
+85.55 /pm 0.111803 /pm 1.355

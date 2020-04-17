@@ -86,6 +86,7 @@ FairTasks/R3BRecoTranslator.cxx
 FairTasks/R3BMultReader.cxx
 FairTasks/R3BBetaReconstructor.cxx
 FairTasks/R3BSingleReconstructor.cxx
+FairTasks/R3BNEBULACombiner.cxx
 Traditional/R3BTradMethClass.cxx
 Digitizer/R3BNeulandDigi.cxx
 Digitizer/R3BNeulandPixel.cxx
