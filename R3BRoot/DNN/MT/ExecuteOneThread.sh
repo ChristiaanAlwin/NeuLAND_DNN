@@ -19,9 +19,9 @@ then
     then
         # NOTE: Then we can execute the task:
         cd ../Macros/
-        root -l -q "MCtransport.cpp($1,$2)"
-        root -l -q "NeuLAND_Digitizer.cpp($1,$2)"
-        root -l -q "NeuLAND_JanClusters.cpp($1,$2)"
+        #root -l -q "MCtransport.cpp($1,$2)"
+        #root -l -q "NeuLAND_Digitizer.cpp($1,$2)"
+        #root -l -q "NeuLAND_JanClusters.cpp($1,$2)"
         root -l -q "NeuLAND_Translation.cpp($1,$2)"
         root -l -q "ClusterSignals.cpp($1,$2)"
         cd ../MT/

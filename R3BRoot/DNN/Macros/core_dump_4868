@@ -1,0 +1,25 @@
+#0  0x00007f423a0d9687 in __GI___waitpid (pid=4899, stat_loc=stat_loc
+entry=0x7ffff477c8b8, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:30
+#1  0x00007f423a044067 in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:149
+#2  0x00007f423acee763 in TUnixSystem::StackTrace() () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCore.so.6.16
+#3  0x00007f422c0aece8 in FairLogger::LogFatalMessage () at /home/christiaan/Desktop/FAIR/FairRoot_Source/FairRoot/fairtools/FairLogger.cxx:210
+#4  0x00007f42292f7a95 in std::function<void ()>::operator()() const (this=0x7f4229503700 <fair::Logger::fFatalCallback>) at /usr/include/c++/7/bits/std_function.h:706
+#5  fair::Logger::~Logger (this=0x7ffff477efa0, __in_chrg=<optimized out>) at /home/christiaan/Desktop/FAIR/FairSoft_Source/FairSoft/basics/FairLogger/logger/Logger.cxx:685
+#6  0x00007f42274506ae in R3BVacVesselCool::ConstructGeometry (this=0x56311cacd790) at /home/christiaan/Desktop/FAIR/R3BRoot_Source/NeuLAND_DNN/R3BRoot/passive/R3BVacVesselCool.cxx:45
+#7  0x00007f422c374bc4 in FairMCApplication::ConstructGeometry (this=0x56311d2cb590) at /home/christiaan/Desktop/FAIR/FairRoot_Source/FairRoot/base/sim/FairMCApplication.cxx:950
+#8  0x00007f4224a1df18 in TG4RunManager::ConfigureRunManager() () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/libgeant4vmc.so
+#9  0x00007f4224a1ee72 in TG4RunManager::TG4RunManager(TG4RunConfiguration*, int, char**) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/libgeant4vmc.so
+#10 0x00007f4224a20d54 in TGeant4::TGeant4(char const*, char const*, TG4RunConfiguration*, int, char**) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/libgeant4vmc.so
+#11 0x00007f423b4682e2 in ?? ()
+#12 0x00007ffff477fec0 in ?? ()
+#13 0x00007ffff477fd78 in ?? ()
+#14 0x0000563118097290 in ?? ()
+#15 0x000056311d4fcdcc in ?? ()
+#16 0x000056311d4c6800 in ?? ()
+#17 0x00007ffff477fd70 in ?? ()
+#18 0x00007ffff477fd6f in ?? ()
+#19 0x000056311d5bdca0 in ?? ()
+#20 0x0000563117aa9140 in ?? ()
+#21 0x000056311d5b3220 in ?? ()
+#22 0x0000000000000000 in ?? ()

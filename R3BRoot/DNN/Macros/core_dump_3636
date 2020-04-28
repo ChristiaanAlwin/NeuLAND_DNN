@@ -1,0 +1,25 @@
+#0  0x00007fdb425e0687 in __GI___waitpid (pid=3668, stat_loc=stat_loc
+entry=0x7ffd5ea4e2f8, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:30
+#1  0x00007fdb4254b067 in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:149
+#2  0x00007fdb431f5763 in TUnixSystem::StackTrace() () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCore.so.6.16
+#3  0x00007fdb345b5ce8 in FairLogger::LogFatalMessage () at /home/christiaan/Desktop/FAIR/FairRoot_Source/FairRoot/fairtools/FairLogger.cxx:210
+#4  0x00007fdb317fea95 in std::function<void ()>::operator()() const (this=0x7fdb31a0a700 <fair::Logger::fFatalCallback>) at /usr/include/c++/7/bits/std_function.h:706
+#5  fair::Logger::~Logger (this=0x7ffd5ea509f0, __in_chrg=<optimized out>) at /home/christiaan/Desktop/FAIR/FairSoft_Source/FairSoft/basics/FairLogger/logger/Logger.cxx:685
+#6  0x00007fdb2f6ee480 in R3BModule::ConstructGeometry (this=0x55d1d129d1f0) at /home/christiaan/Desktop/FAIR/R3BRoot_Source/NeuLAND_DNN/R3BRoot/r3bbase/R3BModule.cxx:53
+#7  0x00007fdb3487bbc4 in FairMCApplication::ConstructGeometry (this=0x55d1d1529e50) at /home/christiaan/Desktop/FAIR/FairRoot_Source/FairRoot/base/sim/FairMCApplication.cxx:950
+#8  0x00007fdb2d18df18 in TG4RunManager::ConfigureRunManager() () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/libgeant4vmc.so
+#9  0x00007fdb2d18ee72 in TG4RunManager::TG4RunManager(TG4RunConfiguration*, int, char**) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/libgeant4vmc.so
+#10 0x00007fdb2d190d54 in TGeant4::TGeant4(char const*, char const*, TG4RunConfiguration*, int, char**) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/libgeant4vmc.so
+#11 0x00007fdb439702e2 in ?? ()
+#12 0x00007ffd5ea51910 in ?? ()
+#13 0x00007ffd5ea517c8 in ?? ()
+#14 0x000055d1d15bf760 in ?? ()
+#15 0x000055d1d16698ac in ?? ()
+#16 0x000055d1ccef8d70 in ?? ()
+#17 0x00007ffd5ea517c0 in ?? ()
+#18 0x00007ffd5ea517bf in ?? ()
+#19 0x000055d1d16ec0c0 in ?? ()
+#20 0x000055d1cbda6140 in ?? ()
+#21 0x000055d1d16f9830 in ?? ()
+#22 0x0000000000000000 in ?? ()
