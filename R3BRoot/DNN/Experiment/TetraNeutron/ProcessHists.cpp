@@ -70,7 +70,7 @@ void ProcessHists()
         if (k==3) {HistMethod = "DNN mult & TDR rec";}
         if (k==4) {HistMethod = "Perfect (MC) rec";}
         
-        FitGauss[k] = new TF1("FitGauss","[0]*TMath::Exp(-0.5*((x-[1])/[2])*((x-[1])/[2]))",0.2,0.55);
+        FitGauss[k] = new TF1("FitGauss","[0]*TMath::Exp(-0.5*((x-[1])/[2])*((x-[1])/[2]))",0.25,0.55);
         FitGauss[k]->SetParameter(0,TheHists.at(k)->GetMaximum());
         FitGauss[k]->SetParameter(1,0.45);
         FitGauss[k]->SetParameter(2,0.1);
@@ -78,9 +78,10 @@ void ProcessHists()
         if (TheHists.at(k)->Integral()>1.0)
         {
             FitStatus[k] = TheHists.at(k)->Fit(FitGauss[k],"RS0Q");
-            cout << "Histogram Nr. " << k << ": <" << HistMethod << "> Mean = " 
-             << FitStatus[k]->Parameter(1) << " +/- " << FitStatus[k]->ParError(1) 
-             << " [MeV] Chi^2 = " << FitStatus[k]->Chi2() << " & NDF = " << FitGauss[k]->GetNDF() << "\n";
+            cout << "Histogram Nr. " << k << ": <" << HistMethod << "> | Mean = " 
+             << FitStatus[k]->Parameter(1) << " +/- " << FitStatus[k]->ParError(1) << " [MeV] | "
+            << "Sigma = " << FitStatus[k]->Parameter(2) << "+/-" << FitStatus[k]->ParError(2) << " [MeV] | "
+             << "Chi^2 = " << FitStatus[k]->Chi2() << " & NDF = " << FitGauss[k]->GetNDF() << "\n";
         }
         else
         {
@@ -189,7 +190,7 @@ void ProcessHists()
         text5->Draw("same");
     }
     
-    c1->SaveAs(OutputPath + "/TetraNeutron.png");
+    c1->SaveAs(OutputPath + "/TetraNeutron_New.png");
     c1->Close();
 }
 
