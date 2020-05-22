@@ -1,0 +1,60 @@
+#0  0x00007f82b07a9687 in __GI___waitpid (pid=18778, stat_loc=stat_loc
+entry=0x7ffe24cdd428, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:30
+#1  0x00007f82b0714067 in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:149
+#2  0x00007f82b13be763 in TUnixSystem::StackTrace() () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCore.so.6.16
+#3  0x00007f82a276ece8 in FairLogger::LogFatalMessage () at /home/christiaan/Desktop/FAIR/FairRoot_Source/FairRoot/fairtools/FairLogger.cxx:210
+#4  0x00007f829f9b7a95 in std::function<void ()>::operator()() const (this=0x7f829fbc3700 <fair::Logger::fFatalCallback>) at /usr/include/c++/7/bits/std_function.h:706
+#5  fair::Logger::~Logger (this=0x7ffe24cdfb80, __in_chrg=<optimized out>) at /home/christiaan/Desktop/FAIR/FairSoft_Source/FairSoft/basics/FairLogger/logger/Logger.cxx:685
+#6  0x00007f82a2a3ad86 in FairModule::SetGeometryFileName (this=this
+entry=0x55f0d914f490, fname=<incomplete type>) at /home/christiaan/Desktop/FAIR/FairRoot_Source/FairRoot/base/sim/FairModule.cxx:215
+#7  0x00007f829d8a800d in R3BDetector::R3BDetector (this=0x55f0d914f490, name=..., detId=<optimized out>, geoFile=..., combi=...) at /home/christiaan/Desktop/FAIR/R3BRoot_Source/NeuLAND_DNN/R3BRoot/r3bbase/R3BDetector.cxx:46
+#8  0x00007f829c7f01f1 in R3BNeuland::R3BNeuland (this=0x55f0d914f490, geoFile=..., combi=...) at /home/christiaan/Desktop/FAIR/R3BRoot_Source/NeuLAND_DNN/R3BRoot/neuland/simulation/R3BNeuland.cxx:63
+#9  0x00007f829c7f0b8d in R3BNeuland::R3BNeuland (this=0x55f0d914f490, geoFile=..., trans=..., rot=...) at /home/christiaan/Desktop/FAIR/R3BRoot_Source/NeuLAND_DNN/R3BRoot/neuland/simulation/R3BNeuland.cxx:57
+#10 0x00007f82b1b60f95 in ?? ()
+#11 0x000055f0d4485110 in ?? ()
+#12 0x000055f0d92744a0 in ?? ()
+#13 0x000055f0d9975aa0 in ?? ()
+#14 0x00007f82addb9879 in llvm::FoldingSetBase::FindNodeOrInsertPos(llvm::FoldingSetNodeID const&, void*&) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCling.so
+#15 0x000055f0d9274360 in ?? ()
+#16 0x00007ffe24ce0490 in ?? ()
+#17 0x0000000000000003 in ?? ()
+#18 0x000055f0d9274360 in ?? ()
+#19 0x0000000000000010 in ?? ()
+#20 0x000055f0d996b5a8 in ?? ()
+#21 0x00007f82ac77ae98 in llvm::SelectionDAG::MorphNodeTo(llvm::SDNode*, unsigned int, llvm::SDVTList, llvm::ArrayRef<llvm::SDValue>) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCling.so
+#22 0x0000000000000001 in ?? ()
+#23 0x000055f0d9788340 in ?? ()
+#24 0x00007f82ac786ef4 in llvm::SelectionDAGISel::MorphNode(llvm::SDNode*, unsigned int, llvm::SDVTList, llvm::ArrayRef<llvm::SDValue>, unsigned int) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCling.so
+#25 0x00007ffe24ce0880 in ?? ()
+#26 0x00007f82adea4b60 in ?? () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCling.so
+#27 0x00007f82ac78df3c in llvm::SelectionDAGISel::SelectCodeCommon(llvm::SDNode*, unsigned char const*, unsigned int) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCling.so
+#28 0x00007f82b0706feb in msort_with_tmp (p=0x55f0d9844b10, b=0x55f0d9ae7590, n=94492919924112) at msort.c:105
+#29 0x000055f0d8ed0590 in ?? ()
+#30 0x00007f82b12a48a0 in ?? () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCore.so.6.16
+#31 0x000055f0d984d9d0 in ?? ()
+#32 0x00007f82abbb9750 in ?? () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCling.so
+#33 0x000055f0d8ed0590 in ?? ()
+#34 0x000055f0d8ed0590 in ?? ()
+#35 0x000055f0d8ed0590 in ?? ()
+#36 0x00007f82b12c1860 in ?? () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCore.so.6.16
+#37 0x00007ffe24ce23c9 in ?? ()
+#38 0x000055f0d984d9d0 in ?? ()
+#39 0x000055f0d984d9d0 in ?? ()
+#40 0x000055f0d3e487c0 in ?? ()
+#41 0x00007f82b13bb680 in ?? () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCore.so.6.16
+#42 0x000055f0d984d9d0 in ?? ()
+#43 0x00007f82abbb9750 in ?? () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCling.so
+#44 0x000055f0d3e487c0 in ?? ()
+#45 0x01007f82b0706feb in ?? ()
+#46 0x000055f0d9732020 in ?? ()
+#47 0x01007f82adbc0440 in ?? ()
+#48 0x000055f0d984d9d0 in ?? ()
+#49 0x000055f0d9ac68c0 in ?? ()
+#50 0x0000000000000021 in ?? ()
+#51 0xffffffffffffffe8 in ?? ()
+#52 0xfffffffffffffff0 in ?? ()
+#53 0x00007ffe24ce1350 in ?? ()
+#54 0xffffffffffffffcc in ?? ()
+#55 0x00007f82adbc0598 in int llvm::array_pod_sort_comparator<(anonymous namespace)::ELFObjectWriter::ELFSymbolData>(void const*, void const*) () from /home/christiaan/Desktop/FAIR/FairSoft_Build/lib/root/libCling.so
+#56 0x0000000000000000 in ?? ()
