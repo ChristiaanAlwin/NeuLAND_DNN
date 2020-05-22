@@ -1,0 +1,32 @@
+_________________________________________________________________________________________
+
+Directory r3broot/macros/r3b/califa contents:
+
+ TUM/     	      macros for iPhos simulation, see README in the directory
+
+ auto/                macros for automatization the simulation of the BARREL
+
+ s438/                directory for experiment s438 macros and results
+
+ README		      This file
+
+
+ 		      	     SIMULATION PART
+
+ runsim.C	      single macro for running the CALIFA simulation
+                      usage: set your parameters at the beginning of the macro and run it
+                             with root, either directly ('root -l runsim.C') or inside the
+                             root sesion ('root [0] .L runsim.C , root [1] runsim(nEvents)')
+
+ califaEventDisplay.C macro for starting the CALIFA event viewer
+
+ checkResults.C	      example macro with analysis and visualization for the results of the
+ 		                   CsI BARREL and CsI Forward End Cap simulation. It should
+		                   be configured in the SETTINGS section within the macro.
+
+ califaAna.C          macro for starting the CALIFA hit finder task (if not started when
+                      launching the simulation
+
+ califaAnaCal.C       macro for starting the CALIFA calibration task
+
+_________________________________________________________________________________________

@@ -61,7 +61,7 @@ void MakeLABAngle_MultGraphs()
     
     // Finally, other values:
     Double_t Xvalues [6] = {0.2,0.5,1.0,1.5,2.0,1e99};
-    Double_t DispX [6] = {1.0,2.0,3.0,4.0,5.0,6.0};
+    Double_t DispX [6] = {1.4,2.0,3.0,4.0,5.0,6.0};
     
     Double_t SqrtX = 0.0;
     Double_t SqrtY = 0.1;
