@@ -24,4 +24,4 @@ URL: https://zenodo.org/badge/latestdoi/241100386
 
 Associated Papers:
 
-Will be updated a.s.a.p.
+C. A. Douma et al., "Development of a Deep Neural Network for the data analysis of the NeuLAND neutron detector," Nuclear Instruments and Methods in Physics Research Section A, vol. 990, pp. 164951 (2021) URL: https://www.sciencedirect.com/science/article/pii/S0168900220313486
